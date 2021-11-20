@@ -14,24 +14,29 @@ body {
 	background: linear-gradient(to right, #20042B, #1D0326);
 	font-family: arial, sans-serif;
 	color: #CED2C2;
-	text-align: center;
+	
 }
 
 header{
-	position: relative;
-	position: absolute;
+	position: fixed;
 	top: 0;
-
+	width: 100%;
+	height: auto;
+	z-index: 3;
 }
 
 img[alt="menu"]{
-
-	position: fixed;
-	left: 40%;
+	width: 10vw;
+	position: relative;
+	left: 45%;
 }
 
 nav{
 	display: none;
+}
+
+header:hover img[alt="menu"]:focus + nav{
+	display: block;
 }
 
 .presentation {
@@ -45,6 +50,8 @@ nav{
 /*	border: 2px red dashed;*/
 	margin-top: 5%;
   justify-content: center;
+  position: relative;
+  z-index: 1;
 }
 
 .section-div{
@@ -95,39 +102,48 @@ h2{
 }
 
 
-/*@media screen and (max-width:  1024px){
-  .case{
-        width: auto;
-        display: block;
-        margin-bottom: 15px;
+@media screen and (max-width:  1024px){
+  .presentation{
+    width: auto;
+    display: block;
+    margin-bottom: 15px;
+  }
+  header{
+  	margin-bottom: 25%;
   }
 
-  img{
-			width: 100px;
-			height: auto;
+	img[alt="menu"] {
+		max-width: 25%;
+		height: auto;
 	}
-	header img {
-	width: 100%;
-	height: auto;
+ .btn:active {
+  	background: #C31D96;
+  	text-decoration: none;
 	}
-	section div:first-child{
-	margin-right: 0;
+
+	aside img[src*="mauve_1"]{
+		max-width: 35%;
+	}
+
+	aside img[src*="violet"], aside img[src*="bleu"]{
+		display: none;
 	}
 }
-*/
 
+.pt{
+	position: relative;
+}
 
 
 
 footer{
 	background-color: #211042;
 	position: fixed;
-	top: auto;
-	left: 0;
 	bottom: 0;
-	right: 0;
+	display: inline-block;
 	height: 20%;
-	width: auto;
+	width: 100%;
+	z-index: 3;
 }
 
 .fl-l{
@@ -138,47 +154,57 @@ footer{
 	clear: both;
 }
 
-.pt{
-	position: relative;
-}
-
 aside img{
+	max-width: 15%;
+	height: auto;
 	position: absolute;
-	width: 300px;
-}
-
-aside img:nth-child(2),aside img:nth-child(3),aside img:nth-child(6){
-	 width: 200px;
-}
-
-aside img:nth-child(1),aside img:nth-child(4){
-	 width: 150px;
-}
-
-aside img:nth-child(1),aside img:nth-child(2){
-	top: 2px;
-	right: 2px;
-}
-
-aside img:nth-child(3){
-	bottom: 150px;
-	right: 150px;
-}
-
-aside img:nth-child(4){
-	bottom: 2px;
-	left: 2px;
-	z-index: 3;
-}
-
-aside img:nth-child(5){
-	top: 30px;
-	left: 80px;
 	z-index: 0;
 }
 
-@media screen and (max-width:  1024px){
-	aside img{
-		 display: none;
-	}
+aside img[src*="violet_0"]{
+	 	right: 40%;	 	top: 5.712%;
+}
+aside img[src*="violet_1"]{
+	 	top: 9.3509%;	 	right:4.58%;	 	z-index: 2;
+}
+aside img[src*="bleu_0"]{
+	 	top: 50%;	 	right: 12.458%;
+}
+aside img[src*="bleu_1"]{
+	 	top: 14.66%;	 	right: 2.12%;	 	z-index: 2;
+}
+aside img[src*="mauve_0"]{
+	 	bottom: 30%;	 	left: 22%;
+}
+aside img[src*="mauve_1"]{
+	 	top: 8%;	 	left: 6%;
+}
+
+/*design tableau*/
+table{
+	max-width: 60%;
+}
+
+.nav-menu {
+	margin: 0 auto;
+  table-layout: fixed;
+  width: 60%;
+}
+caption{
+	margin: 1em;
+	text-align: left;
+}
+
+
+td, th {
+  border: solid;
+  padding: 1em;
+}
+
+td {
+  border: 1px solid blue;
+  overflow: hidden;
+  white-space: pre-line;
+  text-overflow: ellipsis;
+
 }
