@@ -36,13 +36,18 @@ img[alt="menu"]{
 	left: 45%;
 }
 
-nav{
+#header div{
 	display: none;
 }
 
-header:hover img[alt="menu"]:focus + nav{
+#header a:focus + nav > div{
 	display: block;
 }
+
+/*header:hover + section {
+	background-color: rgba(0, 0, 0, 0.2);
+}*/
+
 
 .presentation {
 	display: flex;
@@ -99,6 +104,7 @@ h2{
   position: relative;
   margin: 3em auto;
   text-align: left;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -194,6 +200,7 @@ table{
 	margin: 0 auto;
   table-layout: fixed;
   width: 60%;
+  
 }
 caption{
 	margin: 1em;
