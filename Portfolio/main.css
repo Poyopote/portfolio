@@ -5,15 +5,30 @@
 
 
 *,::before, ::after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
 /*Apparence du body*/
+html{
+	background: #220c3d; /* Old browsers */
+}
 
 body {
-	background: #1D0326;
+
+
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#16001e+0,22032d+25,200229+75,220c3d+100 */
+background: #16001e; /* Old browsers */
+background: -moz-linear-gradient(top,  #16001e 0%, #22032d 25%, #200229 75%, #220c3d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #16001e 0%,#22032d 25%,#200229 75%,#220c3d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #16001e 0%,#22032d 25%,#200229 75%,#220c3d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background-repeat: no-repeat;
+background-size: contain;
+
+	/*background: #1D0326;
 	background: -webkit-linear-gradient(to right, #20042B, #1D0326);
-	background: linear-gradient(to right, #20042B, #1D0326);
+	background: linear-gradient(to right, #20042B, #1D0326);*/
 	font-family: 'Outfit', arial, sans-serif;
 	color: #CED2C2;
 }
@@ -28,13 +43,9 @@ header{
 	width: 100%;
 	height: auto;
 	z-index: 3;
+	text-align: center;
 }
 
-img[alt="menu"]{
-	width: 10vw;
-	position: relative;
-	left: 45%;
-}
 
 #header div{
 	display: none;
@@ -42,6 +53,54 @@ img[alt="menu"]{
 
 #header a:focus + nav > div{
 	display: block;
+}
+
+#header > a{
+	top: -20px;
+	position: relative;
+}
+
+	img[alt="menu"] {
+		max-width: 160px;
+		height: auto;
+	}
+
+	img[alt="menu"]:hover {
+		position: relative;
+		top: 20px;
+	}
+/*design tableau*/
+#header table{
+	max-width: 60%;
+}
+
+.nav-menu {
+	margin: 0 auto;
+  table-layout: fixed;
+  width: 60%;
+  
+}
+#header caption{
+	margin: 1em;
+	text-align: left;
+}
+
+
+#header td, th {
+  border: solid;
+  padding: 1em;
+  background-color: #241650;
+}
+
+#header td {
+  border: 1px solid #CFD1C4;
+  overflow: hidden;
+  white-space: pre-line;
+  text-overflow: ellipsis;
+}
+
+#header td:hover{
+	background-color: #282870;
 }
 
 /*header:hover + section {
@@ -56,8 +115,6 @@ img[alt="menu"]{
 section.presentation div{
 	display:table-cell;
 	width: 50%;
-	table-layout: fixed;
-	border: red dashed 2px;
 	vertical-align: middle;
 	text-align: center;
 	position: relative;
@@ -69,12 +126,14 @@ section.presentation div{
 	height: auto;
 }
 
+
+
 section{
-	font-size: 25px;
+	font-size: 1.5em;
 }
 
 h2{
-	font-size: 52px;
+	font-size: 2.5em;
 	padding: 0.5em;
 }
 
@@ -87,7 +146,7 @@ h2{
   background: #79126B;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  width: 60%;
+  max-width: 40%;
   position: relative;
 	margin: 3em auto;
 	text-align: left;
@@ -100,18 +159,24 @@ h2{
 }
 
 
-/*@media screen and (max-width:  1024px){
-  .presentation{
-    width: auto;
-    display: block;
-    margin-bottom: 15px;
-  }
+@media screen and (max-width:  1024px){
+  section.presentation div{
+	display:table-row;
+	width: 100%;
+	table-layout: fixed;
+	border: red dashed 2px;
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
   header{
+  	max-height: 10vw;
   	margin-bottom: 25%;
   }
 
 	img[alt="menu"] {
-		max-width: 25%;
+		width: 40vw;
 		height: auto;
 	}
  .btn:active {
@@ -126,7 +191,7 @@ h2{
 	aside img[src*="violet"], aside img[src*="bleu"]{
 		display: none;
 	}
-}*/
+}
 
 .pt{
 	position: relative;
@@ -137,6 +202,20 @@ h2{
 footer{
 	background-color: #211042;
 	height: 100px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 60;
+}
+
+footer.div-footer{
+	display:table-cell;
+	width: 25%;
+	vertical-align: middle;
+}
+
+footer.tab-langue{
+		display:table-row;
 }
 
 .fl-l{
@@ -171,34 +250,4 @@ aside img[src*="mauve_0"]{
 }
 aside img[src*="mauve_1"]{
 	 	top: 8%;	 	left: 6%;
-}
-
-/*design tableau*/
-table{
-	max-width: 60%;
-}
-
-.nav-menu {
-	margin: 0 auto;
-  table-layout: fixed;
-  width: 60%;
-  
-}
-caption{
-	margin: 1em;
-	text-align: left;
-}
-
-
-td, th {
-  border: solid;
-  padding: 1em;
-}
-
-td {
-  border: 1px solid blue;
-  overflow: hidden;
-  white-space: pre-line;
-  text-overflow: ellipsis;
-
 }
