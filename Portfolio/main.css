@@ -124,15 +124,21 @@ section.presentation div{
 }
 
 
-
 section{
 	font-size: 1.5em;
 }
 
-h2{
+.presentation h2{
 	font-size: 2.5em;
 	padding: 0.5em;
 	text-shadow: #28276D 2px 5px;
+}
+
+.presentation .section-div{
+	 background-image: url(img/mouv_mauve_1.svg), url(img/mouv_mauve_0.svg);
+	 background-repeat: no-repeat;
+	 background-position: 10% 17%, 75% 70%;
+	 background-size: 30%;
 }
 
 .btn {
@@ -177,18 +183,15 @@ h2{
 	img[alt="menu"] {
 		width: 40vw;
 		height: auto;
+
 	}
  .btn:active {
   	background: #C31D96;
   	text-decoration: none;
 	}
 
-	aside img[src*="mauve_1"]{
-		max-width: 35%;
-	}
-
-	aside img[src*="violet"], aside img[src*="bleu"]{
-		display: none;
+	.presentation .section-div{
+		background-image: none;
 	}
 }
 
@@ -243,10 +246,4 @@ aside img[src*="bleu_0"]{
 }
 aside img[src*="bleu_1"]{
 	 	top: 14.66%;	 	right: 2.12%;	 	z-index: 2;
-}
-aside img[src*="mauve_0"]{
-	 	bottom: 30%;	 	left: 22%;
-}
-aside img[src*="mauve_1"]{
-	 	top: 8%;	 	left: 6%;
 }
