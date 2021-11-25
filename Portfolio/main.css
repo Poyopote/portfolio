@@ -55,19 +55,16 @@ header{
 	display: block;
 }
 
-#header > a{
-	top: -20px;
-	position: relative;
-}
-
 	img[alt="menu"] {
 		max-width: 160px;
 		height: auto;
+		position: relative;
+		top: -20px;
+		transition-duration: 1s;
 	}
 
 	img[alt="menu"]:hover {
-		position: relative;
-		top: 20px;
+		top: 0;
 	}
 /*design tableau*/
 #header table{
@@ -135,6 +132,7 @@ section{
 h2{
 	font-size: 2.5em;
 	padding: 0.5em;
+	text-shadow: #28276D 2px 5px;
 }
 
 .btn {
@@ -151,6 +149,7 @@ h2{
 	margin: 3em auto;
 	text-align: left;
   cursor: pointer;
+	transition: 0.3s;
 }
 
 .btn:hover {
@@ -208,13 +207,13 @@ footer{
 	z-index: 60;
 }
 
-footer.div-footer{
+footer .div-footer{
 	display:table-cell;
-	width: 25%;
-	vertical-align: middle;
+	width: 200px;
+	vertical-align: top;
 }
 
-footer.tab-langue{
+footer .tab-langue{
 		display:table-row;
 }
 
