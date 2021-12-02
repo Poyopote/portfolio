@@ -38,6 +38,11 @@ header{
 	text-align: center;
 }
 
+main{
+		margin-bottom: calc(5% + 100px);
+}
+
+
 .presentation::before{
 	display: block;
 	width: 100%;
@@ -107,6 +112,7 @@ header{
   }
 		footer{
 			height: auto !important;
+			position: relative!important;
 
 		}
 		footer .div-footer{
