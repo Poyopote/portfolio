@@ -52,11 +52,15 @@ main{
 */}
 
 
-#header div{
+#header nav {
+display: inline-block;
+}
+
+#header nav div{
 	display: none;
 }
 
-#header input[type='image']:focus + nav > div{
+#header nav:hover div{
 	display: block;
 }
 
