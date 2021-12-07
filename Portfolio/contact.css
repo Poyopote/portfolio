@@ -1,8 +1,18 @@
+main{
+  background-color: #2c9fcc41;
+  margin: 0 10%;
+  min-height: 100vh;
+  padding: 1em;
+}
+section{
+  margin-top: 10vh;
+}
+
 form{
-    margin: 5% auto 0;
+    margin: 10% auto 0;
     width: 50%;
     background-color: #241455;
-    padding: 2em;
+    padding: 1em 2em;
 
 }
 
@@ -53,4 +63,15 @@ legend{
   margin: 0 auto;
   padding: 1em;
   font-size: 2em;
+}
+
+aside img {
+  display: table-row;
+  width: 10vw;
+}
+
+aside div {
+  display: table-cell;
+  width: 30%;
+  
 }
