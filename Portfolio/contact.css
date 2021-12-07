@@ -10,12 +10,14 @@ section{
 }
 
 form{
-    margin: 10% auto 0;
+    margin: 0 auto 0;
     width: 50%;
     background-color: #241455;
     padding: 1em 2em;
 
 }
+
+
 
 input[type=email] {
     width: 100%;
@@ -60,12 +62,16 @@ input[type=email] {
 
 fieldset{
   border-top: white 1px solid;
+  position: relative;
+  z-index: 12;
 }
 
 legend{
   margin: 0 auto;
   padding: 1em;
   font-size: 2em;
+  position: relative;
+  z-index: 12;
 }
 
 aside div{
