@@ -3,6 +3,7 @@ main{
   margin: 0 10%;
   min-height: 100vh;
   padding: 1em;
+  position: relative;
 }
 section{
   margin-top: 10vh;
@@ -38,6 +39,8 @@ input[type=email] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    position: relative;
+    z-index: 12;
   }
   input[type=submit]:hover {
     width: 100%;
@@ -65,13 +68,31 @@ legend{
   font-size: 2em;
 }
 
-aside img {
+aside div{
   display: table-row;
+  width: 50%;
+ text-align: center;
+ position: relative;
+}
+aside div img {
   width: 10vw;
 }
+aside div:first-child img{
+  width: 20vw;
+}
 
-aside div {
-  display: table-cell;
-  width: 30%;
+
+aside{
+z-index: 5;
+position: absolute;
+top: 0;
+left: 40%;
+}
+
+/* aside div:first-child {
   
+} */
+aside div:last-child {
+  z-index: 8;
+  left: 45%;
 }
