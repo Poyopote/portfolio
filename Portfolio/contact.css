@@ -39,3 +39,8 @@ input[type=text] {
     border-radius: 4px;
     cursor: pointer;
   }
+
+  textarea{
+    width: 100%;
+    height: calc(45% - 10);
+  }
