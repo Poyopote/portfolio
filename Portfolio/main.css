@@ -5,11 +5,11 @@ span{
 
 section.presentation div{
 	display:table-cell;
-	width: 50%;
+	width: 50vw;
 	vertical-align: middle;
 	text-align: center;
 	position: relative;
-	z-index: 1;
+	z-index: 50;
 }
 
 .art-image{
@@ -67,7 +67,7 @@ section{
 	vertical-align: middle;
 	text-align: center;
 	position: relative;
-	z-index: 1;
+	z-index: 50;
 }
 
 	img[alt="menu"] {
