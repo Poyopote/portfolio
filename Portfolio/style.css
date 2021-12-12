@@ -65,13 +65,17 @@ main{
 #header nav div::before{
 	content: "";
 	position: absolute;
-	top: calc(0 - 5vh);
+	top: -74px;
 	width: 100vw;
 	height: 100vh;
-	background: rgba(0, 0, 0, 0.7);
+	
 	left: 0;
 	z-index: 55;
+	transition-duration: 1s;
+}
 
+#header nav div:hover::before {
+	background: rgba(0, 0, 0, 0.7);
 }
 
 

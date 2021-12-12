@@ -1,4 +1,4 @@
-#moi {
+.moi {
 	width: 450px;
 	height: 400px;
 	border: 2px dashed white;
@@ -24,7 +24,7 @@ article{
 
 
 @media screen and (max-width:  1024px){
-	#moi{
+	.moi{
 		width: 100%;
 		
 	}
