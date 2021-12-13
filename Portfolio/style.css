@@ -53,6 +53,8 @@ main{
 */}
 
 
+/* debut de menu */
+
 #header nav div{
 	display: none;
 }
@@ -78,7 +80,7 @@ main{
 	background: rgba(0, 0, 0, 0.7);
 }
 
-
+/* le bouton du menu */
 
 #header	input[type='image'] {
 		width: 160px;
@@ -95,9 +97,7 @@ main{
 
 .nav-menu {
 	margin: 0 auto;
-  table-layout: fixed;
-/*  width: 60%;
-*/  
+  	table-layout: fixed;
 }
 
 .nav-lien{
@@ -108,13 +108,8 @@ main{
 
 }
 
-/* {
-	border: 2px white solid;
-	padding: 1em;
-	border-radius: 50%;
-	overflow: hidden;
-	width: 7vw;
-} */
+
+/* le image du menu */
 
 .nav-menu .nav-lien:first-child {
 	left: calc(10% + 10px);
@@ -123,6 +118,14 @@ main{
 	right: calc(10% + 10px);
 }
 
+
+/* le deux image double du bas */
+.nav-menu .nav-lien:nth-child(even) {
+	top: 250px;
+}
+
+
+/* le bonton d'accueil */
 .nav-menu .nav-lien:nth-child(3){
 	border-radius: 50%;
 	padding: 1em;
@@ -133,38 +136,22 @@ main{
 	position: relative;
 	z-index: 60;
 }
-.nav-menu .nav-lien:nth-child(even) {
-	top: 250px;
-}
+
 
 
 .nav-menu .nav-lien:nth-child(3) img{
 	visibility: hidden;
 }
 
-/* .nav-menu .nav-lien:nth-child(3){
-	position: relative;
-	display: inline-block;
-	border-radius: 50%;
-	overflow: hidden;
-} */
 
-/* .nav-menu .nav-lien:nth-child(3) img{
-	position: relative;
-	z-index: 56;
-
-} */
-
-	.nav-menu .nav-lien:nth-child(3)::before{
+/* animation du bouton menu d'accueil */
+.nav-menu .nav-lien:nth-child(3)::before{
 	content: '';
 	width: 140px;
 	height: 140px;
-
-background: -moz-linear-gradient(left,  rgba(50,207,255,1) 0%, rgba(153,104,255,0) 50%, rgba(255,0,255,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgba(50,207,255,1) 0%,rgba(153,104,255,0) 50%,rgba(255,0,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgba(50,207,255,1) 0%,rgba(153,104,255,0) 50%,rgba(255,0,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
-	/* background: linear-gradient(aqua,magenta); */
+	background: -moz-linear-gradient(left,  rgba(50,207,255,1) 0%, rgba(153,104,255,0) 50%, rgba(255,0,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(50,207,255,1) 0%,rgba(153,104,255,0) 50%,rgba(255,0,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(50,207,255,1) 0%,rgba(153,104,255,0) 50%,rgba(255,0,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	animation: animate 4s linear infinite;
 	position: absolute;
 	left: -5px;
@@ -192,7 +179,7 @@ background: linear-gradient(to right,  rgba(50,207,255,1) 0%,rgba(153,104,255,0)
 	}
 }
 
-
+/* le media pour des écrans plus petit */
 
 @media screen and (max-width:  1024px){
   header{
@@ -221,15 +208,12 @@ background: linear-gradient(to right,  rgba(50,207,255,1) 0%,rgba(153,104,255,0)
 			display: table-row !important;
 			width: 100% !important;
 			table-layout: fixed;
-			border: red dashed 2px;
 		}
 }
 
 .pt{
 	position: relative;
 }
-
-
 
 footer{
 	background-color: #160B2D;
