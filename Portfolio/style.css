@@ -124,7 +124,6 @@ main{
 }
 
 .nav-menu .nav-lien:nth-child(3){
-	border: 2px white solid;
 	border-radius: 50%;
 	padding: 1em;
 	top: -80px;
@@ -135,7 +134,7 @@ main{
 	z-index: 60;
 }
 .nav-menu .nav-lien:nth-child(even) {
-	top: 200px;
+	top: 250px;
 }
 
 
@@ -160,7 +159,12 @@ main{
 	content: '';
 	width: 140px;
 	height: 140px;
-	background: linear-gradient(aqua,magenta);
+
+background: -moz-linear-gradient(left,  rgba(50,207,255,1) 0%, rgba(153,104,255,0) 50%, rgba(255,0,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(50,207,255,1) 0%,rgba(153,104,255,0) 50%,rgba(255,0,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(50,207,255,1) 0%,rgba(153,104,255,0) 50%,rgba(255,0,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+	/* background: linear-gradient(aqua,magenta); */
 	animation: animate 4s linear infinite;
 	position: absolute;
 	left: -5px;
