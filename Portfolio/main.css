@@ -35,6 +35,11 @@ section{
 	 background-size: 30%;
 }
 
+
+.presentation .section-div{
+	z-index: 52;
+}
+
 .btn {
   -webkit-border-radius: 9;
   -moz-border-radius: 9;
