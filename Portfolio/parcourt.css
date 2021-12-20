@@ -1,0 +1,29 @@
+main aside:first-child {
+	height: 100vh;
+}
+
+main aside nav {
+	text-align: center;
+	position: fixed;
+}
+
+/*	padding: 2em;*/
+
+#ecole{
+	width: 52%;
+/*	padding-left: 25%;
+*/}
+
+aside{
+	width: 24%;
+
+}
+
+.diplome{
+	padding: 2px;
+	margin-bottom: 10vh;
+}
+
+.dispa{
+	display: none;
+}
