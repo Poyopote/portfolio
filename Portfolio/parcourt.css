@@ -1,9 +1,9 @@
 main aside:first-child {
 	height: 100vh;
+
 }
 
 main aside nav {
-	text-align: center;
 	position: fixed;
 	left: 5vw;
 }
@@ -17,6 +17,7 @@ main aside nav {
 
 aside{
 	width: 24%;
+		text-align: center;
 
 }
 
