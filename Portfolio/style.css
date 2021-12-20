@@ -133,11 +133,12 @@ img[alt*="menu"]{
 	border-radius: 50%;
 	padding: 1em;
 	top: -80px;
-	height: 136px;
 	display: inline-block;
 	overflow: hidden;
 	position: relative;
 	z-index: 60;
+	width: 7.581vw;
+	height: 7.581vw;
 }
 
 
@@ -149,15 +150,15 @@ img[alt*="menu"]{
 /* animation du bouton menu d'accueil */
 .nav-menu .nav-lien:nth-child(3)::before{
 	content: '';
-	width: 140px;
-	height: 140px;
+	width: 7.58vw;
+	height: 7.58vw;
 	background: -moz-linear-gradient(left,  rgba(50,207,255,1) 0%, rgba(153,104,255,0) 50%, rgba(255,0,255,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(left,  rgba(50,207,255,1) 0%,rgba(153,104,255,0) 50%,rgba(255,0,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right,  rgba(50,207,255,1) 0%,rgba(153,104,255,0) 50%,rgba(255,0,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	animation: animate 4s linear infinite;
 	position: absolute;
-	left: -5px;
-	top: -4px;
+	left: 0;
+	top: 0;
 	z-index: 0;
 }
 
@@ -169,6 +170,7 @@ img[alt*="menu"]{
 	z-index: 1;
 	background-position: center;
 	background-repeat: no-repeat;
+	
 }
 
 
@@ -239,7 +241,10 @@ img[alt*="menu"]{
 	.nav-lien{
 		max-width: initial;
 	}
-
+	 .nav-menu a.nav-lien:nth-child(3){
+		width: 136px;
+		height: 136px;
+	 }
 }
 
 .pt{
