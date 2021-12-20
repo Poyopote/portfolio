@@ -40,7 +40,7 @@ header{
 }
 
 main{
-		margin-bottom: calc(5% + 100px);
+	margin-bottom: calc(5% + 100px);
 }
 
 
@@ -107,7 +107,10 @@ main{
 	height: auto;
 
 }
-
+img[alt*="menu"]{
+	width: 15vw;
+	height: auto;
+}
 
 /* le image du menu */
 
@@ -136,7 +139,6 @@ main{
 	position: relative;
 	z-index: 60;
 }
-
 
 
 .nav-menu .nav-lien:nth-child(3) img{
