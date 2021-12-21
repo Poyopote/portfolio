@@ -30,3 +30,13 @@ aside{
 	display: none;
 }
 
+h2{
+	font-size: 2em;
+}
+h3{
+	font-size: 1.5em;
+}
+
+span{
+	color: #2F66CC;
+}
