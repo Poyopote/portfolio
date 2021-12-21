@@ -101,6 +101,9 @@ aside div:last-child {
 }
 
 @media screen and (max-width:  1024px){
+  main{
+    margin: 1em;
+  }
   form{
     margin: 0;
     width: 100%;
