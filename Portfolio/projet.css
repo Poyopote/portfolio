@@ -1,15 +1,14 @@
 main div{
 	margin: 0 5vw;
-	background-color: #2f66cc;
 }
 
 aside {
 	width: 20%;
-	background-color: #2f66cc;
+	border: dashed 2px #2f66cc;
+
 }
 
 section{
 	width: 80%;
-	background-color: #2f66cc;
 
 }
