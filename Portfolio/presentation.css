@@ -1,9 +1,12 @@
 .moi {
-	width: 450px;
-	height: 400px;
+	width: calc(890px / 1.5) ;
+	height: calc(580px / 2);
 	border: 2px dashed white;
 	display: block;
 	margin: 0 50px 0 0;
+	background-image: url(img/folio-moi.jpg);
+	background-position: center;
+	background-size: 80%;
 }
 
 section{
