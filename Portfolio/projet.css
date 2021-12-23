@@ -1,14 +1,32 @@
 main div{
-	margin: 0 5vw;
-}
-
-aside {
-	width: 20%;
-	border: dashed 2px #2f66cc;
-
+	margin: 0 auto;
+	width: 80vw;
 }
 
 section{
-	width: 80%;
+  margin-top: 10vh;
+}
+
+h2,h3 , p {
+	padding: 0.5em;
+}
+
+h2{
+	font-size: 3em;
 
 }
+
+h3{
+	font-size: 2em;
+}
+
+article{
+	border: white 2px dashed;
+	width: 50%;
+}
+
+/*article::after{
+	content: "";
+	
+}*/
+
