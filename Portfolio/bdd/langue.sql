@@ -28,8 +28,8 @@ SET time_zone = "+00:00";
 -- Structure de la table `langue`
 --
 
-DROP TABLE IF EXISTS `langue`;
-CREATE TABLE IF NOT EXISTS `langue` (
+DROP TABLE IF EXISTS `footer`;
+CREATE TABLE IF NOT EXISTS `footer` (
   `unique_id` int(11) NOT NULL AUTO_INCREMENT,
   `en` text NOT NULL,
   `fr` text NOT NULL,
@@ -40,9 +40,10 @@ CREATE TABLE IF NOT EXISTS `langue` (
 -- Déchargement des données de la table `langue`
 --
 
-INSERT INTO `langue` (`unique_id`, `en`, `fr`) VALUES
-(1, 'Download', 'Télécharger'),
-(2, 'my résumé', ' mon CV');
+INSERT INTO `footer` (`unique_id`, `en`, `fr`) VALUES
+(1, 'Download', 'Langue'),
+(2, 'French', ' Français'),
+(3, 'English', ' Anglais');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
