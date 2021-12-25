@@ -1,0 +1,116 @@
+main{
+  background-color: #2c9fcc41;
+  margin: 0 10%;
+  min-height: 100vh;
+  padding: 1em;
+  position: relative;
+}
+section{
+  margin-top: 10vh;
+}
+
+form{
+    margin: 0 auto 0;
+    width: 50vw;
+    background-color: #241455;
+    padding: 1em 2em;
+
+}
+
+
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: #cce0f9;
+    border: 1px solid #cbe0fd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #006eff;
+  }
+
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #284589;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    z-index: 12;
+  }
+  input[type=submit]:hover {
+    width: 100%;
+    background-color: #2c9fcc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  textarea{
+    width: 100%;
+    height: calc(45% - 10);
+  }
+
+fieldset{
+  border-top: white 1px solid;
+  position: relative;
+  z-index: 12;
+}
+
+legend{
+  margin: 0 auto;
+  padding: 1em;
+  font-size: 2em;
+  position: relative;
+  z-index: 12;
+}
+
+aside div{
+  display: table-row;
+  width: 50%;
+ text-align: center;
+ position: relative;
+}
+aside div img {
+  width: 10vw;
+}
+aside div:first-child img{
+  width: 20vw;
+}
+
+
+aside{
+z-index: 5;
+position: absolute;
+top: 0;
+left: 40%;
+}
+
+aside div:last-child {
+  z-index: 8;
+  left: 45%;
+}
+
+@media screen and (max-width:  1024px){
+  main{
+    margin: 1em;
+  }
+  form{
+    margin: 0;
+    width: 100%;
+    padding: 1em;
+  }
+
+  fieldset{
+    width: 50vh;
+  }
+}
