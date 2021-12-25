@@ -1,0 +1,118 @@
+span{
+	font-family: 'Bad Script', cursive;
+}
+
+
+section.presentation div{
+	display:table-cell;
+	width: 50vw;
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	z-index: 50;
+}
+
+.art-image{
+	width: 100%;
+	height: auto;
+}
+
+
+section{
+	font-size: 1.5em;
+}
+
+.presentation h2{
+	font-size: 2.5em;
+	padding: 0.5em;
+	text-shadow: #28276D 2px 5px;
+}
+
+.presentation .section-div{
+	 background-image: url(../img/mouv_mauve_1.svg), url(../img/mouv_mauve_0.svg);
+	 background-repeat: no-repeat;
+	 background-position: 10% 17%, 75% 70%;
+	 background-size: 30%;
+}
+
+
+.presentation .section-div{
+	z-index: 52;
+}
+
+.btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #79126B;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  max-width: 40%;
+  position: relative;
+	margin: 3em auto;
+	text-align: left;
+  cursor: pointer;
+	transition: 0.3s;
+}
+
+.btn:hover {
+  background: #C31D96;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width:  1024px){
+  section.presentation div{
+	display:table-row;
+	width: 100%;
+	table-layout: fixed;
+	border: red dashed 2px;
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	z-index: 50;
+}
+
+	img[alt="menu"] {
+		width: 40vw;
+		height: auto;
+
+	}
+
+	.btn{
+		margin: 3em auto;
+		transition: none;
+		max-width: 60%;
+	}
+ .btn:active {
+  	background: #C31D96;
+  	text-decoration: none;
+	}
+
+	.presentation .section-div{
+		background-image: none;
+	}
+
+}
+
+aside img{
+	max-width: 15%;
+	height: auto;
+	position: absolute;
+	z-index: 0;
+}
+
+aside img[src*="violet_0"]{
+	 	right: 40%;	 	top: 5.712%;
+}
+aside img[src*="violet_1"]{
+	 	top: 9.3509%;	 	right:4.58%;	 	z-index: 2;
+}
+aside img[src*="bleu_0"]{
+	 	top: 50%;	 	right: 12.458%;
+}
+aside img[src*="bleu_1"]{
+	 	top: 14.66%;	 	right: 2.12%;	 	z-index: 2;
+}
