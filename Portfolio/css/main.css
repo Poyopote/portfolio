@@ -1,5 +1,6 @@
 span{
 	font-family: 'Bad Script', cursive;
+	color: cyan;
 }
 
 
@@ -62,6 +63,14 @@ section{
   text-decoration: none;
 }
 
+.btn span span{
+	transition: animate1 1s ease;
+	transform: translateY(50px);
+}
+
+.btn span span.fondu{
+	color: white;
+}
 
 @media screen and (max-width:  1024px){
   section.presentation div{
