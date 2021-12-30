@@ -153,16 +153,16 @@ img[alt*="menu"]{
 /* animation du bouton menu d'accueil */
 .nav-menu .nav-lien:nth-child(3)::before{
 	content: '';
-	width: 7.6vw;
-	height: 7.6vw;
+	width: 8vw;
+	height: 8vw;
 	background: -moz-linear-gradient(left,  rgba(50,207,255,1) 0%, rgba(153,104,255,0) 50%, rgba(255,0,255,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(left,  rgba(50,207,255,1) 0%,rgba(153,104,255,0) 50%,rgba(255,0,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right,  rgba(50,207,255,1) 0%,rgba(153,104,255,0) 50%,rgba(255,0,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	animation: animate 4s linear infinite;
+	animation: animate 10s linear infinite;
 	position: absolute;
-	left: 0;
-	top: 0;
-	z-index: 0;
+	left: -2px;
+	top: -2px;
+
 }
 
  .nav-menu a.nav-lien:nth-child(3)::after{
