@@ -56,13 +56,13 @@ main{
 /* debut de menu */
 
 #header nav div{
-	display: none;
-}
-
-#header nav:hover div{
-	display: block;
 	position: relative;
 }
+
+/*#header nav:hover div{
+	display: block;
+	position: relative;
+}*/
 
 #header nav div::before{
 	content: "";
@@ -70,29 +70,28 @@ main{
 	top: -74px;
 	width: 100vw;
 	height: 100vh;
-	
 	left: 0;
 	z-index: 55;
-	transition-duration: 1s;
-}
+/*	transition-duration: 1s;
+*/}
 
-#header nav div:hover::before {
+/*#header nav div:hover::before {
 	background: rgba(0, 0, 0, 0.7);
-}
+}*/
 
 /* le bouton du menu */
 
 #header	input[type='image'] {
-		width: 160px;
-		height: auto;
-		position: relative;
-		top: -20px;
-		transition-duration: 1s;
-		z-index: 100;
-	}
+	width: 160px;
+	height: auto;
+	position: relative;
+	top: -20px;
+	transition-duration: 1s;
+	z-index: 100;
+}
 
 #header	input[type='image']:hover {
-		top: 0;
+	top: 0;
 	}
 
 .nav-menu {
@@ -241,10 +240,10 @@ img[alt*="menu"]{
 	.nav-lien{
 		max-width: initial;
 	}
-	 .nav-menu a.nav-lien:nth-child(3){
+	.nav-menu a.nav-lien:nth-child(3){
 		width: 136px;
 		height: 136px;
-	 }
+	}
 }
 
 .pt{
