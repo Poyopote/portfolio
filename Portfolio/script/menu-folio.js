@@ -14,9 +14,7 @@ function mouseOver() {
 function mouseOut() {
 	ombre.classList.remove("sombre");
 }
-
-// let chrono = setInterval(onTick, 50);
-
+		
 		for (let i = 0; i < lien.length; i++){
 			lien[i].addEventListener("mouseover", mouseOver);
 			lien[i].addEventListener("mouseout", mouseOut);
