@@ -55,7 +55,7 @@ main{
 
 /* debut de menu */
 
-#header nav div{
+#header section nav{
 	position: relative;
 }
 
@@ -63,8 +63,7 @@ main{
 	display: block;
 	position: relative;
 }*/
-
-#header nav.sombre div::before{
+#header section nav + div#overlay{
 	content: "";
 	position: absolute;
 	top: -74px;
@@ -72,11 +71,16 @@ main{
 	height: 100vh;
 	left: 0;
 	z-index: 55;
-/*	transition-duration: 1s;
-*/}
+	background: none;
+	transition: 500ms;
+}
 
-#header nav.sombre div:hover::before {
+#header section nav:hover + div#overlay{
 	background: rgba(0, 0, 0, 0.7);
+}
+
+#header h1, .sombre{
+	display: none;
 }
 
 /* le bouton du menu */
