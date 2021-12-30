@@ -64,7 +64,7 @@ main{
 	position: relative;
 }*/
 
-#header nav div::before{
+#header nav.sombre div::before{
 	content: "";
 	position: absolute;
 	top: -74px;
@@ -75,9 +75,9 @@ main{
 /*	transition-duration: 1s;
 */}
 
-/*#header nav div:hover::before {
+#header nav.sombre div:hover::before {
 	background: rgba(0, 0, 0, 0.7);
-}*/
+}
 
 /* le bouton du menu */
 
