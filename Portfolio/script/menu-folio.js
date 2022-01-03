@@ -1,10 +1,13 @@
 function bouton_menu() {
 	let navigation = document.querySelector(".nav-menu") ;
 	let lien = document.querySelectorAll(".nav-menu a");
-	let ombre = document.getElementById('overlay'); 
+	let ombre = document.getElementById('overlay');
+	const btn = document.querySelector("#header input").src ;
+
 	console.log(navigation);
 
 	if (navigation.style.display === 'none' && ombre.style.display === 'none') {
+		
 		navigation.style.display = 'block';
 		ombre.style.display = 'block';
 

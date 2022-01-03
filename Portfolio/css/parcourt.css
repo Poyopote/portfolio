@@ -15,7 +15,7 @@ main aside nav {
 /*	padding-left: 25%;
 */}
 
-aside{
+main aside{
 	width: 24%;
 	text-align: center;
 
@@ -41,15 +41,25 @@ span{
 	color: #2F66CC;
 }
 
+
+
 @media screen and (max-width:  1024px){
 	main > aside:first-child {
 		display: none;
 	}
 
-	#ecole, aside{
-		width: 100vw;
+	#ecole, main aside{
+		width: 95vw;
 	}
 	.diplome{
 		margin-bottom: 25px;
+	}
+
+	main aside{
+		margin-top: 10vh;
+	}
+
+	section{
+		padding: 0.5em;
 	}
 }
