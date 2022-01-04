@@ -1,9 +1,15 @@
+body{
+  background: #28147F;
+}
+
+
 main{
-  background-color: #2c9fcc41;
+  background-color: #31189F;
   margin: 0 10%;
   min-height: 100vh;
   padding: 1em;
   position: relative;
+  background-image: url(../img/feuille.png);
 }
 main section{
   margin-top: 10vh;
@@ -12,9 +18,8 @@ main section{
 form{
     margin: 0 auto 0;
     width: 55vw;
-    background-color: #241455;
+    background-color: #C1CFF2;
     padding: 1em 2em;
-
 }
 
 
@@ -24,8 +29,8 @@ input[type=email] {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  background-color: #cce0f9;
-  border: 1px solid #cbe0fd;
+  background-color: #C9D8FF;
+  border: 1px solid #3CA4FF;
   border-radius: 4px;
   box-sizing: border-box;
   color: #006eff;
@@ -34,7 +39,7 @@ input[type=email] {
 
 input[type=submit] {
   width: 100%;
-  background-color: #284589;
+  background-color: #2C1FFD;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -47,8 +52,8 @@ input[type=submit] {
 
 input[type=submit]:hover {
   width: 100%;
-  background-color: #2c9fcc;
-  color: white;
+  background-color: #38F3FF;
+  color: #2B17AF;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -62,9 +67,10 @@ textarea{
 }
 
 fieldset{
-  border-top: white 1px solid;
+  border-top: #2C1FFD 1px solid;
   position: relative;
   z-index: 12;
+  color: #2C1FFD;
 }
 
 legend{
@@ -100,6 +106,10 @@ aside div:last-child {
   z-index: 8;
   left: 45%;
 }
+aside{
+  display: none;
+}
+
 
 @media screen and (max-width:  600px){
   main{

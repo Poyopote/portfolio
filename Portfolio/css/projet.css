@@ -1,10 +1,15 @@
+main{
+	background: #1F4BEC;
+	padding-bottom:calc(5% + 100px);
+}
+
 main div{
 	margin: 0 auto;
 	width: 80vw;
 }
 
-section{
-  margin-top: 10vh;
+main section{
+  padding-top: 10vh;
 }
 
 h2,h3 , p {
@@ -25,8 +30,4 @@ article{
 	width: 50%;
 }
 
-/*article::after{
-	content: "";
-	
-}*/
 

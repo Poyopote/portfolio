@@ -1,3 +1,15 @@
+body{
+	background: #180224;
+	background: -moz-linear-gradient(left,  #000D4F 0%, #031367 25%, #0C1A81 50%, #29279C 75%, #180224 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #000D4F 0%, #031367 25%, #0C1A81 50%, #29279C 75%, #180224 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #000D4F 0%, #031367 25%, #0C1A81 50%, #29279C 75%, #180224 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+main{
+	margin-bottom: 10vh;
+
+}
+
 main aside:first-child {
 	height: 100vh;
 
@@ -8,12 +20,11 @@ main aside nav {
 	left: 5vw;
 }
 
-/*	padding: 2em;*/
 
 #ecole{
 	width: 52%;
-/*	padding-left: 25%;
-*/}
+		padding-bottom:calc(5% + 100px);
+}
 
 main aside{
 	width: 24%;

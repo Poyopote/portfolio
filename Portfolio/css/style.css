@@ -11,19 +11,12 @@
 }
 
 /*Apparence du body*/
-html{
-	background: #220c3d; /* Old browsers */
-}
 
 body {
 
 	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#16001e+0,22032d+25,200229+75,220c3d+100 */
-	background: #16001e; /* Old browsers */
-	background: -moz-linear-gradient(top,  #16001e 0%, #1C0334 25%, #200229 75%, #220c3d 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  #16001e 0%,#1C0334 25%,#200229 75%,#220c3d 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  #16001e 0%,#1C0334 25%,#200229 75%,#220c3d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-repeat: no-repeat;
-	background-size: contain;
+	background: #ededed; /* Old browsers */
+
 	font-family: 'Outfit', arial, sans-serif;
 	color: #CED2C2;
 
@@ -39,18 +32,6 @@ header{
 	text-align: center;
 }
 
-main{
-	margin-bottom: calc(5% + 100px);
-}
-
-
-.presentation::before{
-	display: block;
-	width: 100%;
-	height: 5vh;
-	content: "";
-/*	background-color: blueviolet;
-*/}
 
 
 /* debut de menu */
@@ -216,7 +197,18 @@ footer .tab-langue{
 summary + ul{
 	margin: 0 auto;
 	display: block;
+}
 
+footer a {
+	color: #2060F4;
+}
+
+footer a:hover {
+	color: #3793FF;
+}
+
+footer a:active {
+	color: #DD55D9;
 }
 
 .fl-l{
@@ -230,6 +222,10 @@ summary + ul{
 /* le media pour des écrans plus petit */
 
 @media screen and (max-width:  1024px){
+/*	main{
+		margin-bottom: calc(5% + 100px);
+	}*/
+
 	header{
 		max-height: 10vw;
 		margin-bottom: 25%;
