@@ -1,5 +1,8 @@
 <?php
-	session_start();
+
+	if(!isset($_SESSION))
+		session_start();
+
 
 	if (empty($_SESSION['parle'])){ //si la session n'a pas de valeur langue
 		if (empty($_GET["lang"])){ //on regarde si get lang est vide

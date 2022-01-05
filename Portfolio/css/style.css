@@ -47,7 +47,7 @@ header{
 #header section nav + div#overlay{
 	content: "";
 	position: absolute;
-	top: -74px;
+	top: 0;
 	width: 100vw;
 	height: 100vh;
 	left: 0;
@@ -199,15 +199,15 @@ summary + ul{
 	display: block;
 }
 
-footer a {
+ a {
 	color: #2060F4;
 }
 
-footer a:hover {
+ a:hover {
 	color: #3793FF;
 }
 
-footer a:active {
+ a:active {
 	color: #DD55D9;
 }
 
@@ -245,6 +245,7 @@ footer a:active {
 		height: auto;
 		position: relative;
 		text-align: center;
+
 
 	}
 	footer .div-footer{

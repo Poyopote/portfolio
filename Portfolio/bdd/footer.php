@@ -12,7 +12,7 @@
 			<p><?php echo $footer[3][$lang];  ?></p>
 		</div>
 		<div class="div-footer">
-			<p>Lorem Ipsum</p>
+			<p><a href='../bdd/choixtable.php'>Administation</a></p>
 		</div>
     <div class="div-footer">
       <p>01.02.03.04.05</p>
