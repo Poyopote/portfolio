@@ -1,0 +1,77 @@
+body{
+  background-color: #31189F;
+    background-image: url(../img/feuille.png);
+    color: #28147F;
+}
+
+
+main section{
+  padding-top: 10vh;
+  width: 50vw;
+  background: #C1CFF2;
+  min-height: 100vh;
+}
+
+legend{
+  margin: 0 auto;
+  padding: 1em;
+  font-size: 2em;
+  position: relative;
+  z-index: 12;
+}
+
+form{
+      padding: 1em 2em;
+}
+
+fieldset{
+  border-top: #2C1FFD 1px solid;
+  position: relative;
+  z-index: 12;
+  color: #2C1FFD;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  background-color: #C9D8FF;
+  border: 1px solid #3CA4FF;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #006eff;
+}
+
+
+input[type=submit] {
+  width: 100%;
+  background-color: #34b8ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  z-index: 12;
+}
+
+input[type=submit]:hover {
+  width: 100%;
+  background-color: #2B17AF;
+  color: #33b7ff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:  1024px){
+  main section {
+      width: 80vw;
+  }
+}

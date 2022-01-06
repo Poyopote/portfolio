@@ -1,13 +1,44 @@
 <?php
-	function getPDO()
+	$credentials = fopen($_SERVER["DOCUMENT_ROOT"] . "/Portfolio/portfolio/config.csv", "r"); //chez moi c /Portfolio en plus
+
+	if ($credentials)
 	{
-		$host = 'localhost';
-		$db   = 'portfolio';
-		$user = 'root';
-		$pass = '';
-		$charset = 'utf8';
+		// On vérifie si le fichier de configuration existe.
+		$credentials = fgetcsv($credentials);
+	}
+
+	$host = $credentials[0];    // Adresse de la base de données (par défaut : "localhost")
+	$db   = $credentials[1];    // Nom de la base de données (par défaut : "porfolio_2")
+	$user = $credentials[2];    // Identifiant de connexion (par défaut : "root")
+	$pass = $credentials[3];    // Mot de passe de connexion (par défaut : "")
+	$charset = $credentials[4]; // Encodage des caractères (par défaut : "utf8")
+	$port = $credentials[5];    // Port de connexion (par défaut : "3306" sur MySQL et "3307" sur MariaDB)Z
 		
-		$dsn = "mysql:host=$host;dbname=$db;charset=$charset;port=3306";
+	try {   /* Utilisation du module PDO (Php Data Objects) 
+		cf. openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/lire-des-donnees-2 qui propose sous forme objet (une classe) un ensemble complet
+		de méthodes de manipulation des BdD et de leurs tables
+		A changer :
+			- le nom de la BDD : écrit sur le format portfolio2019-2020_xxx où xxx correspond à votre nom
+			- le passwd : vide '' pour Windows et 'root' pour OSX
+		*/
+		$bdd = new PDO("mysql:host=$host;dbname=$db;charset=$charset;port=3306", 'root', '');
+	}
+	catch (Exception $e) {
+		die('Erreur : ' . $e->getMessage());
+	}
+
+
+	function getPDO()
+	{	
+		global $credentials;
+		$host = $credentials[0];    // Adresse de la base de données (par défaut : "localhost")
+		$db   = $credentials[1];    // Nom de la base de données (par défaut : "porfolio_2")
+		$user = $credentials[2];    // Identifiant de connexion (par défaut : "root")
+		$pass = $credentials[3];    // Mot de passe de connexion (par défaut : "")
+		$charset = $credentials[4]; // Encodage des caractères (par défaut : "utf8")
+		$port = $credentials[5];    // Port de connexion (par défaut : "3306" sur MySQL et "3307" sur MariaDB)Z
+		
+		$dsn = "mysql:host=$host;dbname=$db;charset=$charset;port=$port";
 		$options = [
 			PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
 			PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
@@ -34,19 +65,22 @@
 		return $pdo->query("SELECT `$lang` FROM `footer`;")->fetchAll();
 	}
 
-	// fonction pour recup les projets en fonction de la langue.
 
-	function projet()
+	// Récup les infos utilie a la persentaion du steven
+
+	function my_moi($pdo, $lang)
 	{
-		return $pdo->query();
+		return $pdo->query("SELECT `$lang` FROM `presentation`;")->fetchAll();
 	}
+
+	// fonction pour recup les projets en fonction de la langue.
 
 	function projet_info($pdo, $lang)
 	{
 		return $pdo->query("SELECT `titre`, `outil`, `$lang`
 		FROM `projet`
 		INNER JOIN `realisation_descript`
-		ON projet.unique_id = realisation_descript.unique_id;")->fetchAll();
+		ON projet.id_unique = realisation_descript.id_unique;")->fetchAll();
 	}
 
 ?>

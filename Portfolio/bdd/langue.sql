@@ -43,7 +43,8 @@ CREATE TABLE IF NOT EXISTS `footer` (
 INSERT INTO `footer` (`unique_id`, `en`, `fr`) VALUES
 (1, 'Download', 'Langue'),
 (2, 'French', ' Français'),
-(3, 'English', ' Anglais');
+(3, 'English', ' Anglais'),
+(4, 'Legal Notice', ' Mentions Légales');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
