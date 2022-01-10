@@ -119,11 +119,6 @@ main{
 		background: linear-gradient(to bottom, rgba(23, 10, 69, 0) 0%, #100525 100%);
 	}
 
-	img[alt="menu"] {
-		width: 40vw;
-		height: auto;
-
-	}
 
 	.btn{
 		margin: 3em auto;
