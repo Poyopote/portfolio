@@ -20,6 +20,8 @@ form{
     width: 55vw;
     background-color: #e3e9f7;
     padding: 1em 2em;
+    background-image: url(../img/bulle-form10.svg);
+    background-size: 150%;
 }
 
 
@@ -81,34 +83,6 @@ legend{
   z-index: 12;
 }
 
-aside div{
-  display: table-row;
-  width: 50%;
- text-align: center;
- position: relative;
-}
-aside div img {
-  width: 10vw;
-}
-aside div:first-child img{
-  width: 20vw;
-}
-
-
-aside{
-z-index: 5;
-position: absolute;
-top: 0;
-left: 40%;
-}
-
-aside div:last-child {
-  z-index: 8;
-  left: 45%;
-}
-aside{
-  display: none;
-}
 
 
 @media screen and (max-width:  600px){
@@ -119,13 +93,5 @@ aside{
     margin: 0;
     width: 100%;
     padding: 1em;
-  }
-
-  /* fieldset{
-    max-width: calc(50vh - 2em);
-  } */
-
-  aside {
-    display: none;
   }
 }

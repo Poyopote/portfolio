@@ -14,36 +14,26 @@
 
 body {
 
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#16001e+0,22032d+25,200229+75,220c3d+100 */
-	background: #ededed; /* Old browsers */
-
+	background: #ededed;
 	font-family: 'Outfit', arial, sans-serif;
 	color: #CED2C2;
-
+	min-width: 412px;
 }
 
-
+/* debut de menu */
 header{
 	position: fixed;
-	top: 0;
+	top: 0; 
 	width: 100%;
 	height: auto;
 	z-index: 60;
 	text-align: center;
 }
 
-
-
-/* debut de menu */
-
-#header section nav{
+#header section {
 	position: relative;
 }
 
-/*#header nav:hover div{
-	display: block;
-	position: relative;
-}*/
 #header section nav + div#overlay{
 	content: "";
 	position: absolute;
@@ -60,9 +50,7 @@ header{
 	background: rgba(0, 0, 0, 0.7);
 }
 
-#header h1{
-	display: none;
-}
+#header h1{	display: none;}
 
 /* le bouton du menu */
 
@@ -168,9 +156,7 @@ img[alt*="menu"]{
 }
 
 
-.pt{
-	position: relative;
-}
+
 
 footer{
 	background-color: #160B2D;
@@ -190,34 +176,22 @@ footer .div-footer{
 	padding: 1em;
 }
 
-footer .tab-langue{
-		display: block !important;
-}
+footer .tab-langue{	display: block !important;}
 
 summary + ul{
 	margin: 0 auto;
 	display: block;
 }
 
- a {
-	color: #2060F4;
-}
+ a {	color: #2060F4;} 	a:hover {	color: #3793FF;} 	a:active {	color: #DD55D9;}
 
- a:hover {
-	color: #3793FF;
-}
+ /*classe util*/
 
- a:active {
-	color: #DD55D9;
-}
+.fl-l{	float: left;}
 
-.fl-l{
-	float: left;
-}
+.clear{	clear: both;}
 
-.clear{
-	clear: both;
-}
+.pt{	position: relative;}
 
 /* le media pour des écrans plus petit */
 
@@ -228,36 +202,24 @@ summary + ul{
 		margin-bottom: 25%;
 		z-index: 101;
 	}
-	.nav-menu .nav-lien{
-		/* position: initial!important; */
-		display: block;
-	}
-	.nav-menu .nav-lien:nth-child(3){
+
+	/* repositionnement */
+	.nav-menu .nav-lien{	display: block;	} 
+	.nav-menu .nav-lien:first-child {		left: initial;	} /*image 1*/
+
+	.nav-menu .nav-lien:nth-child(even) {		top: initial;	} /*image 2 et 4*/
+	.nav-menu .nav-lien:nth-child(3){ /*image 3*/
 		top: initial;
-		visibility: visible;
-	}
-	.nav-menu .nav-lien:first-child {
-		left: initial;
-	}
-	.nav-menu .nav-lien:last-child {
-		right: initial;
-	}
-	.nav-menu .nav-lien:nth-child(even) {
-		top: initial;
-	}
-
-
-	.nav-menu .nav-lien:nth-child(3)::before{ /*supprime l'animation */
-		display: none;
-	}
-
-	.nav-lien{
-		max-width: initial;
-	}
-	.nav-menu a.nav-lien:nth-child(3){
 		width: 136px;
 		height: 136px;
 	}
+	.nav-menu .nav-lien:last-child {		right: initial;	} /*image 5*/
+
+/*supprime l'animation */
+	.nav-menu .nav-lien:nth-child(3)::before{ 		display: none;	}
+
+	.nav-lien{		max-width: initial;	}
+
 
 	img[alt*="menu"]{
 		width: calc(calc(100vh - 245px)/4);
