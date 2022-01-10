@@ -276,10 +276,7 @@ summary + ul{
 		width: 100%;
 	}
 
-	/* #header:focus section nav + div#overlay{
+	#header section nav + div#overlay{
 		background: rgba(0, 0, 0, 0.7);
-	} */
-
-
-
+	}
 }
