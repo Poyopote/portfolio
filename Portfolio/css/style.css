@@ -17,8 +17,8 @@ body {
 	background: #ededed;
 	font-family: 'Outfit', arial, sans-serif;
 	color: #CED2C2;
-	min-width: 412px;
-}
+/*	min-width: 412px;
+*/}
 
 /* debut de menu */
 header{
@@ -79,25 +79,16 @@ header{
 	height: auto;
 
 }
-img[alt*="menu"]{
-	width: 15vw;
-	height: auto;
-}
+img[alt*="menu"]{	width: 15vw;	height: auto;}
 
 /* le image du menu */
 
-.nav-menu .nav-lien:first-child {
-	left: calc(10% + 10px);
-}
-.nav-menu .nav-lien:last-child {
-	right: calc(10% + 10px);
-}
+.nav-menu .nav-lien:first-child {	left: calc(10% + 10px);}
+.nav-menu .nav-lien:last-child {	right: calc(10% + 10px);}
 
 
 /* le deux image double du bas */
-.nav-menu .nav-lien:nth-child(even) {
-	top: 250px;
-}
+.nav-menu .nav-lien:nth-child(even) {	top: 250px;}
 
 
 /* le bonton d'accueil */
@@ -114,9 +105,7 @@ img[alt*="menu"]{
 }
 
 
-.nav-menu .nav-lien:nth-child(3) img{
-	visibility: hidden;
-}
+.nav-menu .nav-lien:nth-child(3) img{	visibility: hidden;}
 
 
 /* animation du bouton menu d'accueil */
@@ -197,6 +186,10 @@ summary + ul{
 
 @media screen and (max-width:  1024px){
 
+	main{
+		padding-bottom: calc(120px * 2);
+	}
+
 	header{
 		max-height: 10vw;
 		margin-bottom: 25%;
@@ -228,11 +221,9 @@ summary + ul{
 
 	footer{
 		height: auto;
-		position: relative;
 		text-align: center;
-
-
 	}
+
 	footer .div-footer{
 		display: block;
 		width: 100%;
@@ -240,5 +231,13 @@ summary + ul{
 
 	#header section nav + div#overlay{
 		background: rgba(0, 0, 0, 0.7);
+	}
+}
+
+
+@media screen and (max-width:  412px){
+
+	footer{
+		position: relative;
 	}
 }

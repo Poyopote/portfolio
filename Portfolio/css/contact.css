@@ -15,9 +15,19 @@ main section{
   margin-top: 10vh;
 }
 
+h2{
+  background-color: #2C1FFD;
+  border: 2px solid #38F3FF;
+  width: 200px;
+  position: relative;
+  top: 40px;
+  padding: 1px;
+}
+
 form{
     margin: 0 auto 0;
     width: 55vw;
+    min-width: 260px;
     background-color: #e3e9f7;
     padding: 1em 2em;
     background-image: url(../img/bulle-form10.svg);
@@ -93,5 +103,9 @@ legend{
     margin: 0;
     width: 100%;
     padding: 1em;
+  }
+
+  h2{
+    top: initial;
   }
 }

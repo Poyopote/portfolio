@@ -82,8 +82,8 @@ a.btn:hover {
 }
 
 .btn span span{
-	transition: animate1 1s ease;
-	transform: translateY(50px);
+	transition: 1s ease;
+	transform: translateX(50px);
 }
 
 .btn span span.fondu{

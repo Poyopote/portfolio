@@ -23,11 +23,29 @@ h2{
 
 h3{
 	font-size: 2em;
+	background-color: rgb(193, 207, 242);
+}
+
+h3:hover{
+	color: rgb(193, 207, 242);
+	background-color: rgb(16, 31, 172);
+		border-top: black 1px solid;
+
+}
+h3:hover + p, h3:hover + p + p{
+	color: rgb(193, 207, 242);
+	background-color: rgb(16, 31, 172);
+	border-bottom: black 1px solid;
 }
 
 article{
-	border: white 2px dashed;
+	/*border: white 2px dashed;*/
+	color: rgb(16, 31, 172);
+	background-color: white;
+	box-shadow: 12px 12px 2px 1px rgba(16, 31, 172, .2);
 	width: 50%;
+	height: 50vh;
+	overflow-y: scroll;
 }
 
 
