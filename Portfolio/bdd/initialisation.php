@@ -23,4 +23,28 @@
 		}
 	}
 	
+
+// --------------------diaporama---------------------------
+
+	// if (empty($_SESSION['diapo'])){ 
+	// 	if (empty($_GET["diapo"])){ 
+	// 		$p = 3;			
+
+	// 	}
+	// 	else {						
+	// 		$p = $_GET["diapo"]; 
+	// 		$_SESSION['diapo'] = $p; 	
+	// 	}
+	// }
+	// else {							
+	// 	if (empty($_GET["diapo"])){
+	// 		$p = $_SESSION['diapo'];	
+	// 	}
+	// 	else {					
+	// 		$p = $_GET["diapo"]; 	
+	// 		$_SESSION['diapo'] = $p; 	
+	// 	}
+	// }
+
+
 ?>

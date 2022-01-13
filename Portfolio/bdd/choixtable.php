@@ -31,7 +31,7 @@ include("database.php");
 		</section>		
 	</header>
 	<main>
-		<section>
+		<section class="navig">
 			<?php
 				include "veriflogin.php";
 			?>

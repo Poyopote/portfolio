@@ -18,6 +18,11 @@ main aside:first-child {
 main aside nav {
 	position: fixed;
 	left: 5vw;
+	width: 12%;
+}
+
+main aside nav li{
+	padding: 0.4em;
 }
 
 
@@ -44,12 +49,28 @@ main aside{
 h2{
 	font-size: 2em;
 }
+
+
 h3{
+	margin-top: 20%;
 	font-size: 1.5em;
+}
+h2+h3{
+	margin-top: initial;
+	margin-top: 30px;
+		
+	}
+
+#ecole summary{
+	color: red;
 }
 
 span{
 	color: #2F66CC;
+}
+
+#ecole h3+p+p {
+	margin-top: 10px;
 }
 
 

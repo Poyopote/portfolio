@@ -1,5 +1,5 @@
 <?php
-	$credentials = fopen($_SERVER["DOCUMENT_ROOT"] . "/Portfolio/portfolio/config.csv", "r"); //chez moi c /Portfolio en plus
+	$credentials = fopen($_SERVER["DOCUMENT_ROOT"] . "/portfolio/config.csv", "r"); //chez moi c /Portfolio en plus
 
 	if ($credentials)
 	{
@@ -73,14 +73,45 @@
 		return $pdo->query("SELECT `$lang` FROM `presentation`;")->fetchAll();
 	}
 
+
+	function etude($pdo)
+	{
+		return $pdo->query("SELECT * FROM etude
+		ORDER BY `etu_id`,
+		  CASE `type_info`
+			WHEN 'date' THEN 1
+			WHEN 'titre' THEN 2
+			WHEN 'lieu' THEN 3
+			WHEN 'descript' THEN 4
+			WHEN 'en_plus' THEN 5
+			ELSE 6
+		  END;
+		")->fetchAll();
+	}
+
+
 	// fonction pour recup les projets en fonction de la langue.
 
-	function projet_info($pdo, $lang)
+	function projet($pdo)
 	{
-		return $pdo->query("SELECT `titre`, `outil`, `$lang`
-		FROM `projet`
-		INNER JOIN `realisation_descript`
-		ON projet.id_unique = realisation_descript.id_unique;")->fetchAll();
+		return $pdo->query("SELECT * FROM `projet` WHERE 1;")->fetchAll();
+	}
+
+	function voirprojet($pdo)
+	{
+		return $pdo->query("SELECT * FROM `voir_projet` WHERE 1 ;")->fetchAll();
+	}
+
+		// Récup les infos page contact
+
+	function contact($pdo, $lang)
+	{
+		return $pdo->query("SELECT `$lang` FROM `contact`;")->fetchAll();
+	}
+
+	function text_etude($pdo, $lang)
+	{
+		return $pdo->query("SELECT `$lang` FROM `text_etude`;")->fetchAll();
 	}
 
 ?>
