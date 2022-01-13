@@ -1,14 +1,15 @@
 body{
   background-color: #31189F;
-    background-image: url(../img/feuille.png);
+    background-image: url(../img/Futur_Vensty.jpg);
     color: #28147F;
+    background-size: 80%;
+    background-position: right;
 }
-
 
 main section{
   padding-top: 10vh;
   width: 50vw;
-  background: #C1CFF2;
+  background: rgb(193, 207, 242);
   min-height: 100vh;
 }
 
@@ -31,6 +32,9 @@ fieldset{
   color: #2C1FFD;
 }
 
+section.navig form{
+  padding: 1em;
+}
 
 input[type=text], input[type=password] {
   width: 100%;
@@ -69,6 +73,63 @@ input[type=submit]:hover {
   cursor: pointer;
 }
 
+/* tableau */
+main#main-admin section{
+  padding: 2em;
+}
+
+#main-admin{
+  max-width: 1000px;
+	margin-right:auto;
+	margin-left:auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+}
+
+.table{
+  /* width:100%; */
+  min-width: 60vw;
+	border:1px dashed black;
+  padding: 1em;
+}
+
+.table-titre {
+	display:flex;
+	width:100%;
+	background:white;
+
+}
+
+
+.table-contenu {
+	display:flex;
+	width:100%;
+  background-color: #689fe87a;
+  color: black;
+}
+
+.table-contenu:nth-of-type(odd){
+  background-color: #689fe8;
+}
+
+.table-donnee, .champ {
+	flex: 1 1 20%;
+	text-align:center;
+  padding:1em;
+}
+
+.table-donnee{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align:left;
+}
+
+.champ {
+	text-transform:uppercase;
+}
 
 @media screen and (max-width:  1024px){
   main section {
