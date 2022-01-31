@@ -159,7 +159,7 @@ footer{
 
 footer .div-footer{
 	display:table-cell;
-	width: 25vw;
+	width: 50vw;
 	vertical-align: baseline;
 	text-align: center;
 	padding: 1em;
@@ -172,7 +172,7 @@ summary + ul{
 	display: block;
 }
 
- a {	color: #2060F4;} 	a:hover {	color: #3793FF;} 	a:active {	color: #DD55D9;}
+ a {	color: #5085ff;} 	a:hover {	color: #79b7ff;} 	a:active {	color: #DD55D9;}
 
  /*classe util*/
 
