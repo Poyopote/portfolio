@@ -1,0 +1,70 @@
+body{
+	background: #16001e;
+	background: -moz-linear-gradient(top,  #16001e 0%, #1C0334 25%, #200229 75%, #220c3d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #16001e 0%,#1C0334 25%,#200229 75%,#220c3d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #16001e 0%,#1C0334 25%,#200229 75%,#220c3d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+
+.cadre {
+	width: 35vw ;
+	height: calc(580px / 2);
+	min-height: 200px;
+	border: 2px dashed white;
+	display: block;
+	margin: 0 50px 0 0;
+	
+}
+
+.moi{
+	background-image: url(../img/folio-moi.jpg);
+	background-position: center;
+	background-size: 80%;
+	background-repeat: repeat;
+}
+.code{
+	background-image: url(../img/code_j.jpg);
+	background-position: center;
+	background-size: 100%;
+}
+
+main section{
+	margin: 0 5%;
+	padding-bottom:calc(5% + 100px);
+	padding-top: 10vh;
+}
+
+article + div + article{
+	padding-top: 5vh;
+}
+
+main{
+	padding-bottom:calc(5% + 100px);
+}
+
+section p{
+	font-size: 1.5em;
+}
+
+h2{
+	text-align: center;
+	font-size: 2em;
+}
+article{
+	margin-bottom: 5%;
+}
+
+@media screen and (max-width:  1024px){
+	.cadre{
+		width: 100%;
+		height: 20vh;
+		background-size: 100%;
+	}
+}
+
+.moi:hover{
+	background-image: url(../img/folio-moi.gif);
+}
+.code:hover{
+	background-size: 105%;
+}

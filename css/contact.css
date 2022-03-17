@@ -1,0 +1,111 @@
+body{
+  background: #28147F;
+}
+
+
+main{
+  background-color: #31189F;
+  margin: 0 10%;
+  min-height: 100vh;
+  padding: 1em;
+  position: relative;
+  background-image: url(../img/feuille.png);
+}
+main section{
+  margin-top: 10vh;
+}
+
+h2{
+  background-color: #2C1FFD;
+  border: 2px solid #38F3FF;
+  width: 200px;
+  position: relative;
+  top: 40px;
+  padding: 1px;
+}
+
+form{
+    margin: 0 auto 0;
+    width: 55vw;
+    min-width: 260px;
+    background-color: #e3e9f7;
+    padding: 1em 2em;
+    background-image: url(../img/bulle-form10.svg);
+    background-size: 150%;
+}
+
+
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  background-color: #C9D8FF;
+  border: 1px solid #3CA4FF;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #006eff;
+}
+
+
+input[type=submit] {
+  width: 100%;
+  background-color: #2C1FFD;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  z-index: 12;
+}
+
+input[type=submit]:hover {
+  width: 100%;
+  background-color: #38F3FF;
+  color: #2B17AF;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+textarea{
+  width: 100%;
+  height: calc(45% - 10);
+}
+
+fieldset{
+  border-top: #2C1FFD 1px solid;
+  position: relative;
+  z-index: 12;
+  color: #2C1FFD;
+}
+
+legend{
+  margin: 0 auto;
+  padding: 1em;
+  font-size: 2em;
+  position: relative;
+  z-index: 12;
+}
+
+
+
+@media screen and (max-width:  600px){
+  main{
+    margin: 1em;
+  }
+  form{
+    margin: 0;
+    width: 100%;
+    padding: 1em;
+  }
+
+  h2{
+    top: initial;
+  }
+}

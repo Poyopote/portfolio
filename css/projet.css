@@ -1,0 +1,80 @@
+main{
+	background: #1F4BEC;
+
+}
+
+main div{
+	margin: 0 auto;
+	width: 80vw;
+background: rgba(63,209,255,0.4);
+	padding: 1em;
+	color: #101fac;
+		padding-bottom:calc(5% + 100px);
+}
+
+main section{
+  padding-top: 10vh;
+}
+
+h2,h3 , p {
+	padding: 0.5em 0.5em 0.5em 0;
+}
+
+h2{
+	font-size: 3em;
+
+}
+
+h3{
+	font-size: 2em;
+	border-top: 2px solid #101fac;
+	background: rgb(63,209,255);
+}
+
+h3 + p, h3 + a + p{
+	color: white;
+}
+
+main a{
+	color: black;
+}
+
+
+/*h3:hover + p, h3:hover + p + p{
+	color: rgb(193, 207, 242);
+	background-color: rgb(16, 31, 172);
+	border-bottom: black 1px solid;
+}
+
+article{
+
+	color: rgb(16, 31, 172);
+	background-color: white;
+	box-shadow: 12px 12px 2px 1px rgba(16, 31, 172, .2);
+	width: 50%;
+	height: 50vh;
+	overflow-y: scroll;
+}
+*/
+
+main img{
+	width: 20vw;
+	height: auto;
+	padding: 1em;
+	transition-duration: 0.5s;
+	/*box-shadow: 12px 12px 2px 1px rgba(16, 31, 172, .2);*/
+}
+
+main img:hover{
+	width: 25vw;
+}
+
+
+@media screen and (max-width:  1024px){
+	main img{
+		width: 50vw;
+	}
+	main img:hover{
+	width: 55vw;
+	}
+}

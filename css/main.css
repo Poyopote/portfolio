@@ -1,0 +1,154 @@
+main{
+	background: #180224;
+	background: -moz-linear-gradient(left,  #180224 0%, #220c3d 23%, #220c3d 33%, #150a47 54%, #150a47 73%, #100525 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #180224 0%,#220c3d 23%,#220c3d 33%,#150a47 54%,#150a47 73%,#100525 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #180224 0%,#220c3d 23%,#220c3d 33%,#150a47 54%,#150a47 73%,#100525 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+span{
+	font-family: 'Bad Script', cursive;
+	color: cyan;
+}
+
+
+section.presentation div{
+	display:table-cell;
+	width: 50vw;
+	height: 100vh;
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	z-index: 50;
+}
+
+.art-image{
+	width: 100%;
+	height: auto;
+}
+
+
+
+section{
+	font-size: 1.5em;
+}
+
+.presentation h2{
+	font-size: 2.5em;
+	padding: 0.5em;
+	text-shadow: #28276D 2px 5px;
+}
+
+
+
+.presentation .section-div{
+	 background-image: url(../img/mouv_mauve_1.svg), url(../img/mouv_mauve_0.svg);
+	 background-repeat: no-repeat;
+	 background-position: 10% 17%, 75% 70%;
+	 background-size: 30%;
+	 z-index: 52;
+}
+
+.presentation div + div{
+	background: -moz-linear-gradient(left, #170a45 0%, #100525 100%);
+	background: -webkit-linear-gradient(left, #170a45 0%, #100525 100%);
+	background: linear-gradient(to right, #170a45 0%, #100525 100%);
+}
+
+.btn {
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #79126B;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  max-width: 40%;
+  position: relative;
+	margin: 3em auto;
+	text-align: left;
+  cursor: pointer;
+	transition: 0.3s;
+	display: block;
+}
+
+.btn:hover {
+  background: #C31D96;
+  text-decoration: none;
+}
+
+a.btn:hover {
+	color: #1e20b7;
+}
+
+.btn span span{
+	transition: 1s ease;
+	transform: translateX(50px);
+}
+
+.btn span span.fondu{
+	color: white;
+}
+
+@media screen and (max-width:  1024px){
+  
+main{
+	background: #180224;
+	background: -moz-linear-gradient(top,  #180224 0%, #220c3d 23%, #220c3d 33%, #150a47 54%, #150a47 73%, #100525 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #180224 0%,#220c3d 23%,#220c3d 33%,#150a47 54%,#150a47 73%,#100525 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #180224 0%,#220c3d 23%,#220c3d 33%,#150a47 54%,#150a47 73%,#100525 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	
+}
+
+.presentation{
+	padding-top: 10vh;
+}
+
+
+  section.presentation div{
+	display:table-row;
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	height: initial;
+	
+}
+ 
+
+
+	.presentation div + div{
+		background: -moz-linear-gradient(top, rgba(23, 10, 69, 0) 0%, #10052500 100%);
+		background: -webkit-linear-gradient(top, rgba(23, 10, 69, 0) 0%, #10052500 100%);
+		background: linear-gradient(to bottom, rgba(23, 10, 69, 0) 0%, #10052500 100%);
+		
+	}
+
+
+	.btn{
+		margin: 3em auto;
+		transition: none;
+		max-width: 60%;
+	}
+ .btn:active {
+  	background: #C31D96;
+  	text-decoration: none;
+	}
+
+	.presentation .section-div{
+		background-image: none;
+		padding: 1em;
+	}
+
+	.presentation .section-div p{
+		padding: 1em;
+	}
+
+}
+
+aside img{
+	max-width: 15%;
+	height: auto;
+	position: absolute;
+	z-index: 0;
+}
+
