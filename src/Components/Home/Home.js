@@ -7,13 +7,13 @@ import Animation from "./animation/Anima";
 
 function Home() {
     return (
-        <header id="main-header" className="relative">
-        <Animation className="absolute"/>
-        <div className="logo-container text-center z-10 relative">
+        <header id="main-header" className="relative flex flex-col items-center justify-center">
+        <Animation className="absolute z-0"/>
+        <div className="logo-container flex-initial z-10">
           <img src={logo} alt="Logo SL" className="logo inline-block" />
           <h1 className="site-title">My Portfolio</h1>
         </div>
-        <div className="buttons m-auto flex space-x-4 justify-center">
+        <div className="buttons ">
           <a href={pdf} className="btn1">
             
             Mon CV
@@ -22,7 +22,7 @@ function Home() {
             Contact
           </a>
         </div>
-        <nav className="main-nav">
+        <nav className="main-nav z-10">
           <ul className="nav-list flex justify-center space-x-4">
             <li>
               <a href="#main-header" className="nav-link active">

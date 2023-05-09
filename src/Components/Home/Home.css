@@ -1,12 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 .logo {
-  max-width: 281px;
+  max-width: 100%;
+  height: auto;
 }
 
 header {
-  padding-top: 10%;
   background-color: #CEF3FF;
   height: 100vh;
 }
@@ -30,4 +27,9 @@ header {
 }
 .buttons .btn2 {
   background-color: #247980;
+}
+
+.logo-container {
+  max-width: 281px;
+  width: 100%;
 }
