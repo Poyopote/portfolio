@@ -1,11 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import '../../style/variables';
-@import '../../style/text';
 
 .logo{
     max-width: 281px;
+    
 }
 header{
+    padding-top: 10%;
     background-color: $blancbleu;
+    height: 100vh;
+}
+.buttons {
+    a{
+        text-align: center;
+        padding: 15px 10px;
+        color: $white;
+        max-width: 95%;
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        background-color: $black;
+        border-radius: 30px;
+        height: 56px;
+        font-family: Ubuntu;
+        font-weight: bold;
+    }
+    & .btn1 {
+        background-color: $primaire;
+    }
+    & .btn2 {
+        background-color: $secondaire;
+    }
 }
 
 

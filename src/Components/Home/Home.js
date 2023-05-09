@@ -1,21 +1,24 @@
 import React from "react";
 import './Home.css';
 import logo from '../../assets/img/logo.svg';
+import pdf from '../../assets/doc/CV 2023 -04.pdf';
+import Animation from "./animation/Anima";
 
 
 function Home() {
     return (
-        <header id="main-header">
-        <div className="animation" />
-        <div className="logo-container text-center">
-          <img src={logo} alt="My Logo" className="logo" />
+        <header id="main-header" className="relative">
+        <Animation className="absolute"/>
+        <div className="logo-container text-center z-10 relative">
+          <img src={logo} alt="Logo SL" className="logo inline-block" />
           <h1 className="site-title">My Portfolio</h1>
         </div>
-        <div className="buttons">
-          <a href="cv.pdf" className="btn">
-            CV
+        <div className="buttons m-auto flex space-x-4 justify-center">
+          <a href={pdf} className="btn1">
+            
+            Mon CV
           </a>
-          <a href="contact.html" className="btn">
+          <a href="contact.html" className="btn2">
             Contact
           </a>
         </div>
