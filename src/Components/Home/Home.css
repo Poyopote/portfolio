@@ -1,11 +1,14 @@
 .logo {
-  max-width: 100%;
-  height: auto;
+  padding: 10px;
+}
+@media screen and (max-width: 640px) {
+  .logo {
+    width: calc(280px - 10vw);
+  }
 }
 
 header {
   background-color: #CEF3FF;
-  height: 100vh;
 }
 
 .buttons a {
@@ -30,6 +33,6 @@ header {
 }
 
 .logo-container {
-  max-width: 281px;
   width: 100%;
+  text-align: center;
 }

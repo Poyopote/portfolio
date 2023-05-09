@@ -1,14 +1,17 @@
 @import '../../style/variables';
 
 .logo{
-        max-width: 100%;
-        height: auto;
+    @media screen and (max-width:640px) {
+         width: calc(280px - 10vw);
+    }
+
+        padding: 10px;
     }
     
 header{
     // padding-top: 10%;
     background-color: $blancbleu;
-    height: 100vh;
+    // height: 100vh;
 }
 .buttons {
     a{
@@ -36,6 +39,6 @@ header{
 
 
 .logo-container{
-    max-width: 281px;
-    width: 100%;
+ width: 100%;
+ text-align: center;
 }
