@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-function Typewriter() {
+function Typewriter({ className }) {
   const [index, setIndex] = useState(0);
   const [text, setText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
@@ -32,7 +32,7 @@ function Typewriter() {
     return () => clearTimeout(timer);
   }, [index, isDeleting, delay, text, titles]);
 
-  return <h1  style={{ height: '1.5em', position: 'relative' }} id="site-title">{text}</h1>;
+  return <h1 className={ className } style={{ height: '1.5em'}} id="site-title">{text}</h1>;
 }
 
 export default Typewriter;
