@@ -77,12 +77,6 @@ header{
         font-family: Ubuntu;
         font-weight: bold;
 
-        // @each $color, $hex in $colors {
-        //     &.bg-#{$color} {
-        //         background-color: $hex !important;
-        //     }
-        // }
-
         .bg {
             position: absolute;
             top: 0;
