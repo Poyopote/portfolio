@@ -1,6 +1,19 @@
 #about-section {
+  position: relative;
   background: #4AB7E7;
   background: linear-gradient(0deg, #CEF3FF 0%, #4AB7E7 100%);
+}
+#about-section ::-moz-selection {
+  color: #ffffff;
+  background-color: #063148;
+}
+#about-section ::selection {
+  color: #ffffff;
+  background-color: #063148;
+}
+#about-section ::-moz-selection {
+  color: #ffffff;
+  background-color: #063148;
 }
 
 #blob {

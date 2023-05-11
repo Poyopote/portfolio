@@ -10,7 +10,7 @@ function Projects() {
       };
 
       return (
-        <section className="projects-section">
+        <section id="projects-section">
           <h2>Projects</h2>
           <nav>
             <button className={`project-button ${activeProject === "project1" ? "active" : ""}`} data-project="project1" onClick={handleClick}>Project 1</button>

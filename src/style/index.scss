@@ -25,6 +25,15 @@ body {
   //   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  ::selection {
+    color: $metalvert;
+    background-color: $bleuclair;
+  }
+  ::-moz-selection {
+    color: $metalvert;
+    background-color: $bleuclair;
+  }
 }
 
 code {
