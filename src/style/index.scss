@@ -32,13 +32,21 @@ code {
     monospace;
 }
 
+h1,h2,h3{
+    font-family: 'Kalam', sans-serif;
+    color: $primaire;
+}
 h1{
-  font-family: 'Kalam', sans-serif;
+
   font-size: 64px;
-  color: $primaire;
+
+}
+h2{
+  font-size: 48px;
 }
 
 p{
+  font-family: 'Heebo', sans-serif;
   font-size: 18px;
   color: $primaire;
 }

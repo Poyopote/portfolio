@@ -12,13 +12,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-h1 {
+h1, h2, h3 {
   font-family: "Kalam", sans-serif;
-  font-size: 64px;
   color: #063148;
 }
 
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
 p {
+  font-family: "Heebo", sans-serif;
   font-size: 18px;
   color: #063148;
 }
