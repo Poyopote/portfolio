@@ -1,6 +1,23 @@
 #projects-section {
-  background-color: #063148;
+  background-color: #358BAB;
+  background: linear-gradient(0deg, #063148 0%, #358BAB 100%);
+  position: relative;
 }
 #projects-section h2, #projects-section p {
+  color: #ffffff;
+}
+#projects-section .project-button {
+  background: rgba(255, 255, 255, 0.03);
+  /* white-absolu */
+  border-width: 1px 0px 0px 1px;
+  border-style: solid;
+  border-color: #ffffff;
+  /* Projet */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 15px 20px;
+  text-align: center;
+  font-family: "Ubuntu";
+  font-size: 24px;
   color: #ffffff;
 }

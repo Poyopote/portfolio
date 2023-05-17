@@ -59,3 +59,43 @@ p{
   font-size: 18px;
   color: $primaire;
 }
+
+
+.back-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: $metalvert ;
+  color: $blancbleu;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  transition: opacity 0.3s ease;
+
+  &.visible {
+    opacity: 1;
+  }
+  &.light{
+    background-color: $bleuclair ; //#7CDAC5;
+    color: $metalvert !important; //#143236;
+  }
+  &.dark{
+    background-color: $metalvert; //#143236;
+    color: $blancbleu !important; //#CEF3FF;
+  }
+}
+
+
+.back-to-top-button-svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+.not-at-top {
+  display: none;
+}

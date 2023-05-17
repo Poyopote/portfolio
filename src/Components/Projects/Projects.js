@@ -3,7 +3,6 @@ import './Projects.css';
 
 function Projects() {
     const [activeProject, setActiveProject] = useState("project1");
-
     const handleClick = (e) => {
         const project = e.target.dataset.project;
         setActiveProject(project);
@@ -11,29 +10,46 @@ function Projects() {
 
       return (
         <section id="projects-section">
-          <h2>Projects</h2>
-          <nav>
-            <button className={`project-button ${activeProject === "project1" ? "active" : ""}`} data-project="project1" onClick={handleClick}>Project 1</button>
-            <button className={`project-button ${activeProject === "project2" ? "active" : ""}`} data-project="project2" onClick={handleClick}>Project 2</button>
-            <button className={`project-button ${activeProject === "project3" ? "active" : ""}`} data-project="project3" onClick={handleClick}>Project 3</button>
-          </nav>
-          <div className="project-container">
-            {activeProject === "project1" && (
-              <div>
-                gfdgdfg
+          <article  className="w-full sm:w-9/12 m-auto text-center pt-20 ">
+            <h2>Projects</h2>
+            <nav className="flex justify-around my-12">
+              <button className={`project-button ${activeProject === "project1" ? "active" : ""}`} data-project="project1" onClick={handleClick}>Portfolio</button>
+              <button className={`project-button ${activeProject === "project2" ? "active" : ""}`} data-project="project2" onClick={handleClick}>Kabuki</button>
+              <button className={`project-button ${activeProject === "project3" ? "active" : ""}`} data-project="project3" onClick={handleClick}>Flow</button>
+            </nav>
+            <div className="project-container">
+              {activeProject === "project1" && (
+                <div>
+                  gfdgdfg
+                </div>
+              )}
+              {activeProject === "project2" && (
+                <div>
+                  gfhtr
+                </div>
+              )}
+              {activeProject === "project3" && (
+                <div>
+                  uiuyiu
+                </div>
+              )}
+            </div>
+            <div>
+              <div className="py-52 ">
+                <h3>Titre du projet</h3>
+                <p>Pargraphe du projet</p>
+                <a href="">lien probable</a>
               </div>
-            )}
-            {activeProject === "project2" && (
               <div>
-                gfhtr
+                <img src="" alt=""></img>
+                <div>
+                  <button>avant</button>
+                  <span>1/2</span>
+                  <button>après</button>
+                </div>
               </div>
-            )}
-            {activeProject === "project3" && (
-              <div>
-                uiuyiu
-              </div>
-            )}
-          </div>
+            </div>
+          </article>
         </section>
       );
     }
