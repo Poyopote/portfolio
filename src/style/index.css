@@ -57,7 +57,7 @@ p {
   align-items: center;
   justify-content: center;
   z-index: 999;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 .back-to-top-button.visible {
   opacity: 1;

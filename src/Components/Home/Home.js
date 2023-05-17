@@ -12,7 +12,7 @@ import { EnvelopeOpenIcon } from '@heroicons/react/24/solid';
 
 function Home() {
     return (
-        <header id="main-header" className="relative flex flex-col items-center justify-center md:h-screen">
+        <header id="main-header" className="in-the-light relative flex flex-col items-center justify-center md:h-screen">
         <Animation className=""/>
         <div className="logo-container z-10">
           <img src={logo} alt="Logo SL" loading="lazy" className="logo inline-block w-52 md:w-[280px] p-4"/>

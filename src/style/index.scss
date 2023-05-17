@@ -68,27 +68,28 @@ p{
   width: 40px;
   height: 40px;
   border-radius: 8px;
-  background-color: $metalvert ;
+  background-color: $metalvert;
   color: $blancbleu;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 999;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 
   &.visible {
     opacity: 1;
   }
-  &.light{
-    background-color: $bleuclair ; //#7CDAC5;
-    color: $metalvert !important; //#143236;
+  &.light {
+    background-color: $bleuclair;
+    color: $metalvert !important;
   }
-  &.dark{
-    background-color: $metalvert; //#143236;
-    color: $blancbleu !important; //#CEF3FF;
+  &.dark {
+    background-color: $metalvert;
+    color: $blancbleu !important;
   }
 }
+
 
 
 .back-to-top-button-svg {

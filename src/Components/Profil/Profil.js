@@ -2,7 +2,7 @@ import React from "react";
 import './Profil.css';
 function Profil() {
     return(
-        <section id="about-section" className=" relative py-24">
+        <section id="about-section" className="relative py-24 in-the-light">
             
             <article className="md:flex w-9/12 m-auto items-center">
                 <div className="w-full md:w-4/12 px-4">

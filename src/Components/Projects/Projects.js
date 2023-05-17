@@ -9,7 +9,7 @@ function Projects() {
       };
 
       return (
-        <section id="projects-section">
+        <section id="projects-section" className="in-the-dark">
           <article  className="w-full sm:w-9/12 m-auto text-center pt-20 ">
             <h2>Projects</h2>
             <nav className="flex justify-around my-12">
