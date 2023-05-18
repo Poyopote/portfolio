@@ -1,0 +1,105 @@
+$black : #222222;
+$white: #ffffff;
+$primaire: #063148;;
+$metalvert: #143236;
+$secondaire: #247980;
+$cyan: #4AB7E7;
+$emeraud: #62D29D;
+$bleuclair: #7CDAC5;
+$blancbleu: #CEF3FF;
+$gris1: #E9EFE4;
+$gris2: #1B1B1B;
+
+// $black : #222222;
+// $color-white: #ffffff;
+// $color-primary: #063148;
+// $color-metal-green: #143236;
+// $color-secondary: #247980;
+// $color-cyan: #4AB7E7;
+// $color-emerald: #62D29D;
+// $color-light-blue: #7CDAC5;
+// $color-white-blue: #CEF3FF;
+// $color-gray-light: #E9EFE4;
+// $color-gray-dark: #1B1B1B;
+
+
+
+
+
+$colors: (
+    "black": $black,
+    "white": $white,
+    "primaire": $primaire,
+    "metalvert": $metalvert,
+    "secondaire": $secondaire,
+    "cyan": $cyan,
+    "emeraud": $emeraud,
+    "bleuclair": $bleuclair,
+    "blancbleu": $blancbleu,
+
+    "gris1": $gris1,
+    "gris2": $gris2,
+
+);
+
+$positions: (
+    "relative": relative,
+    "absolute": absolute,
+);
+
+$alignments: (
+    "center": center,
+    "left": left,
+    "right": right,
+);
+
+$justify-content-values: (
+    "center": center,
+    "end": flex-end,
+    "start": flex-start,
+    "between": space-between,
+    "around": space-around,
+    "evenly": space-evenly,
+);
+
+$align-items-values: (
+    "stretch": stretch,
+    "center": center,
+    "end": flex-end,
+    "start": flex-start,
+    "baseline": baseline,
+);
+
+
+
+$marges: (
+    "0": 0,
+    "05": 5px,
+    "10": 10px,
+    "15": 15px,
+    "20": 20px,
+    "25": 25px,
+    "30": 30px,
+    "35": 35px,
+    "40": 40px,
+    "45": 45px,
+    "50": 50px,
+    "75": 75px,
+    "100": 100px,
+    "125": 125px,
+    "150": 150px,
+    "175": 175px,
+    "200": 200px,
+);
+
+
+$font-sizes: (
+    "12": 12px,
+    "14": 14px,
+    "18": 18px,
+    "20": 20px,
+    "22": 22px,
+    "26": 26px,
+);
+
+$base-border-radius: 6px;

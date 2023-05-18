@@ -35,10 +35,10 @@ function Projects() {
               )}
             </div>
             <div>
-              <div className="py-52 ">
+              <div className="">
                 <h3>Titre du projet</h3>
                 <p>Pargraphe du projet</p>
-                <a href="">lien probable</a>
+                {/* <a href="#">lien probable</a> */}
               </div>
               <div>
                 <img src="" alt=""></img>
