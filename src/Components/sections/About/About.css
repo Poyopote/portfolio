@@ -17,7 +17,7 @@
 }
 
 #blob {
-  background: url(../../assets/img/ciel_vue1.jpg);
+  background: url(../../../assets/img/ciel_vue1.jpg);
   background-size: cover;
   background-position: center center;
   box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.067);

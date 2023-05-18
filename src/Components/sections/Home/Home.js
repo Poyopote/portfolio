@@ -1,10 +1,10 @@
 import React from "react";
 import './Home.css';
-import logo from '../../assets/img/logo.svg';
-import pdf from '../../assets/doc/CV 2023 -04.pdf';
-import Animation from "./animation/Anima";
-import Typewriter from "./animation/Typewriter";
-import Button from "./animation/Button";
+import logo from '../../../assets/img/logo.svg';
+import pdf from '../../../assets/doc/CV 2023 -04.pdf';
+import Animation from "./Anima";
+import Typewriter from "./Typewriter";
+import Button from "../../common/Button";
 import { DocumentTextIcon } from '@heroicons/react/24/solid';
 import { EnvelopeOpenIcon } from '@heroicons/react/24/solid';
 
@@ -13,7 +13,7 @@ import { EnvelopeOpenIcon } from '@heroicons/react/24/solid';
 function Home() {
     return (
         <header id="main-header" className="in-the-light relative flex flex-col items-center justify-center md:h-screen">
-        <Animation className=""/>
+        <Animation/>
         <div className="logo-container z-10">
           <img src={logo} alt="Logo SL" loading="lazy" className="logo inline-block w-52 md:w-[280px] p-4"/>
           <Typewriter className=" text-4xl sm:text-6xl h-6 relative"/>

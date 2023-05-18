@@ -1,4 +1,4 @@
-@import '../../style/variables';
+@import '../../../styles/variables';
 
 #about-section{
   position: relative;
@@ -22,14 +22,14 @@
     //   height: 120px;
     //   bottom: 0;
     //   left: 0;
-    //   background: url(../../assets/img/123b37714951541710c59d6e86a033e4_large.jpeg);
+    //   background: url(../../../assets/img/123b37714951541710c59d6e86a033e4_large.jpeg);
     //   mix-blend-mode: lighten;
     //   z-index: 100;
     // }
 }
 
 #blob {
-    background: url(../../assets/img/ciel_vue1.jpg);
+    background: url(../../../assets/img/ciel_vue1.jpg);
     background-size: cover;
     background-position: center center;
     box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.067);

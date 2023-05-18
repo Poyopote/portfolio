@@ -1,5 +1,5 @@
 import React from 'react';
-import './Anima.css';
+// import './Anima.css';
 
 function Animation() {
 
