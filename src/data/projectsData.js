@@ -1,41 +1,42 @@
 // projectsData.js
+import { EnvelopeOpenIcon } from '@heroicons/react/24/solid';
 
-// import { EnvelopeOpenIcon } from '@heroicons/react/24/solid';
+const images = (require.context('../assets/svg', false, /\.svg$/));
 
 const projectsData = [
     {
       id: 1,
       title: "Portfolio",
       description: "Description du projet Portfolio.",
-      icons: "Portfolio-mouv_mauve_1.svg",
-      links: {
-        website: "https://poyopote.github.io/Portfolio/",
-        github: "https://github.com/Poyopote/Portfolio/tree/main",
-      },
+      // icons: { type: "svg", source: images(`Portfolio-mouv_mauve_1.svg`)},
+      links: [
+        { label: "Website", url: "https://poyopote.github.io/Portfolio/"},
+        { label: "GitHub", url: "https://github.com/Poyopote/Portfolio/tree/main"},
+      ],
       media: [
         {
           type: "image",
-          source: "Portfolio-princial.png",
+          source: require("../assets/img/Portfolio-princial.png"),
         },
         {
           type: "image",
-          source: "Portfolio-folio-moi.gif",
+          source: require("../assets/img/Portfolio-folio-moi.gif"),
         },
       ],
     },
     {
       id: 2,
       title: "Kabuki",
-      description: "Description du projet Kabuki.",
+      description: "Gorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in f",
       // icons: ["icon-kabuki1.svg", "icon-kabuki2.svg"],
       // links: {
-      //   website: "https://exemple.com/kabuki",
-      //   github: "https://github.com/exemple/kabuki",
+      //   label: "Website", url: "https://exemple.com/kabuki",
+      //   label: "GitHub", url: "https://github.com/exemple/kabuki",
       // },
       media: [
         {
           type: "image",
-          source: "kabuki-Affiche.jpg",
+          source: require("../assets/img/kabuki-Affiche.jpg"),
         },
         
       ],
@@ -44,16 +45,15 @@ const projectsData = [
       id: 3,
       title: "Flow",
       description: "Description du projet Flow.",
-      // icons: ["icon-flow1.svg", "icon-flow2.svg"],
 
       media: [
         {
           type: "image",
-          source: "Flow-logo.jpg",
+          source: require("../assets/img/Flow-logo.jpg"),
         },
         {
           type: "image",
-          source: "Flow-maquette.jpg",
+          source: require("../assets/img/Flow-maquette.jpg"),
         },
       ],
     },
@@ -61,23 +61,23 @@ const projectsData = [
       id: 4,
       title: "Ré.édifica",
       description: "Description du projet Ré.édifica.",
-      icons: ["Reedifica-logo_complet.svg", "Reedifica-logo_favicon.svg"],
-      // links: {
-      //   website: "https://exemple.com/reedifica",
-      //   github: "https://github.com/exemple/reedifica",
-      // },
+      icons: [
+        { type: "hero", component: EnvelopeOpenIcon },
+        { type: "svg", source: images(`./Reedifica-logo_complet.svg`) },
+        { type: "svg", source: images(`./Reedifica-logo_favicon.svg`) }
+      ],
       media: [
         {
           type: "image",
-          source: "Reedifica-img01.gif",
+          source: require("../assets/img/Reedifica-img01.gif"),
         },
         {
           type: "image",
-          source: "Reedifica-img02.gif",
+          source: require("../assets/img/Reedifica-img02.gif"),
         },
         {
           type: "video",
-          source: "Reedifica-video.mp4",
+          source: require("../assets/video/Reedifica-video.mp4"),
         },
       ],
     },
@@ -87,17 +87,17 @@ const projectsData = [
       description: "Description du projet Sakadanse.",
       // icons: ["icon-sakadanse1.svg", "icon-sakadanse2.svg"],
       links: {
-        website: "https://www.figma.com/proto/zkezjcMUCYKNskYFf1ajS1/Sakadanse?type=design&node-id=3-8&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=3%3A8",
-        // github: "https://github.com/exemple/sakadanse",
+        label: "Website", url: "https://www.figma.com/proto/zkezjcMUCYKNskYFf1ajS1/Sakadanse?type=design&node-id=3-8&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=3%3A8",
+        // label: "GitHub", url: "https://github.com/exemple/sakadanse",
       },
       media: [
         {
           type: "image",
-          source: "Sakadanse-Desktop01.jpg",
+          source: require("../assets/img/Sakadanse-Desktop01.jpg"),
         },
         {
           type: "image",
-          source: "Sakadanse-Desktop02.jpg",
+          source: require("../assets/img/Sakadanse-Desktop02.jpg"),
         },
 
       ],

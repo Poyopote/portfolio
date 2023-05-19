@@ -1,6 +1,6 @@
 import React from "react";
 import './Home.css';
-import logo from '../../../assets/img/logo.svg';
+import logo from '../../../assets/svg/logo.svg';
 import pdf from '../../../assets/doc/CV 2023 -04.pdf';
 import Animation from "./Anima";
 import Typewriter from "./Typewriter";
