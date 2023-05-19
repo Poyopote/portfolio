@@ -23,9 +23,9 @@ const Projects = () => {
         activeProjectIndex={activeProjectIndex}
         onProjectChange={handleProjectChange}
         />
-        <div className="flex">
+        <div className='grid grid-cols-2'>
           <ProjectDescription project={activeProject} />
-          <ProjectCarousel images={activeProject.media} /> {/* Utilise le composant ProjectCarousel */}
+          <ProjectCarousel media={activeProject.media} /> {/* Utilise le composant ProjectCarousel */}
         </div>
       </article>
     </section>

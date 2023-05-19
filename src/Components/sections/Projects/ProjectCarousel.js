@@ -1,37 +1,52 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from 'react';
 
-const ProjectCarousel = ({ images }) => {
-  const [activeImageIndex, setActiveImageIndex] = useState(0);
+const ProjectCarousel = ({ media }) => {
+  const [activeMediaIndex, setActiveMediaIndex] = useState(0);
 
-  const handlePreviousImage = () => {
-    setActiveImageIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
+  useEffect(() => {
+    setActiveMediaIndex(0); // Réinitialise l'index du média actif lorsque le projet change
+  }, [media]);
+
+  const handlePreviousMedia = () => {
+    setActiveMediaIndex((prevIndex) => {
+      const newIndex = prevIndex - 1;
+      return newIndex < 0 ? media.length - 1 : newIndex;
+    });
   };
 
-  const handleNextImage = () => {
-    setActiveImageIndex((prevIndex) =>
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
-    );
+  const handleNextMedia = () => {
+    setActiveMediaIndex((prevIndex) => {
+      const newIndex = prevIndex + 1;
+      return newIndex >= media.length ? 0 : newIndex;
+    });
   };
 
-  const showPreviousImage = activeImageIndex !== 0;
-  const showNextImage = activeImageIndex !== images.length - 1;
+  const isValidIndex = activeMediaIndex >= 0 && activeMediaIndex < media.length;
+  const activeMedia = isValidIndex ? media[activeMediaIndex] : null;
+  const showPreviousMedia = media.length > 1 && isValidIndex && activeMediaIndex !== 0;
+  const showNextMedia = media.length > 1 && isValidIndex && activeMediaIndex !== media.length - 1;
 
   return (
     <div className="project-carousel">
-      {showPreviousImage && (
-        <button className="carousel-button" onClick={handlePreviousImage}>
+      {showPreviousMedia && (
+        <button className="carousel-button" onClick={handlePreviousMedia}>
           Previous
         </button>
       )}
-      <img
-        className="carousel-image"
-        src={images[activeImageIndex].source}
-        alt=""
-      />
-      {showNextImage && (
-        <button className="carousel-button" onClick={handleNextImage}>
+      {activeMedia && (
+        <>
+          {activeMedia.type === 'image' && (
+            <img className="carousel-image" src={activeMedia.source} alt="" />
+          )}
+          {activeMedia.type === 'video' && (
+            <video className="carousel-video" controls>
+              <source src={activeMedia.source} type="video/mp4" />
+            </video>
+          )}
+        </>
+      )}
+      {showNextMedia && (
+        <button className="carousel-button" onClick={handleNextMedia}>
           Next
         </button>
       )}

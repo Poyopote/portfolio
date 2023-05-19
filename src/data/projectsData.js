@@ -8,7 +8,10 @@ const projectsData = [
       id: 1,
       title: "Portfolio",
       description: "Description du projet Portfolio.",
-      // icons: { type: "svg", source: images(`Portfolio-mouv_mauve_1.svg`)},
+      icons: { 
+        type: "svg",
+        source: images(`./Portfolio-mouv_mauve_1.svg`)
+      },
       links: [
         { label: "Website", url: "https://poyopote.github.io/Portfolio/"},
         { label: "GitHub", url: "https://github.com/Poyopote/Portfolio/tree/main"},
