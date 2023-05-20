@@ -16,14 +16,14 @@ const Projects = () => {
 
   return (
     <section id="projects-section" className="in-the-dark">
-      <article  className="w-full sm:w-9/12 m-auto text-center pt-20 ">
+      <article className="w-full sm:w-9/12 mx-auto text-center pt-20 ">
         <h2>Projects</h2>
         <ProjectNavigation
         projects={projectsData}
         activeProjectIndex={activeProjectIndex}
         onProjectChange={handleProjectChange}
         />
-        <div className='grid grid-cols-2'>
+        <div className='grid md:grid-cols-2 gap-y-8 md:gap-9'>
           <ProjectDescription project={activeProject} />
           <ProjectCarousel media={activeProject.media} /> {/* Utilise le composant ProjectCarousel */}
         </div>

@@ -20,7 +20,10 @@ const ProjectDescription = ({ project }) => {
   };
 
   return (
-    <div>
+    <div className='project-description'>
+      <div className=''>
+
+      </div>
       <h3>{title}</h3>
       <p>{description}</p>
 
