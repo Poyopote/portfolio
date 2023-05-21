@@ -7,6 +7,7 @@ import Typewriter from "./Typewriter";
 import Button from "../../common/Button";
 import { DocumentTextIcon } from '@heroicons/react/24/solid';
 import { EnvelopeOpenIcon } from '@heroicons/react/24/solid';
+import Navigation from "./Navigation";
 
 
 
@@ -26,32 +27,8 @@ function Home() {
           <Button color="secondaire" link="contact.html" text="Contact">
             <EnvelopeOpenIcon className="h-6 w-6" />
           </Button>
-        </div>
-        
-        <nav className="main-nav z-10">
-          <ul className="nav-list flex justify-center space-x-4">
-            <li>
-              <a href="#main-header" className="nav-link active">
-                Home 
-              </a>
-            </li>
-            <li>
-              <a href="#about-section" className="nav-link">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#projects-section" className="nav-link">
-                Projects
-              </a>
-            </li>
-            <li>
-              <a href="#skills-section" className="nav-link">
-                Skills
-              </a>
-            </li>
-          </ul>
-        </nav>
+        </div> 
+        <Navigation/>
       </header>
       
     );

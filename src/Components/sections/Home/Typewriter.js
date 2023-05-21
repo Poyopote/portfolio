@@ -1,11 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 
 function Typewriter({ className }) {
   const [index, setIndex] = useState(0);
   const [text, setText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
   const [delay, setDelay] = useState(1000);
-  const titles = ['Web Designer', 'Intégrateur-Front', 'Webmaster'];
+  const titles = useMemo(() => ['Web Designer', 'Intégrateur-Front', 'Webmaster'], []);
   const typingSpeed = 50;
 
   useEffect(() => {
