@@ -7,7 +7,7 @@ const projectsData = [
     {
       id: 1,
       title: "Portfolio",
-      description: "Description du projet Portfolio.",
+      description: "Dolor sit amet, consectetur adipiscing elit. Ut sed bibendum leo. Mauris mau massa, eleifend et purus vel feugiat rutrum . Cras vitae est vel ipsum fau bus fermentum a ultricies urna cum sociis. Lorem ipsum dolor sit amet consectetur adipiscing elit. Ut sed bibendum leo. Mauris ma massa eleifend et purus vel feugiat rutrum nulla cras vitae est Dolor sit amet, consectetur adipiscing elit. Ut sed bibendum leo. Mauris mau massa, eleifend et purus vel feugiat rutrum . Cras vitae est vel ipsum fau bus fermentum a ultricies urna cum sociis. Lorem ipsum dolor sit amet consectetur adipiscing elit. Ut sed bibendum leo. Mauris ma massa eleifend et purus vel feugiat rutrum nulla cras vitae est vel ipsum faucibus ferme aultricies urna cum sociis natoque penatibus. vel ipsum faucibus ferme aultricies urna cum sociis natoque penatibus.",
       icons: { 
         type: "svg",
         source: images(`./Portfolio-mouv_mauve_1.svg`)
@@ -89,10 +89,10 @@ const projectsData = [
       title: "Sakadanse",
       description: "Description du projet Sakadanse.",
       // icons: ["icon-sakadanse1.svg", "icon-sakadanse2.svg"],
-      links: {
+      links: [{
         label: "Website", url: "https://www.figma.com/proto/zkezjcMUCYKNskYFf1ajS1/Sakadanse?type=design&node-id=3-8&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=3%3A8",
         // label: "GitHub", url: "https://github.com/exemple/sakadanse",
-      },
+      },],
       media: [
         {
           type: "image",

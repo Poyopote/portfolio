@@ -4,7 +4,6 @@ import React from 'react';
 
 const ProjectDescription = ({ project }) => {
   const { title, description, icons, links } = project;
-  console.log(icons);
 
   const getIconComponent = (icon) => {
     switch (icon.type) {
@@ -20,14 +19,14 @@ const ProjectDescription = ({ project }) => {
   };
 
   return (
-    <div className='project-description'>
-      <div className=''>
+    <div className='project-description flex flex-col justify-center items-center sm:py-9 sm:px-10 p-2 lg:col-span-3'>
+      <div className='text-left container relative w-full'>
+        <span className='border-color hidden sm:block -z-10'></span>
+        <h3>{title}</h3>
+        <p>{description}</p>
+        
 
-      </div>
-      <h3>{title}</h3>
-      <p>{description}</p>
-
-      {icons && icons.length > 0 && (
+        {icons && icons.length > 0 && (
         <div>
           {icons.map((icon, index) => (
             <span key={index} className="icon">
@@ -35,12 +34,9 @@ const ProjectDescription = ({ project }) => {
             </span>
           ))}
         </div>
-      )}
+        )}
 
-              
-
-
-      {links && links.length > 0 && (
+        {links && links.length > 0 && (
         <div>
           {links.map((link, index) => (
             <a key={index} href={link.url} target="_blank" rel="noopener noreferrer">
@@ -48,7 +44,9 @@ const ProjectDescription = ({ project }) => {
             </a>
           ))}
         </div>
-      )}
+        )}
+      </div>
+      
     </div>
   );
 }

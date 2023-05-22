@@ -3,7 +3,33 @@
   background: linear-gradient(0deg, #063148 0%, #358BAB 100%);
   position: relative;
 }
-#projects-section h2, #projects-section p {
+#projects-section ::-moz-selection {
+  color: #063148;
+  background-color: #4AB7E7;
+}
+#projects-section ::selection {
+  color: #063148;
+  background-color: #4AB7E7;
+}
+#projects-section ::-moz-selection {
+  color: #063148;
+  background-color: #4AB7E7;
+}
+#projects-section::after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background-repeat: 25% 75%;
+  background-image: url(../../../assets/img/low-poly-grid-haikei.png);
+  background-size: contain;
+  mix-blend-mode: lighten;
+  z-index: 5;
+}
+#projects-section h2 {
   color: #ffffff;
 }
 #projects-section .project-button {
@@ -13,6 +39,7 @@
   border-style: solid;
   border-color: #ffffff;
   /* Projet */
+  max-width: 150px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
   padding: 15px 20px;
@@ -24,4 +51,49 @@
 #projects-section .project-button.active {
   color: #063148;
   background: #ffffff;
+}
+
+.project-description {
+  position: relative;
+}
+.project-description .container {
+  padding: 40px 38px;
+  background-color: #CEF3FF;
+  border-radius: 5px;
+}
+.project-description .container .border-color {
+  border: 7px solid #7CDAC5;
+  position: absolute;
+  top: -2.125rem;
+  left: -2.125rem;
+  background-color: rgba(0, 0, 0, 0);
+  width: calc(100% + 4.25rem);
+  height: calc(100% + 4.25rem);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px;
+}
+.project-description .container .border-color::before {
+  content: "";
+  top: calc(-100px + 5vh);
+  left: calc(-100px + 5vh);
+  position: absolute;
+  width: calc(150px - 5vh);
+  height: calc(150px - 5vh);
+  border-radius: 10px;
+  border: 7px solid #7CDAC5;
+}
+
+.project-carousel {
+  max-width: 100%;
+}
+.project-carousel .carousel-image, .project-carousel .carousel-video {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 550px;
+}
+.project-carousel span, .project-carousel .carousel-button {
+  color: #ffffff;
+  font-size: 20px;
 }
