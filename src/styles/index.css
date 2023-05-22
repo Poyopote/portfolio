@@ -63,7 +63,12 @@ p {
   transition: opacity 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 .back-to-top-button.visible {
-  opacity: 1;
+  display: flex;
+}
+@media screen and (max-width: 640px) {
+  .back-to-top-button.visible {
+    display: none;
+  }
 }
 .back-to-top-button.light {
   background-color: #7CDAC5;

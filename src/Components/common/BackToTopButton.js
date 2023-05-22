@@ -59,7 +59,7 @@ const BackToTopButton = () => {
 
   return (
     <div
-      className={`back-to-top-button hidden sm:flex ${isVisible ? 'visible' : ''} ${isVisible ? 'not-at-top' : ''}`}
+      className={`back-to-top-button ${!isVisible ? 'visible' : ''} ${isVisible ? 'not-at-top' : ''}`}
       onClick={scrollToTop}
       style={{ transform: 'scaleY(-1)' }}
     >

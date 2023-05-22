@@ -82,7 +82,10 @@ p{
   transition: opacity 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 
   &.visible {
-    opacity: 1;
+    display: flex;
+    @media screen and (max-width:640px){
+      display: none;
+    }
   }
   &.light {
     background-color: $bleuclair;
