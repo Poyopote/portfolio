@@ -29,7 +29,7 @@ const BackToTopButton = () => {
       const section = event.target.closest('.in-the-dark, .in-the-light');
       const button = document.querySelector('.back-to-top-button');
 
-      if (button !== null && !button.classList.contains('visible')) {
+      if (button !== null && !button.classList.contains('not-at-top')) {
         if (section !== null && section.classList.contains('in-the-dark')) {
           setTimeout(() => {
             button.classList.add('light');
