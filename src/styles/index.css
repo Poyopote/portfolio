@@ -71,10 +71,12 @@ p {
   }
 }
 .back-to-top-button.light {
+  border: 1px solid #063148;
   background-color: #7CDAC5;
   color: #143236 !important;
 }
 .back-to-top-button.dark {
+  border: 1px solid #7CDAC5;
   background-color: #143236;
   color: #CEF3FF !important;
 }

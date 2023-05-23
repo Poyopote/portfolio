@@ -75,6 +75,7 @@ p{
   background-color: $metalvert;
   color: $blancbleu;
   cursor: pointer;
+  
 
   align-items: center;
   justify-content: center;
@@ -88,10 +89,12 @@ p{
     }
   }
   &.light {
+    border: 1px solid $primaire;
     background-color: $bleuclair;
     color: $metalvert !important;
   }
   &.dark {
+    border: 1px solid $bleuclair;
     background-color: $metalvert;
     color: $blancbleu !important;
   }
