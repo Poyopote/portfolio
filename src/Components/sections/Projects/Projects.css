@@ -50,7 +50,10 @@
 }
 #projects-section .project-button.active {
   color: #063148;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .project-description {
@@ -58,34 +61,17 @@
 }
 .project-description .container {
   padding: 40px 38px;
-  background-color: #CEF3FF;
+  background: linear-gradient(152.88deg, #CEF3FF 8.26%, #7CDAC5 92.31%);
   border-radius: 5px;
-}
-.project-description .container .border-color {
-  border: 7px solid #7CDAC5;
-  position: absolute;
-  top: -2.125rem;
-  left: -2.125rem;
-  background-color: rgba(0, 0, 0, 0);
-  width: calc(100% + 4.25rem);
-  height: calc(100% + 4.25rem);
-  border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0);
-  padding: 5px;
-}
-.project-description .container .border-color::before {
-  content: "";
-  top: calc(-100px + 5vh);
-  left: calc(-100px + 5vh);
-  position: absolute;
-  width: calc(150px - 5vh);
-  height: calc(150px - 5vh);
-  border-radius: 10px;
-  border: 7px solid #7CDAC5;
 }
 
 .project-carousel {
   max-width: 100%;
+}
+.project-carousel .container {
+  padding: 40px 38px;
+  border-radius: 5px;
+  background-color: #063148;
 }
 .project-carousel .carousel-image, .project-carousel .carousel-video {
   text-align: center;

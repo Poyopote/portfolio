@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronDoubleLeftIcon, ChevronDoubleRightIcon } from '@heroicons/react/24/solid';
+import { ChevronDoubleLeftIcon, ChevronDoubleRightIcon, ArrowTopRightOnSquareIcon} from '@heroicons/react/24/solid';
 
 const ProjectCarousel = ({ media }) => {
   const [activeMediaIndex, setActiveMediaIndex] = useState(0);
@@ -36,48 +36,56 @@ const ProjectCarousel = ({ media }) => {
   const showNextMedia = media.length > 1 && isValidIndex && activeMediaIndex !== media.length - 1;
 
   return (
-    <div className="project-carousel flex flex-col justify-center lg:col-span-2">
+    <div className="project-carousel flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 ">
+      <div className='bg-primary text-customLightBlue container' >
       {activeMedia && (
-        <div className="w-full ">
-          {activeMedia.type === 'image' && (
-            <a href={activeMedia.source} target='_blank'>
-            <img
-              className="carousel-image"
-              src={activeMedia.source}
-              alt=""
-              onLoad={handleImageLoad} // Appelle la fonction de gestion du chargement de l'image
-              style={{ display: isImageLoaded ? 'block' : 'none' }} // Masque l'image jusqu'à ce qu'elle soit chargée
-            /></a>
-          )}
-          {activeMedia.type === 'video' && (
-            <video className="carousel-video" controls>
-              <source src={activeMedia.source} type="video/mp4" />
-            </video>
-          )}
-        </div>
-      )}
+          <figure className="w-full opacity-90 hover:opacity-100">
+            {activeMedia.type === 'image' && (
+                <>
+                <img
+                className="carousel-image"
+                src={activeMedia.source}
+                alt=""
+                onLoad={handleImageLoad} // Appelle la fonction de gestion du chargement de l'image
+                style={{ display: isImageLoaded ? 'block' : 'none' }} // Masque l'image jusqu'à ce qu'elle soit chargée
+              />
+              <figcaption><a href={activeMedia.source} target='_blank'  rel="noreferrer" >Voir média <ArrowTopRightOnSquareIcon className='inline-block h-6 w-6'/> </a></figcaption>
+              
+                </>
+              
 
-      {(showPreviousMedia || showNextMedia) && (
-        <div className="flex items-center justify-center gap-3 p-10">
-          <button
-            className={`carousel-button ${activeMediaIndex === 0 && media.length > 1 ? 'opacity-50 cursor-not-allowed' : ''}`}
-            onClick={activeMediaIndex !== 0 ? handlePreviousMedia : null}
-            disabled={activeMediaIndex === 0}
-          >
-            <ChevronDoubleLeftIcon className="h-6 w-6 text-customWhite" />
-          </button>
+            )}
+            {activeMedia.type === 'video' && (
+              <video className="carousel-video" controls>
+                <source src={activeMedia.source} type="video/mp4" />
+              </video>
+            )}
+          </figure>
+        )}
 
-          <span className="text-center">{`${activeMediaIndex + 1}/${media.length}`}</span>
+        {(showPreviousMedia || showNextMedia) && (
+          <div className="flex items-center justify-center gap-3 p-10">
+            <button
+              className={`carousel-button ${activeMediaIndex === 0 && media.length > 1 ? 'opacity-50 cursor-not-allowed' : ''}`}
+              onClick={activeMediaIndex !== 0 ? handlePreviousMedia : null}
+              disabled={activeMediaIndex === 0}
+            >
+              <ChevronDoubleLeftIcon className="h-6 w-6 text-customWhite" />
+            </button>
 
-          <button
-            className={`carousel-button ${activeMediaIndex === media.length - 1 && media.length > 1 ? 'opacity-50 cursor-not-allowed' : ''}`}
-            onClick={activeMediaIndex !== media.length - 1 ? handleNextMedia : null}
-            disabled={activeMediaIndex === media.length - 1}
-          >
-            <ChevronDoubleRightIcon className="h-6 w-6 text-customWhite" />
-          </button>
-        </div>
-      )}
+            <span className="text-center">{`${activeMediaIndex + 1}/${media.length}`}</span>
+
+            <button
+              className={`carousel-button ${activeMediaIndex === media.length - 1 && media.length > 1 ? 'opacity-50 cursor-not-allowed' : ''}`}
+              onClick={activeMediaIndex !== media.length - 1 ? handleNextMedia : null}
+              disabled={activeMediaIndex === media.length - 1}
+            >
+              <ChevronDoubleRightIcon className="h-6 w-6 text-customWhite" />
+            </button>
+          </div>
+        )}
+      </div>
+      
     </div>
   );
 };

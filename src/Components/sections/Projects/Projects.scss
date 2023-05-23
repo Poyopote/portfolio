@@ -51,61 +51,56 @@
 
     &.active{
       color: $primaire;
-      background: $white;
+      background: rgba($white, 0.5);
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.25);
     }
   }
 }
 
 .project-description{
   position: relative;
-//   border: 7px solid $bleuclair;
-// border-image-source: linear-gradient(152.88deg, $blancbleu 8.26%, $bleuclair 92.31%);
-// border-color: linear-gradient(152.88deg, $blancbleu 8.26%, $bleuclair 92.31%);
-    &::after{
-      
-    }
-
 
 .container{
-  
-  // background-clip: content-box;
   padding: 40px 38px;
-    background-color: $blancbleu;
+  background: linear-gradient(152.88deg, $blancbleu 8.26%, $bleuclair 92.31%);
   border-radius: 5px;
-  // background: linear-gradient(152.88deg, $blancbleu 8.26%, $bleuclair 92.31%);
-  .border-color{
-      border: 7px solid $bleuclair;
-// border-image-source: linear-gradient(0deg, $blancbleu 8.26%, $bleuclair 92.31%);
+  // .border-color{
+  //     border: 7px solid $bleuclair;
+  //     // border-style: dashed solid;
+  //     position: absolute;
+  //     top: -2.125rem;
+  //     left: -2.125rem;
+  //     background-color: rgba(0, 0, 0, 0);
+  //     width: calc(100% + 4.25rem);
+  //     height:  calc(100% + 4.25rem);
+  //     border-radius: 10px;
+  //     background-color: rgba(0, 0, 0, 0);
+  //     padding: 5px;
 
-position: absolute;
-top: -2.125rem;
-left: -2.125rem;
-background-color: rgba(0, 0, 0, 0);
-width: calc(100% + 4.25rem);
-height:  calc(100% + 4.25rem);
-border-radius: 10px;
-background-color: rgba(0, 0, 0, 0);
-
-          padding: 5px;
-
-           &::before{
-            content: "";
-            top: calc(-100px + 5vh);
-            left: calc(-100px + 5vh);
-            position: absolute;
-            width: calc(150px - 5vh);
-            height: calc(150px - 5vh);
-            border-radius: 10px;
-            border: 7px solid $bleuclair;
-          }
-  }
+  //     &::before{
+  //     content: "";
+  //     top: calc(-100px + 5vh);
+  //     left: calc(-100px + 5vh);
+  //     position: absolute;
+  //     width: calc(150px - 5vh);
+  //     height: calc(150px - 5vh);
+  //     border-radius: 10px;
+  //     border: 7px solid $bleuclair;
+  //   }
+  // }
 }
 }
 
 
 .project-carousel{
 max-width: 100%;
-
+.container{
+  padding: 40px 38px;
+  border-radius: 5px;
+background-color: $primaire;
+}
 
 .carousel-image, .carousel-video{
     text-align: center;
