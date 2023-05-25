@@ -1,0 +1,25 @@
+.skills-list {
+  overflow: hidden;
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.skills-list-reverse {
+  display: flex;
+  overflow: hidden;
+}
+
+@keyframes scrollAnimationReverse {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

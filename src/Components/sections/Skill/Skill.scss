@@ -1,0 +1,30 @@
+.skills-list {
+    // display: flex;
+    overflow: hidden;
+    // animation: scrollAnimation 10s infinite linear;
+  }
+  
+  @keyframes scrollAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .skills-list-reverse {
+    display: flex;
+    overflow: hidden;
+    // animation: scrollAnimationReverse 10s infinite linear;
+  }
+  
+  @keyframes scrollAnimationReverse {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
