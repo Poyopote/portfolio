@@ -24,10 +24,9 @@ const Projects = () => {
         activeProjectIndex={activeProjectIndex}
         onProjectChange={handleProjectChange}
         />
-        {/* grid md:grid-cols-2 gap-y-8 md:gap-9 w-full lg:h-[600px] text-primary sm:w-9/12 mx-auto */}
-        <div className='grid grid-cols-1 lg:grid-cols-5 gap-y-8 md:gap-4 w-full lg:w-10/12 xl:w-9/12 mx-auto'>
+        <div className='grid grid-cols-1 lg:grid-cols-5 gap-y-8 md:gap-4 w-full lg:w-10/12 xl:w-9/12 mx-auto bg-primary text-customWhite '>
           <ProjectDescription project={activeProject} />
-          <ProjectCarousel media={activeProject.media} /> {/* Utilise le composant ProjectCarousel */}
+          <ProjectCarousel media={activeProject.media} />
         </div>
       </article>
     </section>

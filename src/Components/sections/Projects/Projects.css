@@ -15,20 +15,6 @@
   color: #063148;
   background-color: #4AB7E7;
 }
-#projects-section::after {
-  display: block;
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  left: 0;
-  background-repeat: 25% 75%;
-  background-image: url(../../../assets/img/low-poly-grid-haikei.png);
-  background-size: contain;
-  mix-blend-mode: lighten;
-  z-index: 5;
-}
 #projects-section h2 {
   color: #ffffff;
 }
@@ -50,28 +36,76 @@
 }
 #projects-section .project-button.active {
   color: #063148;
-  background: rgba(255, 255, 255, 0.5);
+  background: radial-gradient(#ffffff, rgba(255, 255, 255, 0.5));
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.25);
 }
-
-.project-description {
-  position: relative;
+#projects-section .project-button.active:before {
+  display: block;
+  animation: topBubbles ease-in-out 0.75s forwards;
 }
-.project-description .container {
-  padding: 40px 38px;
-  background: linear-gradient(152.88deg, #CEF3FF 8.26%, #7CDAC5 92.31%);
-  border-radius: 5px;
+#projects-section .project-button.active:after {
+  display: block;
+  animation: bottomBubbles ease-in-out 0.75s forwards;
+}
+@media screen and (min-width: 768px) {
+  #projects-section .project-button:before, #projects-section .project-button:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 140%;
+    height: 100%;
+    left: -20%;
+    z-index: -1000;
+    transition: all ease-in-out 0.5s;
+    background-repeat: no-repeat;
+  }
+  #projects-section .project-button:before {
+    display: none;
+    top: -75%;
+    background-image: radial-gradient(circle, #ffffff 20%, transparent 20%), radial-gradient(circle, transparent 20%, #ffffff 20%, transparent 30%), radial-gradient(circle, #ffffff 20%, transparent 20%), radial-gradient(circle, #ffffff 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ffffff 15%, transparent 20%), radial-gradient(circle, transparent 20%, #ffffff 20%, transparent 20%), radial-gradient(circle, #ffffff 20%, transparent 20%), radial-gradient(circle, #ffffff 20%, transparent 20%), radial-gradient(circle, #ffffff 20%, transparent 20%);
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+  }
+  #projects-section .project-button:after {
+    display: none;
+    bottom: -75%;
+    background-image: radial-gradient(circle, #ffffff 20%, transparent 20%), radial-gradient(circle, #ffffff 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ffffff 15%, transparent 20%), radial-gradient(circle, #ffffff 20%, transparent 20%), radial-gradient(circle, #ffffff 20%, transparent 20%), radial-gradient(circle, #ffffff 20%, transparent 20%), radial-gradient(circle, #ffffff 20%, transparent 20%);
+    background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+  }
+}
+@keyframes topBubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+  }
+  50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+  }
+  100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+@keyframes bottomBubbles {
+  0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+  }
+  50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+  }
+  100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+.project-description p, .project-description h3 {
+  color: white;
 }
 
 .project-carousel {
   max-width: 100%;
-}
-.project-carousel .container {
-  padding: 40px 38px;
-  border-radius: 5px;
-  background-color: #063148;
+  background: radial-gradient(rgba(53, 139, 171, 0.2), #063148);
 }
 .project-carousel .carousel-image, .project-carousel .carousel-video {
   text-align: center;

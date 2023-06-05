@@ -10,7 +10,7 @@ const ProjectNavigation = ({ projects, activeProjectIndex, onProjectChange }) =>
           ${index === activeProjectIndex ? "active" : ""}`}
           onClick={() => onProjectChange(index)}
         >
-          {project.title}
+          {project.buttonTitle}
         </button>
       ))}
     </nav>

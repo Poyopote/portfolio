@@ -37,9 +37,9 @@ const ProjectCarousel = ({ media }) => {
 
   return (
     <div className="project-carousel flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 ">
-      <div className='bg-primary text-customLightBlue container' >
+      <div className='container' >
       {activeMedia && (
-          <figure className="w-full opacity-90 hover:opacity-100">
+          <figure className="w-full drop-shadow-xl">
             {activeMedia.type === 'image' && (
                 <>
                 <img
