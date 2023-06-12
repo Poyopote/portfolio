@@ -94,7 +94,7 @@ p{
     color: $metalvert !important;
   }
   &.dark {
-    border: 1px solid $bleuclair;
+    border: 1px solid #358BAB;
     background-color: $metalvert;
     color: $blancbleu !important;
   }
@@ -226,5 +226,16 @@ p{
   100% {
     transform: scale(1.5);
     opacity: 0;
+  }
+}
+// .main-nav{
+//   @media screen {
+    
+//   }
+// }
+.nav-link{
+  background-color: $blancbleu;
+  &:hover{
+    background-color: $white;
   }
 }
