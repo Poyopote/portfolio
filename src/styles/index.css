@@ -76,7 +76,7 @@ p {
   color: #143236 !important;
 }
 .back-to-top-button.dark {
-  border: 1px solid #7CDAC5;
+  border: 1px solid #358BAB;
   background-color: #143236;
   color: #CEF3FF !important;
 }
@@ -288,4 +288,10 @@ p {
     transform: scale(1.5);
     opacity: 0;
   }
+}
+.nav-link {
+  background-color: #CEF3FF;
+}
+.nav-link:hover {
+  background-color: #ffffff;
 }
