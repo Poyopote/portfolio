@@ -1,7 +1,7 @@
 #projects-section {
   background-color: #358BAB;
-  background: linear-gradient(0deg, #063148 0%, #358BAB 100%);
   position: relative;
+  background-color: #063148;
 }
 #projects-section ::-moz-selection {
   color: #063148;
@@ -17,6 +17,13 @@
 }
 #projects-section h2 {
   color: #ffffff;
+}
+#projects-section h3 u {
+  text-decoration: none;
+  background-image: linear-gradient(#7CDAC5, #247980);
+  background-position: 0 70%;
+  background-repeat: repeat-x;
+  background-size: 10px 10px;
 }
 #projects-section .project-button {
   background: rgba(255, 255, 255, 0.03);
@@ -101,6 +108,29 @@
 
 .project-description p, .project-description h3 {
   color: white;
+}
+.project-description p {
+  margin-bottom: 0.5rem;
+}
+.project-description p u {
+  -webkit-text-decoration: #62D29D wavy underline;
+          text-decoration: #62D29D wavy underline;
+}
+.project-description ul.tag-skill {
+  margin-bottom: 0.5rem;
+}
+.project-description ul.tag-skill li {
+  display: inline-block;
+  border: #ffffff solid 2px;
+  border-radius: 30px;
+  padding: 0.4rem 0.8rem;
+  margin: 0.3rem;
+}
+.project-description strong {
+  color: #6fd6b1;
+}
+.project-description a:hover {
+  color: #a5e7e2;
 }
 
 .project-carousel {

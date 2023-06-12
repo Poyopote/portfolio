@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './Projects.css';
 import ProjectNavigation from "./ProjectNavigation";
 import ProjectDescription from "./ProjectDescription";
-import ProjectCarousel from "./ProjectCarousel";
+import ProjectLayout from "./ProjectLayout";
 import projectsData from "../../../data/projectsData";
 import {CursorArrowRaysIcon} from "@heroicons/react/24/solid";
 
@@ -17,7 +17,7 @@ const Projects = () => {
 
   return (
     <section id="projects-section" className="in-the-dark pb-7 lg:min-h-[1238px]">
-      <article className="w-full text-center pt-32 relative z-10 in-the-dark">
+      <article className="w-full text-center pt-20 relative z-10 in-the-dark">
         <h2>Projects <CursorArrowRaysIcon className="h-8 w-8 inline-block"/></h2>
         <ProjectNavigation
         projects={projectsData}
@@ -26,7 +26,10 @@ const Projects = () => {
         />
         <div className='grid grid-cols-1 lg:grid-cols-5 gap-y-8 md:gap-4 w-full lg:w-10/12 xl:w-9/12 mx-auto bg-primary text-customWhite '>
           <ProjectDescription project={activeProject} />
-          <ProjectCarousel media={activeProject.media} />
+          <ProjectLayout
+            layout={activeProject.layout}
+            media={activeProject.media}
+          />
         </div>
       </article>
     </section>
