@@ -7,9 +7,9 @@ function Animation() {
     
         <div className="waves-container">
     
-          <div className="wave wave5 opacity-70 md:opacity-100"></div>
-          <div className="wave wave4 opacity-30 md:opacity-100"></div>
-          <div className="wave wave3 opacity-30 md:opacity-100"></div>
+          <div className="wave wave5 max-md:hidden"></div>
+          <div className="wave wave4 max-md:opacity-30"></div>
+          <div className="wave wave3 max-md:opacity-30"></div>
           <div className="wave wave2"></div>
           <div className="wave wave1"></div>
 

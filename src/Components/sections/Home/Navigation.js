@@ -22,26 +22,26 @@ function Navigation() {
   }, []);
 
   const links = [
-    { text: "Home", icon: <HomeIcon className="h-8 w-8" />, href: "#main-header" },
-    { text: "About", icon: <IdentificationIcon className="h-8 w-8" />, href: "#about-section" },
-    { text: "Projects", icon: <CursorArrowRaysIcon className="h-8 w-8" />, href: "#projects-section" },
-    { text: "Skills", icon: <CogIcon className="h-8 w-8" />, href: "#skills-section" },
+    { text: "Accueil", icon: <HomeIcon className="h-8 w-8" />, href: "#main-header" },
+    { text: "À propos", icon: <IdentificationIcon className="h-8 w-8" />, href: "#about-section" },
+    { text: "Projet", icon: <CursorArrowRaysIcon className="h-8 w-8" />, href: "#projects-section" },
+    { text: "Compétences", icon: <CogIcon className="h-8 w-8" />, href: "#skills-section" },
   ];
 
   const renderLinks = () => {
     return links.map((link, index) => {
       if (isMobile) {
         return (
-          <li className="flex-1" key={index}>
-            <a href={link.href} className="nav-link rounded-full inline-block bg-customWhiteBlue hover:bg-customLightGray text-primary font-bold p-2">
+          <li className="md:flex-1" key={index}>
+            <a href={link.href} className="nav-link md:rounded-full inline-block text-primary font-bold p-2">
               {link.icon}
             </a>
           </li>
         );
       } else {
         return (
-          <li className="flex-1" key={index}>
-            <a href={link.href} className="nav-link rounded-full bg-customWhiteBlue hover:bg-customLightGray text-secondary font-bold py-2 px-4">
+          <li className="" key={index}>
+            <a href={link.href} className="nav-link rounded-full text-secondary font-bold py-2 px-4">
               {link.text}
             </a>
           </li>
@@ -51,8 +51,8 @@ function Navigation() {
   };
 
   return (
-    <nav className="main-nav z-10 fixed  md:absolute bottom-8 mt-9 md:mt-0 ">
-      <ul className="nav-list flex justify-center gap-6 md:gap-12 mx-2 md:mx-auto">
+    <nav className="main-nav fixed md:absolute max-md:bottom-0 bottom-8 mt-9 md:mt-0 z-40 max-md:bg-customWhiteBlue max-md:w-full">
+      <ul className="nav-list flex justify-center gap-6 md:gap-12 mx-2 md:mx-auto max-md:justify-evenly">
         {renderLinks()}
       </ul>
     </nav>
