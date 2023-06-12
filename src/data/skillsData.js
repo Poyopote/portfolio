@@ -74,22 +74,22 @@ const skillsData = [
     {
         id: 15,
         name: "Twig",
-        devi : "devicon-symfony-original",
+        source : require("../assets/img/logo-twig.png"),
     },
     {
         id: 16,
         name: "Axure",
-        source : images(`./axure-seeklogo.svg`),
+        source : require("../assets/img/Axure_logo.png"),
     },
     {
         id: 17,
         name: "Sitecore",
-        source : images(`./icons8-sitecore.svg`),
+        source : require("../assets/img/sitecore_logo.png"),
     },
     {
         id: 18,
         name: "Figma",
-        devi : "devicon-figma-plain",
+        source : require("../assets/img/figma_logo.png"),
     },
     
 ]
