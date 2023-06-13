@@ -125,6 +125,62 @@
   border-radius: 30px;
   padding: 0.4rem 0.8rem;
   margin: 0.3rem;
+  transition: 0.4s;
+}
+.project-description ul.tag-skill li.to-link, .project-description ul.tag-skill li.github-link {
+  border: 1px solid #62D29D;
+  background-color: #62D29D;
+  color: #063148;
+  font-weight: bold;
+}
+.project-description ul.tag-skill li.to-link:hover, .project-description ul.tag-skill li.github-link:hover {
+  background-color: #247980;
+}
+.project-description ul.tag-skill li.to-link:hover a, .project-description ul.tag-skill li.github-link:hover a {
+  color: #b1e9ce;
+}
+.project-description ul.tag-skill li.portfolio {
+  background: radial-gradient(#150a47, #180224);
+  border: 1px solid #150a47;
+  font-weight: bold;
+}
+.project-description ul.tag-skill li.portfolio:hover a {
+  color: #79126B;
+}
+.project-description ul.tag-skill li.sakadanse {
+  background: #FABD4C;
+  color: #000815;
+  background-color: #FABD4C;
+  border: 1px solid #FABD4C;
+  font-weight: bold;
+}
+.project-description ul.tag-skill li.sakadanse:hover {
+  background-color: #fbcf7e;
+  border: 1px solid #fbcf7e;
+  color: #000815;
+  text-decoration: none;
+}
+.project-description ul.tag-skill li.sakadanse:hover a {
+  color: #000815;
+}
+.project-description ul.tag-skill li.reedifica {
+  border: 1px solid #edf0ea;
+  color: #040037;
+  background-color: #edf0ea;
+  font-weight: bold;
+}
+.project-description ul.tag-skill li.reedifica a {
+  background-image: linear-gradient(to top, #040037, #58ade1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.project-description ul.tag-skill li.reedifica:hover {
+  border: 1px solid #040037;
+  background-color: #040037;
+}
+.project-description ul.tag-skill li.reedifica:hover a {
+  color: #edf0ea;
+  background-image: linear-gradient(to top, #edf0ea, #58ade1);
 }
 .project-description strong {
   color: #6fd6b1;

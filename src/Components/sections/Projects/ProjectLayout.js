@@ -1,20 +1,29 @@
-import React, { useState, useEffect } from 'react';
-import { ChevronDoubleLeftIcon, ChevronDoubleRightIcon, ArrowTopRightOnSquareIcon} from '@heroicons/react/24/solid';
+import React from 'react';
 
 const ProjectLayout = ({ layout, media }) => {
   
-if (layout === "solitaire" || media.length === 1){
+if (layout === "solitaire"){
+
+  let additionalImages = null;
+
+  if (Array.isArray(media)) {
+    // Cas où media est un tableau avec plusieurs images
+    additionalImages = (
+      <img src={media[2]} alt="Media" />
+    );
+  } else {
+    // Cas où media est une seule image
+    additionalImages = (
+      <img src={media} alt="Media" />
+    );
+  }
+  
+
   return (
     <div className="project-carousel flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
       <div className='container' >
           <figure className="w-full drop-shadow-xl">
-                <img
-                className="carousel-image"
-                src={media}
-                alt=""
-              />
-              <figcaption><a href={media} target='_blank'  rel="noreferrer" >Voir média <ArrowTopRightOnSquareIcon className='inline-block h-6 w-6'/> </a></figcaption>
-              
+          {additionalImages}
               
           </figure>
       
@@ -25,14 +34,25 @@ if (layout === "solitaire" || media.length === 1){
 }
 
 if (layout === 'vent') {
+  let additionalImages = null;
+
+  if (media.length === 3) {
+    additionalImages = (
+      <>
+        <img src={media[2]} alt="Media 3" />
+      </>
+    );
+  }
+
   return (
 
 
     <div className="project-carousel flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
     <div className='container' >
-        <figure className="w-full ">
+        <figure className="w-full grid grid-cols-1 gap-2">
           <img src={media[0]} alt="Media 1" />
           <img src={media[1]} alt="Media 2" />
+          {additionalImages}
         </figure>
     
     </div>

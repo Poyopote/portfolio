@@ -1,6 +1,6 @@
 // projectsData.js
-import { EnvelopeOpenIcon, ArrowTopRightOnSquareIcon} from '@heroicons/react/24/solid';
-
+import { ArrowSmallRightIcon, ArrowTopRightOnSquareIcon} from '@heroicons/react/24/solid';
+import Reedifica from '../assets/svg/Reedifica-logo_favicon.svg';
 const images = (require.context('../assets/svg', false, /\.svg$/));
 
 
@@ -23,6 +23,8 @@ const projectsData = [
           <li>JavaScript</li>
           <li>Clip Studio Paint</li>
           <li>Photoshop</li>
+          <li className='portfolio'><a href='https://www.figma.com/proto/BE0eBnZI6Ngq9lMA89FcXt/Untitled?type=design&node-id=101-4&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=101%3A4' target='_blank'  rel="noreferrer"><img src={images(`./Portfolio-mouv_mauve_1.svg`)} alt="Logo du forum RP" className='h-6 inline-block' loading="lazy"/> Voir aperçu <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a></li>
+          <li className='github-link'><a href='https://github.com/Poyopote/Portfolio/tree/react-update' target='_blank'  rel="noreferrer">Github <i className="devicon-github-original"></i></a></li>
         </ul>
           <p>
           Vous êtes actuellement en train de visiter mon portfolio, 
@@ -57,7 +59,6 @@ const projectsData = [
       layout: "vent",
       media: [
          require("../assets/img/Portfolio-princial.png"),
-         images(`./logo.svg`),
         require("../assets/img/Portfolio-folio-moi.gif"),
         
       ],
@@ -158,20 +159,26 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
           <li>Photoshop</li>
           <li>Illustrator</li>
           <li>Clip Studio Paint</li>
+          <li className='reedifica'><a href={require("../assets/img/Reedifica-index-.png")} target='_blank'  rel="noreferrer"><img src={Reedifica} alt="Logo du forum RP" className='h-6 inline-block' loading="lazy"/> Voir aperçu<ArrowSmallRightIcon className='inline-block h-6 w-6' /></a></li>
      
         </ul>
-          <p>Ré.édifica est un site construit sur les bases d'un forum RP, dont le nom trouve son origine dans le terme "réédification", symbolisant la volonté de reconstruire. L'histoire de Ré.édifica puise son inspiration dans une bande dessinée en cours de réalisation, intitulée "Chronicle of Célestins" et créée par Vensty Reverse, mon nom d'artiste.</p>
-          <p>Si vous n'êtes pas familier avec le concept du RP, laissez-moi vous expliquer. Un forum RP, abréviation de "Role-Playing", est un espace virtuel où les participants peuvent incarner des personnages fictifs et interagir avec d'autres joueurs dans un monde imaginaire. Il ne faut pas confondre cela avec le terme RPG qui désigne un genre de jeu vidéo. Sur un forum RP, l'imagination des utilisateurs se réunit pour créer une histoire collaborative.</p>
-          <p>Ce site a été mon projet final concluant mon année de licence, mettant en valeur les compétences acquises tout au long de mon cursus universitaire.
-           Pour la réalisation de ce projet, j'ai dû prendre en compte certaines obligations et critères imposés, ce qui a influencé le choix des langages que j'ai utilisés afin de répondre aux exigences du cahier des charges et pour répondre aux objectifs fixés. </p>
+        <p><strong>Ré.édifica</strong> est un site construit sur les bases d'un forum <abbr title="Role-Playing">RP</abbr>, dont le nom trouve son origine dans le terme <u>"réédification"</u>, symbolisant la volonté de reconstruire. L'histoire de <strong>Ré.édifica</strong> puise son inspiration dans une bande dessinée en cours de réalisation, intitulée "Chronicle of Célestins" et créée par Vensty Reverse, mon nom d'artiste.</p>
+
+<details>
+  <summary>Qu'est-ce que le <strong>RP</strong> (Role-Playing) ?</summary>
+  <p>Sur un forum RP, les participants peuvent incarner des personnages fictifs et interagir avec d'autres joueurs dans un monde imaginaire. Il ne faut pas confondre cela avec le terme RPG qui désigne un genre de jeu vidéo. L'imagination des utilisateurs se réunit sur un forum RP pour créer une histoire collaborative.</p>
+</details>
+
+<p>Ce site a été mon <u>projet final</u> concluant mon année de licence, mettant en valeur les <u>compétences acquises</u> tout au long de mon cursus universitaire. Pour la réalisation de ce projet, j'ai dû prendre en compte certaines obligations et critères imposés, ce qui a influencé le choix des langages que j'ai utilisés afin de répondre aux exigences du <strong>cahier des charges</strong> et pour atteindre les objectifs fixés.</p>
+
         </>
       ),
-      layout: "froid",
+      layout: "solitaire",
       media: [ 
        
         require("../assets/img/Reedifica-img01.gif"),
         require("../assets/img/Reedifica-img02.gif"),
-        require("../assets/img/Capture d'écran 2023-06-13 134001.png"),
+        // require("../assets/img/Capture d'écran 2023-06-13 134001.png"),
         // images(`./Reedifica-logo_complet.svg`),
         require("../assets/img/Reedifica-img03.gif"),
 
@@ -201,13 +208,15 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
         <>
         <ul className='tag-skill'>
           <li>Figma</li>
+          <li className='sakadanse'><a href='' target='_blank'  rel="noreferrer">Voir maquette <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a></li>
+
         </ul>
-          <p>Sakadanse est un projet indépendant visant à créer un site d'information événementielle axé sur la danse.
-           L'objectif principal du site est de présenter les événements liés à la danse qui ont lieu dans les grandes métropoles.
+          <p><strong>Sakadanse</strong> est un <u>projet indépendant</u> visant à créer un site <strong>d'information événementielle</strong> axé sur la <strong>danse</strong>.
+           L'objectif principal du site est de présenter les événements liés à la danse qui ont lieu dans les <u>grandes métropoles</u>.
             Pour ce projet, j'ai utilisé l'outil de conception Figma.
-             Bien que j'aie déjà eu l'occasion d'utiliser cet outil lors de précédentes expériences scolaires et de stages,
-              j'ai souhaité approfondir ma maîtrise en créant une maquette qui se rapprocherait 
-              le plus possible d'un aspect professionnel, tout en étant adaptative et accessible.</p>
+             Bien que j'aie déjà eu l'occasion d'utiliser cet outil lors de <u>précédentes expériences scolaires et de stages</u>,
+              j'ai souhaité <u>approfondir ma maîtrise</u> en créant une maquette qui se rapprocherait 
+              le plus possible d'un aspect professionnel, tout en étant <strong>adaptative et accessible</strong>.</p>
         </>
       ),
     layout: "carrer",
