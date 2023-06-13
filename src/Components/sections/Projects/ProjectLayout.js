@@ -42,27 +42,33 @@ if (layout === 'vent') {
   );
 }
 if (layout === 'froid') {
+  let additionalImages = null;
+
+  if (media.length === 5) {
+    additionalImages = (
+      <>
+        <img src={media[3]} alt="Media 4" className='lg:hidden'/>
+        <img src={media[4]} alt="Media 5" className='lg:hidden'/>
+      </>
+    );
+  }
+
   return (
-
-
     <div className="project-carousel flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
-    <div className='container' >
+      <div className='container' >
         <figure className="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-2 gap-2">
           <img src={media[0]} alt="Media 1" />
           <img src={media[1]} alt="Media 2" />
           <div className="aspect-square overflow-hidden col-span-2 hidden lg:block">
-          <img src={media[2]} alt="Media 3" className='object-cover'/>
+            <img src={media[2]} alt="Media 3" className='object-cover'/>
           </div>
-          <img src={media[3]} alt="Media 4" className='lg:hidden'/>
-          <img src={media[4]} alt="Media 5" className='lg:hidden'/>
+          {additionalImages}
         </figure>
-    
+      </div>
     </div>
-    
-  </div>
-
   );
 }
+
 
 
 if (layout === 'carrer') {
@@ -76,6 +82,27 @@ if (layout === 'carrer') {
   <img src={media} alt="Image" className="object-cover" />
 </div>
 
+        </figure>
+    
+    </div>
+    
+  </div>
+
+  );
+}
+
+if (layout === 'pic') {
+  return (
+
+
+    <div className="project-carousel flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
+    <div className='container' >
+        <figure className="w-full grid grid-cols-4 gap-2">
+          {/* <img src={media[0]} alt="Media 1" className='col-span-4'/> */}
+          
+          <img src={media[2]} alt="Media 2" className='col-span-2'/>
+          <img src={media[3]} alt="Media 2" className='col-span-2'/>
+          <img src={media[1]} alt="Media 2" className='col-span-4'/>
         </figure>
     
     </div>
