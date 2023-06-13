@@ -57,6 +57,7 @@ const projectsData = [
       layout: "vent",
       media: [
          require("../assets/img/Portfolio-princial.png"),
+         images(`./logo.svg`),
         require("../assets/img/Portfolio-folio-moi.gif"),
         
       ],
@@ -107,15 +108,15 @@ const projectsData = [
           <li>Illustrator</li>
           <li>Photoshop</li>
         </ul>
-          <p>Flow est un mini-projet de maquette réalisé dans le cadre du module de design interactif.
-           L'objectif était de créer une maquette sur Photoshop et de présenter une plateforme de musique en streaming similaire à Spotify ou Deezer.
+          <p><strong>Flow</strong> est un <u>mini-projet</u> de maquette réalisé dans le cadre du module de design interactif.
+           L'objectif était de créer une <strong>maquette sur Photoshop</strong> et de présenter une plateforme de musique en streaming similaire à <strong>Spotify ou Deezer</strong>.
             L'idée n'était pas de concevoir un design ambitieux, mais d’illustrer des éléments de sites facilement reconnaissables 
-          et intuitifs, en incluant des interactions telles qu'un en-tête, une bannière, une navigation, un pied de page, des boutons, etc.</p>
+          et intuitifs, en incluant des <strong>interactions telles qu'un en-tête, une bannière, une navigation, un pied de page, des boutons, etc.</strong></p>
           <p>
           Le nom "Flow" trouve son origine dans plusieurs sources.
-           D'une part, il évoque le mouvement, ce qui est parfait pour promouvoir un site de musique.
-            Mais ce qui différencie Flow, c'est sa spécialisation dans la promotion de la productivité au travail.
-             Son objectif est d'aider les utilisateurs à atteindre un état de "flow" qui, en psychologie positive,
+           D'une part, il évoque le <u>mouvement</u>, ce qui est parfait pour promouvoir un site de musique.
+            Mais ce qui différencie <strong>Flow</strong>, c'est sa spécialisation dans la promotion de la <u>productivité au travail</u>.
+             Son objectif est d'aider les utilisateurs à atteindre un état de «Flow» qui, en psychologie positive,
               représente une satisfaction optimale liée à une concentration totale.
           </p>
           <p>
@@ -165,12 +166,15 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
            Pour la réalisation de ce projet, j'ai dû prendre en compte certaines obligations et critères imposés, ce qui a influencé le choix des langages que j'ai utilisés afin de répondre aux exigences du cahier des charges et pour répondre aux objectifs fixés. </p>
         </>
       ),
-      layout: "vent",
+      layout: "froid",
       media: [ 
-        images(`./Reedifica-logo_complet.svg`),
-        // images(`./Reedifica-logo_favicon.svg`),
+       
         require("../assets/img/Reedifica-img01.gif"),
         require("../assets/img/Reedifica-img02.gif"),
+        require("../assets/img/Capture d'écran 2023-06-13 134001.png"),
+        // images(`./Reedifica-logo_complet.svg`),
+        require("../assets/img/Reedifica-img03.gif"),
+
         
         
       ],
