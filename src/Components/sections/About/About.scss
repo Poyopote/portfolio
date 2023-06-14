@@ -1,16 +1,16 @@
 @import '../../../styles/variables';
 
 #about-section{
-    background: $cyan;
-    background: linear-gradient(0deg, $blancbleu 0%, $cyan 100%);
+    background: $customCyan;
+    background: linear-gradient(0deg, $customWhiteBlue 0%, $customCyan 100%);
 
     ::selection {
-      color: $white;
-      background-color: $primaire;
+      color: $customWhite;
+      background-color: $primary;
     }
     ::-moz-selection {
-      color: $white;
-      background-color: $primaire;
+      color: $customWhite;
+      background-color: $primary;
     }
 }
 
@@ -18,7 +18,7 @@
     background: url(../../../assets/img/ciel_vue1.jpg);
     background-size: cover;
     background-position: center center;
-    box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.067);
+    box-shadow: 0 20px 5px 5px rgba($customBlack, 0.067);
     animation: animate 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
   }

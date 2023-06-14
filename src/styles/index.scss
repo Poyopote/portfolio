@@ -6,33 +6,19 @@
 // @import '~typeface-kalam';
 
 
-
-
-// html {
-//   position: relative;
-//   min-height: 100%;
-//   box-sizing: border-box;
-//   font-size: 100%;
-//   font-family: "Ubuntu", arial, sans-serif;
-// }
-
 body {
   margin: 0;
   font-family: "Ubuntu", sans-serif;
-
-  // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  //   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   ::selection {
-    color: $metalvert;
-    background-color: $bleuclair;
+    color: $customMetalGreen;
+    background-color: $customLightBlue;
   }
   ::-moz-selection {
-    color: $metalvert;
-    background-color: $bleuclair;
+    color: $customMetalGreen;
+    background-color: $customLightBlue;
   }
 }
 
@@ -43,7 +29,7 @@ code {
 
 h1,h2,h3{
     font-family: 'Kalam', sans-serif;
-    color: $primaire;
+    color: $primary;
 }
 h1{
 
@@ -61,7 +47,7 @@ h3{
 p{
   font-family: 'Heebo', sans-serif;
   font-size: 18px;
-  color: $primaire;
+  color: $primary;
 }
 
 
@@ -72,8 +58,8 @@ p{
   width: 40px;
   height: 40px;
   border-radius: 8px;
-  background-color: $metalvert;
-  color: $blancbleu;
+  background-color: $customMetalGreen;
+  color: $customWhiteBlue;
   cursor: pointer;
   
 
@@ -89,14 +75,14 @@ p{
     }
   }
   &.light {
-    border: 1px solid $primaire;
-    background-color: $bleuclair;
-    color: $metalvert !important;
+    border: 1px solid $primary;
+    background-color: $customLightBlue;
+    color: $customMetalGreen !important;
   }
   &.dark {
-    border: 1px solid #358BAB;
-    background-color: $metalvert;
-    color: $blancbleu !important;
+    border: 1px solid $customCyan;
+    background-color: $customMetalGreen;
+    color: $customWhiteBlue !important;
   }
 }
 
@@ -115,11 +101,11 @@ p{
 .button-folio{
   text-align: center;
   padding: 15px 10px;
-  color: $white;
+  color: $customWhite;
   display: inline-block;
   text-decoration: none;
-  background-color: $black;
-  border-radius: 20px;
+  background-color: $customBlack;
+  border-radius: $radius-20;
   height: 56px;
   font-family: Ubuntu;
   font-weight: bold;
@@ -131,8 +117,8 @@ p{
       animation: pulse 1.6s ease infinite;
       width: 100%;
       height: 100%;
-      background-color: $black;
-      border-radius: 20px;
+      background-color: $customBlack;
+      border-radius: $radius-20;
       z-index: -1;
       transition: border 0.3s ease;
       
@@ -142,12 +128,11 @@ p{
       
       .pulse{
           animation: none;
-          border-radius: 30px;
           padding: 5px;
-          border: 4px solid $black;
+          border: 4px solid $customBlack;
           z-index: 1;
-          border-radius: 30px;
-          background-color: rgba(0, 0, 0, 0);
+          border-radius: $radius-30;
+          background-color: rgba($customBlack, 0);
           width: calc(100% + 20px);
           height:  calc(100% + 20px);
           left: -10px;
@@ -162,7 +147,7 @@ p{
       
               .pulse{
                   border-color: $hex !important;
-                  background-color: rgba(0, 0, 0, 0);
+                  background-color: rgba($customBlack, 0);
               }
           }
           .pulse {
@@ -175,11 +160,11 @@ p{
   .button{
       text-align: center;
       padding: 15px 10px;
-      color: $white;
+      color: $customWhite;
       display: inline-block;
       text-decoration: none;
-      background-color: $black;
-      border-radius: 20px;
+      background-color: $customBlack;
+      border-radius: $radius-20;
       height: 56px;
       font-family: Ubuntu;
       font-weight: bold;
@@ -191,8 +176,8 @@ p{
           animation: pulse 1.6s ease infinite;
           width: 100%;
           height: 100%;
-          background-color: $black;
-          border-radius: 20px;
+          background-color: $customBlack;
+          border-radius: $radius-20;
           z-index: -1;
           transition: border 0.3s ease;
         }
@@ -201,12 +186,11 @@ p{
           
           .bg{
               animation: none;
-              border-radius: 30px;
               padding: 5px;
-              border: 4px solid $black;
+              border: 4px solid $customBlack;
               z-index: 1;
-              border-radius: 30px;
-              background-color: rgba(0, 0, 0, 0);
+              border-radius: $radius-30;
+              background-color: rgba($customBlack, 0);
               width: calc(100% + 20px);
               height:  calc(100% + 20px);
               left: -10px;
@@ -228,14 +212,10 @@ p{
     opacity: 0;
   }
 }
-// .main-nav{
-//   @media screen {
-    
-//   }
-// }
+
 .nav-link{
-  background-color: $blancbleu;
+  background-color: $customWhiteBlue;
   &:hover{
-    background-color: $white;
+    background-color: $customWhite;
   }
 }

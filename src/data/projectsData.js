@@ -39,7 +39,7 @@ const projectsData = [
             la sémantique et le respect des <strong>normes <a href='https://www.w3.org/' target='_blank'  rel="noreferrer" >W3C <sup><ArrowTopRightOnSquareIcon className='inline-block h-4 w-4'/></sup></a></strong>
             , un site <strong>responsive</strong> et <strong>multilingue</strong>
             , <strong>back office modulable</strong>
-            , des <strong>animations</strong> en CSS et /ou JavaScript
+            , des <strong>animations</strong> en <abbr title="Cascading Style Sheets">CSS</abbr> et/ou <abbr title="JavaScript">JS</abbr>
             , un <strong>design ergonomique</strong> et <strong>accessible</strong>
             , utilisation intelligente d'<strong>outils graphiques</strong>
 </p>
@@ -56,10 +56,13 @@ const projectsData = [
         </>
       ),
       
-      layout: "vent",
+      layout: "list",
       media: [
+        // require("../assets/img/menu-presenation.png"),
+        require("../assets/img/menu-contact.png"),
          require("../assets/img/Portfolio-princial.png"),
-        require("../assets/img/Portfolio-folio-moi.gif"),
+        //  require("../assets/img/menu-competence.png"),
+        //  require("../assets/img/menu-projet.png"),
         
       ],
     },
@@ -91,7 +94,7 @@ const projectsData = [
         </>
       ),
      media:  require("../assets/img/kabuki-Affiche.jpg"),
-     layout : "solitaire"
+     layout : "solitary"
     
     },
     {
@@ -173,32 +176,19 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
 
         </>
       ),
-      layout: "solitaire",
+      layout: "list",
       media: [ 
-       
-        require("../assets/img/Reedifica-img01.gif"),
+        images(`./Reedifica-logo_complet.svg`),
         require("../assets/img/Reedifica-img02.gif"),
-        // require("../assets/img/Capture d'écran 2023-06-13 134001.png"),
-        // images(`./Reedifica-logo_complet.svg`),
         require("../assets/img/Reedifica-img03.gif"),
+        // require("../assets/img/Capture d'écran 2023-06-13 134001.png"),
+        
+        // require("../assets/img/Reedifica-img01.gif"),
 
         
         
       ],
-      // media: [
-      //   {
-      //     type: "image",
-      //     source: ,
-      //   },
-      //   {
-      //     type: "image",
-      //     source: ,
-      //   },
-        // {
-        //   type: "video",
-        //   source: require("../assets/video/Reedifica-video.mp4"),
-        // },
-      // ],
+
     },
     {
       id: 5,

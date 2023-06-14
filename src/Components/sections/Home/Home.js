@@ -21,10 +21,10 @@ function Home() {
         </div>
         <div className="flex z-10 w-full justify-center ">
         
-          <Button color="primaire" link={pdf} text="Mon CV">
+          <Button color="primary" link={pdf} text="Mon CV">
             <DocumentTextIcon className="h-6 w-6" />
           </Button>
-          <Button color="secondaire" link="contact.html" text="Contact">
+          <Button color="secondary" link="contact.html" text="Contact">
             <EnvelopeOpenIcon className="h-6 w-6" />
           </Button>
         </div> 

@@ -1,54 +1,50 @@
 @import '../../../styles/variables';
 
 #projects-section{
-    background-color: #358BAB;
     position: relative;
-    background-color: $primaire;
+    background-color: $primary;
 
     ::selection {
-      color: $primaire;
-      background-color: $cyan;
+      color: $primary;
+      background-color: $customCyan;
     }
     ::-moz-selection {
-      color: $primaire;
-      background-color: $cyan;
+      color: $primary;
+      background-color: $customCyan;
     }
 
     h2 {
-        color: $white;
+        color: $customWhite;
     }
 
     h3 u{
       text-decoration: none;
-        background-image: linear-gradient($bleuclair, $secondaire);
+        background-image: linear-gradient($customLightBlue, $secondary);
         background-position: 0 70%;
         background-repeat: repeat-x;
         background-size: 10px 10px;
     }
 
   .project-button{
-    background: rgba(255, 255, 255, 0.03);
-    /* white-absolu */
-
+    background: rgba($customWhite, 0.03);
     border-width: 1px 0px 0px 1px;
     border-style: solid;
-    border-color: $white;
-    /* Projet */
+    border-color: $customWhite;
     max-width: 150px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba($customBlack, 0.25);
     border-radius: 15px;
     padding: 15px 20px;
     text-align: center;
     font-family: 'Ubuntu';
     font-size: 24px;
-    color: $white;
+    color: $customWhite;
 
     &.active{
-      color: $primaire;
-      background: radial-gradient($white, rgba($white, 0.5));
+      color: $primary;
+      background: radial-gradient($customWhite, rgba($customWhite, 0.5));
       -webkit-backdrop-filter: blur(10px);
       backdrop-filter: blur(10px);
-      border: 1px solid rgba(255,255,255,0.25);
+      border: 1px solid rgba($customWhite,0.25);
       &:before{
         display: block;
         animation: topBubbles ease-in-out 0.75s forwards;
@@ -76,15 +72,15 @@
         display: none;
         top: -75%;
         background-image:  
-          radial-gradient(circle, $white 20%, transparent 20%),
-        radial-gradient(circle,  transparent 20%, $white 20%, transparent 30%),
-        radial-gradient(circle, $white 20%, transparent 20%), 
-        radial-gradient(circle, $white 20%, transparent 20%),
-        radial-gradient(circle,  transparent 10%, $white 15%, transparent 20%),
-        radial-gradient(circle, transparent 20%, $white 20%, transparent 20%),
-        radial-gradient(circle, $white 20%, transparent 20%),
-        radial-gradient(circle, $white 20%, transparent 20%),
-        radial-gradient(circle, $white 20%, transparent 20%);
+          radial-gradient(circle, $customWhite 20%, transparent 20%),
+        radial-gradient(circle,  transparent 20%, $customWhite 20%, transparent 30%),
+        radial-gradient(circle, $customWhite 20%, transparent 20%), 
+        radial-gradient(circle, $customWhite 20%, transparent 20%),
+        radial-gradient(circle,  transparent 10%, $customWhite 15%, transparent 20%),
+        radial-gradient(circle, transparent 20%, $customWhite 20%, transparent 20%),
+        radial-gradient(circle, $customWhite 20%, transparent 20%),
+        radial-gradient(circle, $customWhite 20%, transparent 20%),
+        radial-gradient(circle, $customWhite 20%, transparent 20%);
       background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
       }
       
@@ -92,13 +88,13 @@
         display: none;
         bottom: -75%;
         background-image:  
-        radial-gradient(circle, $white 20%, transparent 20%), 
-        radial-gradient(circle, $white 20%, transparent 20%),
-        radial-gradient(circle,  transparent 10%, $white 15%, transparent 20%),
-        radial-gradient(circle, $white 20%, transparent 20%),
-        radial-gradient(circle, $white 20%, transparent 20%),
-        radial-gradient(circle, $white 20%, transparent 20%),
-        radial-gradient(circle, $white 20%, transparent 20%);
+        radial-gradient(circle, $customWhite 20%, transparent 20%), 
+        radial-gradient(circle, $customWhite 20%, transparent 20%),
+        radial-gradient(circle,  transparent 10%, $customWhite 15%, transparent 20%),
+        radial-gradient(circle, $customWhite 20%, transparent 20%),
+        radial-gradient(circle, $customWhite 20%, transparent 20%),
+        radial-gradient(circle, $customWhite 20%, transparent 20%),
+        radial-gradient(circle, $customWhite 20%, transparent 20%);
       background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
       }
     }
@@ -139,7 +135,7 @@
  p{
   margin-bottom: 0.5rem;
   u{
-    text-decoration: $emeraud wavy underline;
+    text-decoration: $customEmerald wavy underline;
   }
  }
 
@@ -148,21 +144,21 @@
 
 li{
   display: inline-block;
-  border: $white solid 2px;
-  border-radius: 30px;
+  border: $customWhite solid 2px;
+  border-radius: $radius-30;
   padding: 0.4rem 0.8rem;
   margin: 0.3rem;
   transition: 0.4s;
 
   &.to-link, &.github-link{
-    border: 1px solid $emeraud;
-    background-color: $emeraud;
-    color: $primaire;
+    border: 1px solid $customEmerald;
+    background-color: $customEmerald;
+    color: $primary;
     font-weight: bold;
     &:hover{
-      background-color: $secondaire;
+      background-color: $secondary;
       a{
-        color: mix($emeraud, $white);
+        color: mix($customEmerald, $customWhite);
       }
     }
   }
@@ -171,9 +167,8 @@ li{
     border:  1px solid #150a47;
     font-weight: bold;
     &:hover{
-      // background: radial-gradient(#150a47, #79126B);
       a{
-        color: #79126B;
+        color: mix(#79126B, magenta);
       }
     }
   }
@@ -218,17 +213,17 @@ li{
 
 }
  strong{
-  color: mix($emeraud, $bleuclair) ;
+  color: mix($customEmerald, $customLightBlue) ;
  }
  a:hover{
-  color: mix($blancbleu, $bleuclair);
+  color: mix($customWhiteBlue, $customLightBlue);
  }
 }
 
 
 .project-carousel{
 max-width: 100%;
-background: radial-gradient(rgba(#358BAB, 0.2),$primaire);
+background: radial-gradient(rgba($customCyan, 0.2),$primary);
 .carousel-image, .carousel-video{
     text-align: center;
     margin-left: auto;
@@ -237,7 +232,7 @@ background: radial-gradient(rgba(#358BAB, 0.2),$primaire);
   }
 
   span, .carousel-button{
-    color: $white;
+    color: $customWhite;
     font-size: 20px;
    
   }

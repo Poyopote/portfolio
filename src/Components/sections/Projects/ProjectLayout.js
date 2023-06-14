@@ -2,14 +2,14 @@ import React from 'react';
 
 const ProjectLayout = ({ layout, media }) => {
   
-if (layout === "solitaire"){
+if (layout === "solitary"){
 
   let additionalImages = null;
 
   if (Array.isArray(media)) {
     // Cas où media est un tableau avec plusieurs images
     additionalImages = (
-      <img src={media[2]} alt="Media" />
+      <img src={media[0]} alt="Media" />
     );
   } else {
     // Cas où media est une seule image
@@ -33,26 +33,16 @@ if (layout === "solitaire"){
   );
 }
 
-if (layout === 'vent') {
-  let additionalImages = null;
-
-  if (media.length === 3) {
-    additionalImages = (
-      <>
-        <img src={media[2]} alt="Media 3" />
-      </>
-    );
-  }
+if (layout === 'list') {
 
   return (
-
 
     <div className="project-carousel flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
     <div className='container' >
         <figure className="w-full grid grid-cols-1 gap-2">
-          <img src={media[0]} alt="Media 1" />
-          <img src={media[1]} alt="Media 2" />
-          {additionalImages}
+        {media.map((image, index) => (
+          <img key={index} src={image} alt={`Media ${index + 1}`} />
+        ))}
         </figure>
     
     </div>
@@ -92,45 +82,35 @@ if (layout === 'froid') {
 
 
 if (layout === 'carrer') {
-  return (
+  let additionalImages = null;
 
-
-    <div className="project-carousel flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
-    <div className='container' >
-        <figure className="w-full">
+  if (Array.isArray(media)) {
+    // Cas où media est un tableau avec plusieurs images
+    additionalImages = (
+      <figure className="w-full grid grid-cols-2 gap-2">
+        {media.map((image, index) => (
+          <img key={index} src={image} alt={`Media ${index + 1}`} />
+        ))}
+      </figure>
+    );
+  } else {
+    // Cas où media est une seule image
+    additionalImages = (
+      <figure className="w-full">
         <div className="aspect-square overflow-hidden">
-  <img src={media} alt="Image" className="object-cover" />
-</div>
+          <img src={media} alt="Image" className="object-cover" />
+        </div>
+      </figure>
+    );
+  }
 
-        </figure>
-    
-    </div>
-    
-  </div>
-
-  );
-}
-
-if (layout === 'pic') {
   return (
-
-
     <div className="project-carousel flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
-    <div className='container' >
-        <figure className="w-full grid grid-cols-4 gap-2">
-          {/* <img src={media[0]} alt="Media 1" className='col-span-4'/> */}
-          
-          <img src={media[2]} alt="Media 2" className='col-span-2'/>
-          <img src={media[3]} alt="Media 2" className='col-span-2'/>
-          <img src={media[1]} alt="Media 2" className='col-span-4'/>
-        </figure>
-    
+      <div className="container">{additionalImages}</div>
     </div>
-    
-  </div>
-
   );
 }
+
 
 return (
   <div className="project-carousel flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
