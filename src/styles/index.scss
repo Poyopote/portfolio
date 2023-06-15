@@ -215,6 +215,7 @@ p{
 
 .nav-link{
   background-color: $customWhiteBlue;
+  color: mix($secondary, $primary);
   &:hover{
     background-color: $customWhite;
   }

@@ -33,7 +33,7 @@ function Navigation() {
       if (isMobile) {
         return (
           <li className="md:flex-1" key={index}>
-            <a href={link.href} className="nav-link md:rounded-full inline-block text-primary font-bold p-2">
+            <a href={link.href} aria-label={link.text} className="nav-link md:rounded-full inline-block text-primary font-bold p-2">
               {link.icon}
             </a>
           </li>

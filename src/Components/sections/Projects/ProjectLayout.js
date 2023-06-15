@@ -20,7 +20,7 @@ if (layout === "solitary"){
   
 
   return (
-    <div className="project-carousel flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
+    <div className="project-layout flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
       <div className='container' >
           <figure className="w-full drop-shadow-xl">
           {additionalImages}
@@ -37,7 +37,7 @@ if (layout === 'list') {
 
   return (
 
-    <div className="project-carousel flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
+    <div className="project-layout flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
     <div className='container' >
         <figure className="w-full grid grid-cols-1 gap-2">
         {media.map((image, index) => (
@@ -64,7 +64,7 @@ if (layout === 'froid') {
   }
 
   return (
-    <div className="project-carousel flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
+    <div className="project-layout flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
       <div className='container' >
         <figure className="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-2 gap-2">
           <img src={media[0]} alt="Media 1" />
@@ -105,7 +105,7 @@ if (layout === 'carrer') {
   }
 
   return (
-    <div className="project-carousel flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
+    <div className="project-layout flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
       <div className="container">{additionalImages}</div>
     </div>
   );
@@ -113,7 +113,7 @@ if (layout === 'carrer') {
 
 
 return (
-  <div className="project-carousel flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
+  <div className="project-layout flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
     <div className='container' >
         <figure className="w-full drop-shadow-xl">
           

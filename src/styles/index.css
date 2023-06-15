@@ -289,6 +289,7 @@ p {
 }
 .nav-link {
   background-color: #CEF3FF;
+  color: #155564;
 }
 .nav-link:hover {
   background-color: #ffffff;

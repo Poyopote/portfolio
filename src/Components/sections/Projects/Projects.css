@@ -186,17 +186,17 @@
   color: #a5e7e2;
 }
 
-.project-carousel {
+.project-layout {
   max-width: 100%;
   background: radial-gradient(rgba(74, 183, 231, 0.2), #063148);
 }
-.project-carousel .carousel-image, .project-carousel .carousel-video {
+.project-layout .carousel-image, .project-layout .carousel-video {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   max-height: 550px;
 }
-.project-carousel span, .project-carousel .carousel-button {
+.project-layout span, .project-layout .carousel-button {
   color: #ffffff;
   font-size: 20px;
 }

@@ -23,7 +23,7 @@ const projectsData = [
           <li>JavaScript</li>
           <li>Clip Studio Paint</li>
           <li>Photoshop</li>
-          <li className='portfolio'><a href='https://www.figma.com/proto/BE0eBnZI6Ngq9lMA89FcXt/Untitled?type=design&node-id=101-4&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=101%3A4' target='_blank'  rel="noreferrer"><img src={images(`./Portfolio-mouv_mauve_1.svg`)} alt="Logo du forum RP" className='h-6 inline-block' loading="lazy"/> Voir aperçu <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a></li>
+          <li className='portfolio'><a href='https://www.figma.com/proto/BE0eBnZI6Ngq9lMA89FcXt/Untitled?type=design&node-id=101-4&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=101%3A4' target='_blank'  rel="noreferrer"><img src={images(`./Portfolio-mouv_mauve_1.svg`)} width="30" height="30" alt="Logo du forum RP" className='h-6 inline-block' loading="lazy"/> Voir aperçu <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a></li>
           <li className='github-link'><a href='https://github.com/Poyopote/Portfolio/tree/react-update' target='_blank'  rel="noreferrer">Github <i className="devicon-github-original"></i></a></li>
         </ul>
           <p>
@@ -179,11 +179,11 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
       layout: "list",
       media: [ 
         images(`./Reedifica-logo_complet.svg`),
-        require("../assets/img/Reedifica-img02.gif"),
-        require("../assets/img/Reedifica-img03.gif"),
+        require("../assets/img/Reedifica-img02.webp"),
+        require("../assets/img/Reedifica-img03.webp"),
         // require("../assets/img/Capture d'écran 2023-06-13 134001.png"),
         
-        // require("../assets/img/Reedifica-img01.gif"),
+        // require("../assets/img/Reedifica-img01.webp"),
 
         
         

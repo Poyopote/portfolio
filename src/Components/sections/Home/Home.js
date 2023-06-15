@@ -16,7 +16,7 @@ function Home() {
         <header id="main-header" className="in-the-light relative flex flex-col items-center justify-center md:h-screen">
         <Animation/>
         <div className="logo-container z-10">
-          <img src={logo} alt="Logo SL" loading="lazy" className="logo inline-block w-52 md:w-[280px] p-4"/>
+          <img src={logo} alt="Logo SL" loading="lazy" width="208" className="logo inline-block w-52 md:w-[280px] p-4"/>
           <Typewriter className=" text-4xl sm:text-6xl h-6 relative"/>
         </div>
         <div className="flex z-10 w-full justify-center ">
