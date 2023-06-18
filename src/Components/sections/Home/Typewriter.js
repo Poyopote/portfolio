@@ -32,7 +32,7 @@ function Typewriter({ className }) {
     return () => clearTimeout(timer);
   }, [index, isDeleting, delay, text, titles]);
 
-  return <h1 className={ className } style={{ height: '1.5em'}} id="site-title">{text}</h1>;
+  return <h1 className={ className } id="site-title">{text}</h1>;
 }
 
 export default Typewriter;
