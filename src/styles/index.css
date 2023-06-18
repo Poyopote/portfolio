@@ -1,3 +1,4 @@
+@import './fonts.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -64,7 +65,8 @@ p {
   width: 40px;
   height: 40px;
   border-radius: 8px;
-  background-color: #143236;
+  border: 1px solid #4AB7E7;
+  background-color: #063148;
   color: #CEF3FF;
   cursor: pointer;
   align-items: center;
