@@ -188,7 +188,7 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
         <>
         <ul className='tag-skill'>
           <li>Figma</li>
-          <li className='sakadanse'><a href='' target='_blank'  rel="noreferrer">Voir maquette <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a></li>
+          <li className='sakadanse'><a href='https://www.figma.com/proto/zkezjcMUCYKNskYFf1ajS1/Sakadanse?type=design&node-id=3-8&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=3%3A8' target='_blank'  rel="noreferrer">Voir maquette <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a></li>
 
         </ul>
           <p><strong>Sakadanse</strong> est un <u>projet indépendant</u> visant à créer un site <strong>d'information événementielle</strong> axé sur la <strong>danse</strong>.
