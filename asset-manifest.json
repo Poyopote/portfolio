@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.f6028f07.css",
+    "main.js": "/Portfolio/static/js/main.6ad41fee.js",
+    "static/js/536.426fbe90.chunk.js": "/Portfolio/static/js/536.426fbe90.chunk.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Reedifica-index-.png": "/Portfolio/static/media/Reedifica-index-.6889cc18d5875ce00fdb.png",
+    "static/media/Reedifica-img03.webp": "/Portfolio/static/media/Reedifica-img03.0f08d64580c04a1fa4a7.webp",
+    "static/media/Reedifica-img02.webp": "/Portfolio/static/media/Reedifica-img02.fdf88cdd70b192fc33d2.webp",
+    "static/media/Flow-maquette.jpg": "/Portfolio/static/media/Flow-maquette.2a5bf36406d9a10b69f6.jpg",
+    "static/media/CV 2023 -04.pdf": "/Portfolio/static/media/CV 2023 -04.0c841b1a779677771f22.pdf",
+    "static/media/Sakadanse-Desktop01-square.jpg": "/Portfolio/static/media/Sakadanse-Desktop01-square.060e853b628751dcbc2a.jpg",
+    "static/media/kabuki-Affiche.jpg": "/Portfolio/static/media/kabuki-Affiche.0bfe525ff5b28473bb0e.jpg",
+    "static/media/ciel_vue1.webp": "/Portfolio/static/media/ciel_vue1.1227669c9de03dd17596.webp",
+    "static/media/Portfolio-princial.png": "/Portfolio/static/media/Portfolio-princial.28b364308bdf883b2f64.png",
+    "static/media/logo.svg": "/Portfolio/static/media/logo.e24e85daebe1029c24159102a6a3a59a.svg",
+    "static/media/menu-contact.png": "/Portfolio/static/media/menu-contact.3972320a0e8624c7a6ea.png",
+    "static/media/Reedifica-logo_complet.svg": "/Portfolio/static/media/Reedifica-logo_complet.e484a3013b3f20ca8c00.svg",
+    "static/media/logo-twig.png": "/Portfolio/static/media/logo-twig.79493c1be8860d2b99bb.png",
+    "static/media/axure-seeklogo.svg": "/Portfolio/static/media/axure-seeklogo.bfd4f7d9078ddf7128cb.svg",
+    "static/media/Reedifica-logo_favicon.svg": "/Portfolio/static/media/Reedifica-logo_favicon.2c01d791c25650142830d0fe37718e63.svg",
+    "static/media/icons8-clip-studio-paint.svg": "/Portfolio/static/media/icons8-clip-studio-paint.5ab4a9a3f6f08f0d4854.svg",
+    "static/media/icons8-sitecore.svg": "/Portfolio/static/media/icons8-sitecore.fb2088e8c5ea373df338.svg",
+    "static/media/wavesOpacity.svg": "/Portfolio/static/media/wavesOpacity.328f4c66fdc74cbd96f2.svg",
+    "static/media/Portfolio-mouv_mauve_1.svg": "/Portfolio/static/media/Portfolio-mouv_mauve_1.a7a6cadee26fd9693237.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/wave-2.svg": "/Portfolio/static/media/wave-2.5c76a28185459e038ee7.svg",
+    "static/media/wave-3.svg": "/Portfolio/static/media/wave-3.7c60a14469e00dde4fb7.svg",
+    "static/media/wave-5.svg": "/Portfolio/static/media/wave-5.70cc9511d669bcf4fc5e.svg",
+    "static/media/wave-4.svg": "/Portfolio/static/media/wave-4.7f7134f006fbeeee31b2.svg",
+    "static/media/wave-1.svg": "/Portfolio/static/media/wave-1.0cbddbf9afd44535a80a.svg",
+    "static/media/wave-0.svg": "/Portfolio/static/media/wave-0.e13e32bca41eec7b4cd6.svg",
+    "static/media/curveNegative.svg": "/Portfolio/static/media/curveNegative.f8df722dc4b3d4d42472.svg",
+    "main.f6028f07.css.map": "/Portfolio/static/css/main.f6028f07.css.map",
+    "main.6ad41fee.js.map": "/Portfolio/static/js/main.6ad41fee.js.map",
+    "536.426fbe90.chunk.js.map": "/Portfolio/static/js/536.426fbe90.chunk.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6028f07.css",
+    "static/js/main.6ad41fee.js"
+  ]
+}
