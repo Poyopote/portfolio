@@ -13,13 +13,13 @@ import Navigation from "./Navigation";
 
 function Home() {
     return (
-        <header id="main-header" className="in-the-light relative flex flex-col items-center justify-center md:h-screen">
+        <header id="main-header" className="in-the-light relative flex flex-col items-center justify-center md:h-screen gap-8">
         <Animation/>
-        <div className="logo-container z-10 max-sm:my-5">
+        <div className="logo-container z-10 flex flex-col items-center justify-end gap-3 md:h-96">
           <img src={logo} alt="Logo SL" loading="lazy" width="208" className="logo inline-block w-52 md:w-[280px] p-4"/>
-          <Typewriter className=" text-5xl sm:text-6xl h-6 relative my-3"/>
+          <Typewriter className=" text-5xl sm:text-6xl relative h-6 mb-6"/>
         </div>
-        <div className="flex z-10 w-full justify-center gap-2">
+        <div className="flex z-10 w-full justify-center gap-2 my-3">
         
           <Button color="primary" link={pdf} text="Mon CV">
             <DocumentTextIcon className="h-6 w-6" />
