@@ -51,7 +51,7 @@ function Navigation() {
   };
 
   return (
-    <nav className="main-nav fixed md:absolute max-md:bottom-0 bottom-8 xl:bottom-16 mt-9 md:mt-0 z-40 max-md:bg-customWhiteBlue max-md:w-full">
+    <nav className="main-nav max-md:fixed bottom-0 mt-9 md:mt-0 z-40 max-md:bg-customWhiteBlue max-md:w-full">
       <ul className="nav-list flex justify-center gap-6 md:gap-12 mx-2 md:mx-auto max-md:justify-evenly">
         {renderLinks()}
       </ul>
