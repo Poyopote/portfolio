@@ -200,3 +200,6 @@
   color: #ffffff;
   font-size: 20px;
 }
+.project-layout .img-container, .project-layout img {
+  margin: auto;
+}

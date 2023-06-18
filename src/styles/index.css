@@ -36,9 +36,19 @@ h1 {
 h2 {
   font-size: 48px;
 }
+@media screen and (max-width: 640px) {
+  h2 {
+    font-size: 2.25rem;
+  }
+}
 
 h3 {
   font-size: 48px;
+}
+@media screen and (max-width: 640px) {
+  h3 {
+    font-size: 1.875rem;
+  }
 }
 
 p {
@@ -73,11 +83,11 @@ p {
 .back-to-top-button.light {
   border: 1px solid #063148;
   background-color: #7CDAC5;
-  color: #143236 !important;
+  color: #063148 !important;
 }
 .back-to-top-button.dark {
   border: 1px solid #4AB7E7;
-  background-color: #143236;
+  background-color: #063148;
   color: #CEF3FF !important;
 }
 

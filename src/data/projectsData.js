@@ -56,14 +56,10 @@ const projectsData = [
         </>
       ),
       
-      layout: "list",
+      layout: "List",
       media: [
-        // require("../assets/img/menu-presenation.png"),
         require("../assets/img/menu-contact.png"),
          require("../assets/img/Portfolio-princial.png"),
-        //  require("../assets/img/menu-competence.png"),
-        //  require("../assets/img/menu-projet.png"),
-        
       ],
     },
     {
@@ -94,7 +90,7 @@ const projectsData = [
         </>
       ),
      media:  require("../assets/img/kabuki-Affiche.jpg"),
-     layout : "solitary"
+     layout : "Single"
     
     },
     {
@@ -129,7 +125,7 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
           </p>
         </>
       ),
-      layout: "froid",
+      layout: "Grid",
       media: [ 
         require("../assets/img/Flow-logo1.png"),
         require("../assets/img/Flow-logo4.png"),
@@ -143,7 +139,6 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
       buttonTitle: "Ré.édifica",
       title: (
       <>
-      {/* <img src={Reedifica} alt="Logo du forum RP" className='h-12 inline-block bg-customSpace p-2' loading="lazy"/> */}
        <u>Ré.édifica</u>, Le forum RP
        </>
       ),
@@ -176,17 +171,12 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
 
         </>
       ),
-      layout: "list",
+      layout: "List",
       media: [ 
         images(`./Reedifica-logo_complet.svg`),
         require("../assets/img/Reedifica-img02.webp"),
         require("../assets/img/Reedifica-img03.webp"),
-        // require("../assets/img/Capture d'écran 2023-06-13 134001.png"),
-        
-        // require("../assets/img/Reedifica-img01.webp"),
 
-        
-        
       ],
 
     },
@@ -209,8 +199,8 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
               le plus possible d'un aspect professionnel, tout en étant <strong>adaptative et accessible</strong>.</p>
         </>
       ),
-    layout: "carrer",
-    media:  require("../assets/img/Sakadanse-Desktop01-carrer.jpg"),
+    layout: "Square",
+    media:  require("../assets/img/Sakadanse-Desktop01-square.jpg"),
     },
   ];
   

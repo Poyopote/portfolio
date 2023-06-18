@@ -14,6 +14,9 @@
   color: #ffffff;
   background-color: #063148;
 }
+#about-section p {
+  font-size: 1.125rem;
+}
 
 #blob {
   background: url(../../../assets/img/ciel_vue1.webp);

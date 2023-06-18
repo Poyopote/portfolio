@@ -1,10 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, lazy, Suspense } from "react";
 import './Projects.css';
 import ProjectNavigation from "./ProjectNavigation";
 import ProjectDescription from "./ProjectDescription";
-import ProjectLayout from "./ProjectLayout";
+// import ProjectLayout from "./ProjectLayout";
 import projectsData from "../../../data/projectsData";
 import {CursorArrowRaysIcon} from "@heroicons/react/24/solid";
+const ProjectLayout = lazy(() => import("./ProjectLayout"));
+
+const LoadingPlaceholder = () =>     <div className="project-layout flex flex-col justify-center lg:col-span-2 sm:py-9 sm:px-10 p-2 items-center">
+<div className="container">
+Chargement...
+</div>
+</div>;
+
 
 const Projects = () => {
   const [activeProjectIndex, setActiveProjectIndex] = useState(0);
@@ -26,10 +34,12 @@ const Projects = () => {
         />
         <div className='grid grid-cols-1 lg:grid-cols-5 gap-y-8 md:gap-4 w-full lg:w-10/12 xl:w-9/12 mx-auto bg-primary text-customWhite '>
           <ProjectDescription project={activeProject} />
-          <ProjectLayout
-            layout={activeProject.layout}
-            media={activeProject.media}
-          />
+          <Suspense fallback={<LoadingPlaceholder />}>
+            <ProjectLayout
+              layout={activeProject.layout}
+              media={activeProject.media}
+            />
+          </Suspense>
         </div>
       </article>
     </section>
