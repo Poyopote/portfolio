@@ -82,7 +82,7 @@ const ModeSquareLayout = ({ media }) => {
       ) : (
         <div className="w-full">
           <figure className="aspect-square overflow-hidden justify-center">
-            <img src={media} alt="Image" className="object-cover" />
+            <img src={media} alt="Media" className="object-cover" />
           </figure>
         </div>
       )}
