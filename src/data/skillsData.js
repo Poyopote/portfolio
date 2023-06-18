@@ -1,5 +1,4 @@
 // skillsData.js
-const images = (require.context('../assets/svg', false, /\.svg$/));
 const skillsData = [
     {
         id: 1,
