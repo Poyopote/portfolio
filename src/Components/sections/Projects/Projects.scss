@@ -139,80 +139,84 @@
   }
  }
 
- ul.tag-skill{
-  margin-bottom: 0.5rem;
-
-li{
+ div.tag-skill{
   display: inline-block;
-  border: $customWhite solid 2px;
-  border-radius: $radius-30;
-  padding: 0.4rem 0.8rem;
-  margin: 0.3rem;
-  transition: 0.4s;
+  margin-bottom: 0.5rem;
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+  }
 
-  &.to-link, &.github-link{
-    border: 1px solid $customEmerald;
-    background-color: $customEmerald;
-    color: $primary;
+  li, a{
+    display: inline-block;
+    border: $customWhite solid 2px;
+    border-radius: $radius-30;
+    padding: 0.4rem 0.8rem;
+    margin: 0.3rem;
+
+  }
+  a {
+    transition: 0.4s;
     font-weight: bold;
-    &:hover{
-      background-color: $secondary;
-      a{
+  
+    &.to-link,
+    &.github-link {
+      border: 1px solid $customEmerald;
+      background-color: $customEmerald;
+      color: $primary;
+  
+      &:hover {
+        background-color: $secondary;
         color: mix($customEmerald, $customWhite);
       }
     }
-  }
-  &.portfolio{
-    background: radial-gradient(#150a47, #180224);
-    border:  1px solid #150a47;
-    font-weight: bold;
-    &:hover{
-      a{
-        color: mix(#79126B, magenta);
+  
+    &.portfolio {
+      background: radial-gradient(#150a47, #180224);
+      border: 1px solid mix(#150a47, #79126B);
+  
+      &:hover {
+        color: #2B1AFF;
+        background: radial-gradient(#FDFFFF, #34B9FF);
       }
     }
-  }
-  &.sakadanse{
-    background: #FABD4C;
-    color: #000815;
-    background-color: #FABD4C;
-    border: 1px solid #FABD4C;
-    font-weight: bold;
-    &:hover {
+  
+    &.sakadanse {
+      background: #FABD4C;
+      color: #000815;
+      border: 1px solid #FABD4C;
+  
+      &:hover {
         background-color: lighten(#FABD4C, 10%);
         border: 1px solid lighten(#FABD4C, 10%);
         color: #000815;
         text-decoration: none;
-        a{
-          color: #000815;
-        }
+      }
     }
-  }
+  
+    &.reedifica {
+      border: 1px solid #edf0ea;
+      color: #040037;
+      background-color: #edf0ea;
+      // background-image: linear-gradient(to top, #040037, #58ade1);
 
-  &.reedifica{
-    border: 1px solid #edf0ea;
-    color: #040037;
-    background-color: #edf0ea;
-    font-weight: bold;
-    a{
-    background-image: linear-gradient(to top, #040037, #58ade1);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
-    }
-    &:hover{
-      border: 1px solid #040037;
-      background-color: #040037;
-      a{
+  
+      &:hover {
+        border: 1px solid #040037;
+        background-color: #040037;
         color: #edf0ea;
-        background-image : linear-gradient(to top, #edf0ea, #58ade1);
+        // background-image: linear-gradient(to top, #edf0ea, #58ade1);
       }
     }
   }
-}
+  
 
 }
- strong{
+
+
+strong{
   color: mix($customEmerald, $customLightBlue) ;
  }
  a:hover{
@@ -221,9 +225,13 @@ li{
 }
 
 
+
 .project-layout{
 max-width: 100%;
-background: radial-gradient(rgba($customCyan, 0.2),$primary);
+background: linear-gradient($primary, rgba($customCyan, 0.2), $primary);
+@media screen and (min-width:768px){
+  background: radial-gradient(rgba($customCyan, 0.2),$primary);
+}
 .carousel-image, .carousel-video{
     text-align: center;
     margin-left: auto;

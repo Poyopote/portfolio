@@ -15,7 +15,8 @@ const projectsData = [
       buttonTitle: "Portfolio",
       description: (
         <>
-        <ul className='tag-skill'>
+        <div className='tag-skill'>
+        <ul>
           <li>HTML</li>
           <li>CSS</li>
           <li>PHP</li>
@@ -23,9 +24,11 @@ const projectsData = [
           <li>JavaScript</li>
           <li>Clip Studio Paint</li>
           <li>Photoshop</li>
-          <li className='portfolio'><a href='https://www.figma.com/proto/BE0eBnZI6Ngq9lMA89FcXt/Untitled?type=design&node-id=101-4&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=101%3A4' target='_blank'  rel="noreferrer"><img src={images(`./Portfolio-mouv_mauve_1.svg`)} width="30" height="30" alt="Logo du forum RP" className='h-6 inline-block' loading="lazy"/> Voir aperçu <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a></li>
-          <li className='github-link'><a href='https://github.com/Poyopote/Portfolio/tree/react-update' target='_blank'  rel="noreferrer">Github <i className="devicon-github-original"></i></a></li>
-        </ul>
+          </ul>
+          <a className='portfolio' href='https://www.figma.com/proto/BE0eBnZI6Ngq9lMA89FcXt/Untitled?type=design&node-id=101-4&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=101%3A4' target='_blank'  rel="noreferrer"><img src={images(`./Portfolio-mouv_mauve_1.svg`)} width="30" height="30" alt="Logo du forum RP" className='h-6 inline-block' loading="lazy"/> Voir aperçu <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a>
+          <a className='github-link' href='https://github.com/Poyopote/Portfolio/tree/react-update' target='_blank'  rel="noreferrer">Github <i className="devicon-github-original"></i></a>
+        
+          </div>
           <p>
           Vous êtes actuellement en train de visiter mon portfolio, 
           mais avant d'arriver au résultat que vous visualisez, 
@@ -72,10 +75,12 @@ const projectsData = [
       buttonTitle:"Kabuki",
       description: (
         <>
-        <ul className='tag-skill'>
+        <div className='tag-skill'>
+        <ul>
           <li>Illustrator</li>
           <li>Photoshop</li>
         </ul>
+        </div>
         <p>L'affiche <strong>Kabuki</strong> a été conçue comme une création publicitaire destinée à promouvoir
          le spectacle éponyme. Ce projet avait pour objectif principal de m'initier au logiciel <strong>Illustrator</strong>.
           Il m'était demandé de créer une illustration vectorielle en sélectionnant parmi plusieurs éléments iconographiques proposés,
@@ -104,10 +109,11 @@ const projectsData = [
       ),
       description: (
         <>
-        <ul className='tag-skill'>
+        <div className='tag-skill'>
+        <ul>
           <li>Illustrator</li>
           <li>Photoshop</li>
-        </ul>
+        </ul></div>
           <p><strong>Flow</strong> est un <u>mini-projet</u> de maquette réalisé dans le cadre du module de design interactif.
            L'objectif était de créer une <strong>maquette sur Photoshop</strong> et de présenter une plateforme de musique en streaming similaire à <strong>Spotify ou Deezer</strong>.
             L'idée n'était pas de concevoir un design ambitieux, mais d’illustrer des éléments de sites facilement reconnaissables 
@@ -144,7 +150,8 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
       ),
       description: (
         <>
-        <ul className='tag-skill'>
+        <div className='tag-skill'>
+        <ul>
           <li>HTML</li>
           <li>SASS</li>
           <li>Bootstrap</li>
@@ -157,9 +164,10 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
           <li>Photoshop</li>
           <li>Illustrator</li>
           <li>Clip Studio Paint</li>
-          <li className='reedifica'><a href={require("../assets/img/Reedifica-index-.png")} target='_blank'  rel="noreferrer"><img src={Reedifica} alt="Logo du forum RP" className='h-6 inline-block' loading="lazy"/> Voir aperçu<ArrowSmallRightIcon className='inline-block h-6 w-6' /></a></li>
-     
         </ul>
+        <a className='reedifica' href={require("../assets/img/Reedifica-index-.png")} target='_blank' rel="noreferrer"><img src={Reedifica} alt="Logo du forum RP" className='h-6 inline-block' loading="lazy"/> Voir aperçu <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a>
+        </div>
+        
         <p><strong>Ré.édifica</strong> est un site construit sur les bases d'un forum <abbr title="Role-Playing">RP</abbr>, dont le nom trouve son origine dans le terme <u>"réédification"</u>, symbolisant la volonté de reconstruire. L'histoire de <strong>Ré.édifica</strong> puise son inspiration dans une bande dessinée en cours de réalisation, intitulée "Chronicle of Célestins" et créée par Vensty Reverse, mon nom d'artiste.</p>
 
 <details>
@@ -186,11 +194,14 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
       title: "Sakadanse",
       description: (
         <>
-        <ul className='tag-skill'>
+        <div className='tag-skill'>
+        <ul>
           <li>Figma</li>
-          <li className='sakadanse'><a href='https://www.figma.com/proto/zkezjcMUCYKNskYFf1ajS1/Sakadanse?type=design&node-id=3-8&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=3%3A8' target='_blank'  rel="noreferrer">Voir maquette <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a></li>
-
-        </ul>
+          </ul>
+          <a className='sakadanse' 
+          href='https://www.figma.com/proto/zkezjcMUCYKNskYFf1ajS1/Sakadanse?type=design&node-id=3-8&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=3%3A8' 
+          target='_blank'  rel="noreferrer">Voir maquette <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a>
+        </div>
           <p><strong>Sakadanse</strong> est un <u>projet indépendant</u> visant à créer un site <strong>d'information événementielle</strong> axé sur la <strong>danse</strong>.
            L'objectif principal du site est de présenter les événements liés à la danse qui ont lieu dans les <u>grandes métropoles</u>.
             Pour ce projet, j'ai utilisé l'outil de conception Figma.
