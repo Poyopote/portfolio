@@ -12,7 +12,7 @@ const Skill = () => {
   const renderSkillItem = (skill, index) => {
     if (skill.devi) {
       return (
-        <i key={index} className={`${skill.devi} colored text-6xl skill-item h-auto relative overflow-hidden`}></i>
+        <i key={index} title={skill.name} className={`${skill.devi} colored text-6xl skill-item h-auto relative overflow-hidden`}></i>
       );
     } else if (skill.source) {
       return (
@@ -21,8 +21,9 @@ const Skill = () => {
           key={index}
           src={skill.source}
           className="w-16 skill-item h-auto relative overflow-hidden"
-          alt={skill.name}
+          alt={`logo ${skill.name}`}
           height="80"
+          title={skill.name}
         />
       );
     }

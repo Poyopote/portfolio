@@ -78,17 +78,17 @@ const skillsData = [
     {
         id: 16,
         name: "Axure",
-        source : require("../assets/img/Axure_logo.png"),
+        source : require("../assets/img/Skill_Axure.png"),
     },
     {
         id: 17,
         name: "Sitecore",
-        source : require("../assets/img/sitecore_logo.png"),
+        source : require("../assets/img/Skill_Sitecore.png"),
     },
     {
         id: 18,
         name: "Figma",
-        source : require("../assets/img/figma_logo.png"),
+        source : require("../assets/img/Skill_Figma.png"),
     },
     
 ]

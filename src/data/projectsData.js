@@ -58,8 +58,8 @@ const projectsData = [
       
       layout: "List",
       media: [
-        require("../assets/img/menu-contact.png"),
-         require("../assets/img/Portfolio-princial.png"),
+        require("../assets/img/Projet_Portfolio-menu-contact.png"),
+         require("../assets/img/Projet_Portfolio-princial.png"),
       ],
     },
     {
@@ -89,7 +89,7 @@ const projectsData = [
   
         </>
       ),
-     media:  require("../assets/img/kabuki-Affiche.jpg"),
+     media:  require("../assets/img/Projet_Kabuki-Affiche.jpg"),
      layout : "Single"
     
     },
@@ -200,7 +200,7 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
         </>
       ),
     layout: "Square",
-    media:  require("../assets/img/Sakadanse-Desktop01-square.jpg"),
+    media:  require("../assets/img/Projet_Sakadanse-Desktop01-square.jpg"),
     },
   ];
   
