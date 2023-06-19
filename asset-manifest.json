@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5cff7e86.css",
-    "main.js": "/Portfolio/static/js/main.7a676101.js",
+    "main.css": "/Portfolio/static/css/main.2acb7640.css",
+    "main.js": "/Portfolio/static/js/main.a496f6cb.js",
     "static/js/536.426fbe90.chunk.js": "/Portfolio/static/js/536.426fbe90.chunk.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/Reedifica-index-.png": "/Portfolio/static/media/Reedifica-index-.6889cc18d5875ce00fdb.png",
@@ -9,12 +9,12 @@
     "static/media/Reedifica-img02.webp": "/Portfolio/static/media/Reedifica-img02.fdf88cdd70b192fc33d2.webp",
     "static/media/Flow-maquette.jpg": "/Portfolio/static/media/Flow-maquette.2a5bf36406d9a10b69f6.jpg",
     "static/media/CV 2023 -04.pdf": "/Portfolio/static/media/CV 2023 -04.0c841b1a779677771f22.pdf",
-    "static/media/Sakadanse-Desktop01-square.jpg": "/Portfolio/static/media/Sakadanse-Desktop01-square.060e853b628751dcbc2a.jpg",
-    "static/media/kabuki-Affiche.jpg": "/Portfolio/static/media/kabuki-Affiche.0bfe525ff5b28473bb0e.jpg",
-    "static/media/ciel_vue1.webp": "/Portfolio/static/media/ciel_vue1.1227669c9de03dd17596.webp",
-    "static/media/Portfolio-princial.png": "/Portfolio/static/media/Portfolio-princial.28b364308bdf883b2f64.png",
+    "static/media/Projet_Sakadanse-Desktop01-square.jpg": "/Portfolio/static/media/Projet_Sakadanse-Desktop01-square.060e853b628751dcbc2a.jpg",
+    "static/media/Projet_Kabuki-Affiche.jpg": "/Portfolio/static/media/Projet_Kabuki-Affiche.0bfe525ff5b28473bb0e.jpg",
+    "static/media/Byob_about.webp": "/Portfolio/static/media/Byob_about.1227669c9de03dd17596.webp",
+    "static/media/Projet_Portfolio-princial.png": "/Portfolio/static/media/Projet_Portfolio-princial.28b364308bdf883b2f64.png",
     "static/media/logo.svg": "/Portfolio/static/media/logo.e24e85daebe1029c24159102a6a3a59a.svg",
-    "static/media/menu-contact.png": "/Portfolio/static/media/menu-contact.3972320a0e8624c7a6ea.png",
+    "static/media/Projet_Portfolio-menu-contact.png": "/Portfolio/static/media/Projet_Portfolio-menu-contact.3972320a0e8624c7a6ea.png",
     "static/media/ubuntu-latin-300.woff": "/Portfolio/static/media/ubuntu-latin-300.8a517f2712bba8249913.woff",
     "static/media/ubuntu-latin-300italic.woff": "/Portfolio/static/media/ubuntu-latin-300italic.5b545d0e1cbcff11da01.woff",
     "static/media/ubuntu-latin-400italic.woff": "/Portfolio/static/media/ubuntu-latin-400italic.5a969b4119f974adf08c.woff",
@@ -71,13 +71,13 @@
     "static/media/wave-1.svg": "/Portfolio/static/media/wave-1.0cbddbf9afd44535a80a.svg",
     "static/media/wave-0.svg": "/Portfolio/static/media/wave-0.e13e32bca41eec7b4cd6.svg",
     "static/media/curveNegative.svg": "/Portfolio/static/media/curveNegative.f8df722dc4b3d4d42472.svg",
-    "main.5cff7e86.css.map": "/Portfolio/static/css/main.5cff7e86.css.map",
-    "main.7a676101.js.map": "/Portfolio/static/js/main.7a676101.js.map",
+    "main.2acb7640.css.map": "/Portfolio/static/css/main.2acb7640.css.map",
+    "main.a496f6cb.js.map": "/Portfolio/static/js/main.a496f6cb.js.map",
     "536.426fbe90.chunk.js.map": "/Portfolio/static/js/536.426fbe90.chunk.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cff7e86.css",
-    "static/js/main.7a676101.js"
+    "static/css/main.2acb7640.css",
+    "static/js/main.a496f6cb.js"
   ]
 }
