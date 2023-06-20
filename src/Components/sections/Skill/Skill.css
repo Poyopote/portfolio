@@ -15,11 +15,11 @@
 }
 
 .reverse-skills {
-  animation: scrollAnimationReverse 15s infinite linear;
+  animation: scrollAnimationReverse 14s infinite linear;
 }
 
 .reverse-next-skills {
-  animation: scrollAnimationReverse-next 15s infinite linear;
+  animation: scrollAnimationReverse-next 14s infinite linear;
 }
 
 @keyframes scrollAnimation {
