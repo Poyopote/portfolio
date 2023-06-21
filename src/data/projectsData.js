@@ -20,13 +20,13 @@ const projectsData = [
           <li>HTML</li>
           <li>CSS</li>
           <li>PHP</li>
-          <li>MySQL</li>
+          <li>SQL</li>
           <li>JavaScript</li>
           <li>Clip Studio Paint</li>
           <li>Photoshop</li>
           </ul>
-          <a className='portfolio' href='https://www.figma.com/proto/BE0eBnZI6Ngq9lMA89FcXt/Untitled?type=design&node-id=101-4&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=101%3A4' target='_blank'  rel="noreferrer"><img src={images(`./Portfolio-mouv_mauve_1.svg`)} width="30" height="30" alt="Logo du forum RP" className='h-6 inline-block' loading="lazy"/> Voir aperçu <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a>
-          <a className='github-link' href='https://github.com/Poyopote/Portfolio/tree/react-update' target='_blank'  rel="noreferrer">Github <i className="devicon-github-original"></i></a>
+          <a className='portfolio' href={require("../assets/doc/portfolio-Desktop01.pdf")} target='_blank'  rel="noreferrer"><img src={images(`./Portfolio-mouv_mauve_1.svg`)} width="30" height="30" alt="Logo du forum RP" className='h-6 inline-block' loading="lazy"/> Voir aperçu <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a>
+          <a className='github-link' href='https://github.com/Poyopote/Portfolio/tree/php' target='_blank'  rel="noreferrer">Github <i className="devicon-github-original"></i></a>
         
           </div>
           <p>
@@ -158,8 +158,8 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
           <li>JavaScript</li>
           <li>jQuery</li>
           <li>PHP</li>
-          <li>Twig</li>
-          <li>MySQL</li>
+          <li>(Symfony) Twig</li>
+          <li>SQL</li>
           <li>Axure</li>
           <li>Photoshop</li>
           <li>Illustrator</li>
@@ -199,7 +199,7 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
           <li>Figma</li>
           </ul>
           <a className='sakadanse' 
-          href='https://www.figma.com/proto/zkezjcMUCYKNskYFf1ajS1/Sakadanse?type=design&node-id=3-8&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=3%3A8' 
+          href={require("../assets/doc/Sakadanse-Desktop01.pdf")} 
           target='_blank'  rel="noreferrer">Voir maquette <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a>
         </div>
           <p><strong>Sakadanse</strong> est un <u>projet indépendant</u> visant à créer un site <strong>d'information événementielle</strong> axé sur la <strong>danse</strong>.
@@ -208,10 +208,25 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
              Bien que j'aie déjà eu l'occasion d'utiliser cet outil lors de <u>précédentes expériences scolaires et de stages</u>,
               j'ai souhaité <u>approfondir ma maîtrise</u> en créant une maquette qui se rapprocherait 
               le plus possible d'un aspect professionnel, tout en étant <strong>adaptative et accessible</strong>.</p>
+              
+
         </>
       ),
     layout: "Square",
-    media:  require("../assets/img/Projet_Sakadanse-Desktop01-square.jpg"),
+    media:      [
+
+          require("../assets/img/Projet_Sakadanse-Desktop01-square.jpg"),
+          <iframe
+      className='w-full'
+       title="Maquette figma"
+  width={800}
+  height={450}
+  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FkcDtIqt7LgVVVbOVnMJjOU%2FUntitled%3Ftype%3Ddesign%26node-id%3D2%253A487%26t%3DeZnVTigHOY1rkJXF-1"
+  allowFullScreen=""
+/>
+
+    ],
+
     },
   ];
   

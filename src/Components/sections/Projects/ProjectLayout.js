@@ -72,23 +72,26 @@ const ModeGridLayout = ({ media }) => {
 
 const ModeSquareLayout = ({ media }) => {
   return (
-    <div>
-      {Array.isArray(media) ? (
-        <div className="w-full grid grid-cols-2 gap-2 justify-center">
-          {media.map((image, index) => (
-            <img key={index} src={image} alt={`Media ${index + 1}`} />
-          ))}
-        </div>
+    <div className="w-full">
+      {Array.isArray(media) && typeof media[0] === 'string' ? (
+        <figure className="aspect-square overflow-hidden justify-center">
+          <img src={media[0]} alt="Media" className="object-cover" />
+        </figure>
       ) : (
-        <div className="w-full">
-          <figure className="aspect-square overflow-hidden justify-center">
-            <img src={media} alt="Media" className="object-cover" />
+        <>
+          <div className="lg:block hidden" key="media-0">
+            {media[0]}
+          </div>
+          <figure className="aspect-square overflow-hidden justify-center lg:hidden" key="media-1">
+            <img src={media[1]} alt="Media" className="object-cover" />
           </figure>
-        </div>
+        </>
       )}
     </div>
   );
 };
+
+
 
 
 

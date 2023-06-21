@@ -12,8 +12,8 @@ const skillsData = [
     },
     {
         id: 3,
-        name: "Mysql",
-        devi : "devicon-mysql-plain",
+        name: "Javascript",
+        devi : "devicon-javascript-plain",
     },
     {
         id: 4,
@@ -73,7 +73,8 @@ const skillsData = [
     {
         id: 15,
         name: "Twig",
-        source : require("../assets/img/logo-twig.png"),
+        devi : "devicon-symfony-original",
+        // source : require("../assets/img/logo-twig.png"),
     },
     {
         id: 16,
@@ -90,6 +91,11 @@ const skillsData = [
         name: "Figma",
         source : require("../assets/img/Skill_Figma.png"),
     },
+    // {
+    //     id: 19,
+    //     name: "MyAdmin",
+    //     source : require("../assets/img/Skill_phpMyAdmin.png"),
+    // },
     
 ]
 
