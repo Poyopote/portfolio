@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2acb7640.css",
-    "main.js": "/Portfolio/static/js/main.a496f6cb.js",
-    "static/js/536.426fbe90.chunk.js": "/Portfolio/static/js/536.426fbe90.chunk.js",
+    "main.css": "/Portfolio/static/css/main.a4a4231b.css",
+    "main.js": "/Portfolio/static/js/main.5eb0c7a9.js",
+    "static/js/536.d7803245.chunk.js": "/Portfolio/static/js/536.d7803245.chunk.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/Reedifica-index-.png": "/Portfolio/static/media/Reedifica-index-.6889cc18d5875ce00fdb.png",
     "static/media/Reedifica-img03.webp": "/Portfolio/static/media/Reedifica-img03.0f08d64580c04a1fa4a7.webp",
@@ -71,13 +71,13 @@
     "static/media/wave-1.svg": "/Portfolio/static/media/wave-1.0cbddbf9afd44535a80a.svg",
     "static/media/wave-0.svg": "/Portfolio/static/media/wave-0.e13e32bca41eec7b4cd6.svg",
     "static/media/curveNegative.svg": "/Portfolio/static/media/curveNegative.f8df722dc4b3d4d42472.svg",
-    "main.2acb7640.css.map": "/Portfolio/static/css/main.2acb7640.css.map",
-    "main.a496f6cb.js.map": "/Portfolio/static/js/main.a496f6cb.js.map",
-    "536.426fbe90.chunk.js.map": "/Portfolio/static/js/536.426fbe90.chunk.js.map",
+    "main.a4a4231b.css.map": "/Portfolio/static/css/main.a4a4231b.css.map",
+    "main.5eb0c7a9.js.map": "/Portfolio/static/js/main.5eb0c7a9.js.map",
+    "536.d7803245.chunk.js.map": "/Portfolio/static/js/536.d7803245.chunk.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2acb7640.css",
-    "static/js/main.a496f6cb.js"
+    "static/css/main.a4a4231b.css",
+    "static/js/main.5eb0c7a9.js"
   ]
 }
