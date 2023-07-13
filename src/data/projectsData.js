@@ -199,7 +199,7 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
           <li>Figma</li>
           </ul>
           <a className='sakadanse' 
-          href={require("../assets/doc/Sakadanse-Desktop01.pdf")} 
+          href="https://www.figma.com/file/kcDtIqt7LgVVVbOVnMJjOU/Untitled?type=design&node-id=0%3A1&mode=design&t=SmdGlvk3MvT6BHNT-1" 
           target='_blank'  rel="noreferrer">Voir maquette <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a>
         </div>
           <p><strong>Sakadanse</strong> est un <u>projet indépendant</u> visant à créer un site <strong>d'information événementielle</strong> axé sur la <strong>danse</strong>.
