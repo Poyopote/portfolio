@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a4a4231b.css",
-    "main.js": "/Portfolio/static/js/main.69d09d9a.js",
+    "main.js": "/Portfolio/static/js/main.de638574.js",
     "static/js/536.d7803245.chunk.js": "/Portfolio/static/js/536.d7803245.chunk.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
-    "static/media/Sakadanse-Desktop01.pdf": "/Portfolio/static/media/Sakadanse-Desktop01.207e4ba3e55b690c327f.pdf",
     "static/media/Reedifica-index-.png": "/Portfolio/static/media/Reedifica-index-.6889cc18d5875ce00fdb.png",
     "static/media/Reedifica-img03.webp": "/Portfolio/static/media/Reedifica-img03.0f08d64580c04a1fa4a7.webp",
     "static/media/Reedifica-img02.webp": "/Portfolio/static/media/Reedifica-img02.fdf88cdd70b192fc33d2.webp",
@@ -73,12 +72,12 @@
     "static/media/wave-0.svg": "/Portfolio/static/media/wave-0.e13e32bca41eec7b4cd6.svg",
     "static/media/curveNegative.svg": "/Portfolio/static/media/curveNegative.f8df722dc4b3d4d42472.svg",
     "main.a4a4231b.css.map": "/Portfolio/static/css/main.a4a4231b.css.map",
-    "main.69d09d9a.js.map": "/Portfolio/static/js/main.69d09d9a.js.map",
+    "main.de638574.js.map": "/Portfolio/static/js/main.de638574.js.map",
     "536.d7803245.chunk.js.map": "/Portfolio/static/js/536.d7803245.chunk.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a4a4231b.css",
-    "static/js/main.69d09d9a.js"
+    "static/js/main.de638574.js"
   ]
 }
