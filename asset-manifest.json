@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a4a4231b.css",
-    "main.js": "/Portfolio/static/js/main.de638574.js",
+    "main.js": "/Portfolio/static/js/main.193d6bb5.js",
     "static/js/536.d7803245.chunk.js": "/Portfolio/static/js/536.d7803245.chunk.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/Reedifica-index-.png": "/Portfolio/static/media/Reedifica-index-.6889cc18d5875ce00fdb.png",
     "static/media/Reedifica-img03.webp": "/Portfolio/static/media/Reedifica-img03.0f08d64580c04a1fa4a7.webp",
     "static/media/Reedifica-img02.webp": "/Portfolio/static/media/Reedifica-img02.fdf88cdd70b192fc33d2.webp",
     "static/media/Flow-maquette.jpg": "/Portfolio/static/media/Flow-maquette.2a5bf36406d9a10b69f6.jpg",
-    "static/media/CV 2023-06.pdf": "/Portfolio/static/media/CV 2023-06.ca226f7e2ba8135b9551.pdf",
     "static/media/portfolio-Desktop01.pdf": "/Portfolio/static/media/portfolio-Desktop01.85f3982521b8cfb0df82.pdf",
+    "static/media/CV 2023 09.pdf": "/Portfolio/static/media/CV 2023 09.65bb68ed6f1688ea33e2.pdf",
     "static/media/Projet_Sakadanse-Desktop01-square.jpg": "/Portfolio/static/media/Projet_Sakadanse-Desktop01-square.060e853b628751dcbc2a.jpg",
     "static/media/Projet_Kabuki-Affiche.jpg": "/Portfolio/static/media/Projet_Kabuki-Affiche.0bfe525ff5b28473bb0e.jpg",
     "static/media/Byob_about.webp": "/Portfolio/static/media/Byob_about.1227669c9de03dd17596.webp",
@@ -72,12 +72,12 @@
     "static/media/wave-0.svg": "/Portfolio/static/media/wave-0.e13e32bca41eec7b4cd6.svg",
     "static/media/curveNegative.svg": "/Portfolio/static/media/curveNegative.f8df722dc4b3d4d42472.svg",
     "main.a4a4231b.css.map": "/Portfolio/static/css/main.a4a4231b.css.map",
-    "main.de638574.js.map": "/Portfolio/static/js/main.de638574.js.map",
+    "main.193d6bb5.js.map": "/Portfolio/static/js/main.193d6bb5.js.map",
     "536.d7803245.chunk.js.map": "/Portfolio/static/js/536.d7803245.chunk.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a4a4231b.css",
-    "static/js/main.de638574.js"
+    "static/js/main.193d6bb5.js"
   ]
 }
