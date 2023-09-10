@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectNavigation = ({ projects, activeProjectIndex, onProjectChange }) => {
   return (
-    <nav className="flex flex-wrap justify-center items-center my-12 gap-2 lg:gap-8 xl:gap-16 w-full sm:w-9/12 md:w-full relative mx-auto">
+    <nav className="flex flex-wrap justify-center items-center my-12 gap-2 xl:gap-10 w-full sm:w-9/12 md:w-full relative mx-auto">
       {projects.map((project, index) => (
         <button
           key={index}

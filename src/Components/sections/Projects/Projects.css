@@ -172,6 +172,14 @@
   background-color: #040037;
   color: #edf0ea;
 }
+.project-description div.tag-skill a.audibert {
+  color: #fff;
+  border: none;
+  background-color: #ef582e;
+}
+.project-description div.tag-skill a.audibert:hover {
+  background-color: #BF4625;
+}
 .project-description strong {
   color: #6fd6b1;
 }

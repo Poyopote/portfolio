@@ -228,6 +228,51 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
     ],
 
     },
+    {
+      id: 6,
+      buttonTitle: "Audibert",
+      title: (
+      <>
+       <u>Audibert</u> batiment
+       </>
+      ),
+      description: (
+        <>
+        <div className='tag-skill'>
+        <ul>
+          <li>Wordpress</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>PHP</li>
+          <li>Figma</li>
+          <li>Photoshop</li>
+          <li>Illustrator</li>
+          <li>SemRush</li>
+          <li>SEO Meta</li>
+
+        </ul>
+        <a className='audibert' href='https://audibert-batiment.fr/' target='_blank' rel="noreferrer"> Voir le site <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a>
+        </div>
+        
+        <p>Pendant mon stage chez <a href='https://www.irenetcora.com/' target='_blank' rel="noreferrer">
+        Iren & Cora <sup><ArrowTopRightOnSquareIcon className='inline-block h-4 w-4'/></sup> </a>
+         j'ai eu l'opportunité de travailler sur le projet <strong>Audibert Bâtiment, </strong>
+         spécialisé dans la rénovation, le décapage, les travaux de peinture, 
+         les revêtements et la pose de parquet dans les Alpes-Maritimes (06) et le Var (83). 
+         J'ai été responsable de la <strong>création du logo</strong> de l'entreprise, de la gestion du site web en tant que 
+         <u> webmaster en chef,</u> de l'<strong>optimisation SEO,</strong> de la <strong>sémantique du site, </strong>
+          et de l'élaboration de stratégies pour maximiser la visibilité en ligne,
+           renforçant ainsi la présence de l'entreprise sur le marché.</p>
+        </>
+      ),
+      layout: "List",
+      media: [ 
+        require("../assets/img/Audibert-logo-colore.webp"),
+        require("../assets/img/aerogommage-sur-mur-en-pierre.webp"),
+
+      ],
+
+    },
   ];
   
   export default projectsData;

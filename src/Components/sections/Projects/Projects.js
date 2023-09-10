@@ -24,7 +24,7 @@ const Projects = () => {
   const activeProject = projectsData[activeProjectIndex];
 
   return (
-    <section id="projects-section" className="in-the-dark pb-7 lg:min-h-[1238px]">
+    <section id="projects-section" className="in-the-dark pb-7 lg:min-h-[1000px]">
       <article className="w-full text-center pt-20 relative z-10 in-the-dark">
         <h2>Projects <CursorArrowRaysIcon className="h-8 w-8 inline-block"/></h2>
         <ProjectNavigation
