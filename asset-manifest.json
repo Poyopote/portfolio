@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a4a4231b.css",
-    "main.js": "/Portfolio/static/js/main.193d6bb5.js",
+    "main.css": "/Portfolio/static/css/main.73ff8b90.css",
+    "main.js": "/Portfolio/static/js/main.a55552a0.js",
     "static/js/536.d7803245.chunk.js": "/Portfolio/static/js/536.d7803245.chunk.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/Reedifica-index-.png": "/Portfolio/static/media/Reedifica-index-.6889cc18d5875ce00fdb.png",
@@ -10,6 +10,7 @@
     "static/media/Flow-maquette.jpg": "/Portfolio/static/media/Flow-maquette.2a5bf36406d9a10b69f6.jpg",
     "static/media/portfolio-Desktop01.pdf": "/Portfolio/static/media/portfolio-Desktop01.85f3982521b8cfb0df82.pdf",
     "static/media/CV 2023 09.pdf": "/Portfolio/static/media/CV 2023 09.65bb68ed6f1688ea33e2.pdf",
+    "static/media/aerogommage-sur-mur-en-pierre.webp": "/Portfolio/static/media/aerogommage-sur-mur-en-pierre.d59688460740869b3210.webp",
     "static/media/Projet_Sakadanse-Desktop01-square.jpg": "/Portfolio/static/media/Projet_Sakadanse-Desktop01-square.060e853b628751dcbc2a.jpg",
     "static/media/Projet_Kabuki-Affiche.jpg": "/Portfolio/static/media/Projet_Kabuki-Affiche.0bfe525ff5b28473bb0e.jpg",
     "static/media/Byob_about.webp": "/Portfolio/static/media/Byob_about.1227669c9de03dd17596.webp",
@@ -60,6 +61,7 @@
     "static/media/axure-seeklogo.svg": "/Portfolio/static/media/axure-seeklogo.bfd4f7d9078ddf7128cb.svg",
     "static/media/Reedifica-logo_favicon.svg": "/Portfolio/static/media/Reedifica-logo_favicon.2c01d791c25650142830d0fe37718e63.svg",
     "static/media/icons8-clip-studio-paint.svg": "/Portfolio/static/media/icons8-clip-studio-paint.5ab4a9a3f6f08f0d4854.svg",
+    "static/media/Audibert-logo-colore.webp": "/Portfolio/static/media/Audibert-logo-colore.7ddec6980d72bf6e3ffa.webp",
     "static/media/icons8-sitecore.svg": "/Portfolio/static/media/icons8-sitecore.fb2088e8c5ea373df338.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/wavesOpacity.svg": "/Portfolio/static/media/wavesOpacity.328f4c66fdc74cbd96f2.svg",
@@ -71,13 +73,13 @@
     "static/media/wave-1.svg": "/Portfolio/static/media/wave-1.0cbddbf9afd44535a80a.svg",
     "static/media/wave-0.svg": "/Portfolio/static/media/wave-0.e13e32bca41eec7b4cd6.svg",
     "static/media/curveNegative.svg": "/Portfolio/static/media/curveNegative.f8df722dc4b3d4d42472.svg",
-    "main.a4a4231b.css.map": "/Portfolio/static/css/main.a4a4231b.css.map",
-    "main.193d6bb5.js.map": "/Portfolio/static/js/main.193d6bb5.js.map",
+    "main.73ff8b90.css.map": "/Portfolio/static/css/main.73ff8b90.css.map",
+    "main.a55552a0.js.map": "/Portfolio/static/js/main.a55552a0.js.map",
     "536.d7803245.chunk.js.map": "/Portfolio/static/js/536.d7803245.chunk.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4a4231b.css",
-    "static/js/main.193d6bb5.js"
+    "static/css/main.73ff8b90.css",
+    "static/js/main.a55552a0.js"
   ]
 }
