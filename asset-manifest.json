@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.73ff8b90.css",
-    "main.js": "/Portfolio/static/js/main.a55552a0.js",
+    "main.js": "/Portfolio/static/js/main.e953af38.js",
     "static/js/536.d7803245.chunk.js": "/Portfolio/static/js/536.d7803245.chunk.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/Reedifica-index-.png": "/Portfolio/static/media/Reedifica-index-.6889cc18d5875ce00fdb.png",
@@ -74,12 +74,12 @@
     "static/media/wave-0.svg": "/Portfolio/static/media/wave-0.e13e32bca41eec7b4cd6.svg",
     "static/media/curveNegative.svg": "/Portfolio/static/media/curveNegative.f8df722dc4b3d4d42472.svg",
     "main.73ff8b90.css.map": "/Portfolio/static/css/main.73ff8b90.css.map",
-    "main.a55552a0.js.map": "/Portfolio/static/js/main.a55552a0.js.map",
+    "main.e953af38.js.map": "/Portfolio/static/js/main.e953af38.js.map",
     "536.d7803245.chunk.js.map": "/Portfolio/static/js/536.d7803245.chunk.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73ff8b90.css",
-    "static/js/main.a55552a0.js"
+    "static/js/main.e953af38.js"
   ]
 }
