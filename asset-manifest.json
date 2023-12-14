@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.73ff8b90.css",
-    "main.js": "/Portfolio/static/js/main.e953af38.js",
+    "main.js": "/Portfolio/static/js/main.ad7f61da.js",
     "static/js/536.d7803245.chunk.js": "/Portfolio/static/js/536.d7803245.chunk.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/Reedifica-index-.png": "/Portfolio/static/media/Reedifica-index-.6889cc18d5875ce00fdb.png",
     "static/media/Reedifica-img03.webp": "/Portfolio/static/media/Reedifica-img03.0f08d64580c04a1fa4a7.webp",
     "static/media/Reedifica-img02.webp": "/Portfolio/static/media/Reedifica-img02.fdf88cdd70b192fc33d2.webp",
     "static/media/Flow-maquette.jpg": "/Portfolio/static/media/Flow-maquette.2a5bf36406d9a10b69f6.jpg",
+    "static/media/CV 2024.pdf": "/Portfolio/static/media/CV 2024.422c201b0a47fa31e660.pdf",
     "static/media/portfolio-Desktop01.pdf": "/Portfolio/static/media/portfolio-Desktop01.85f3982521b8cfb0df82.pdf",
-    "static/media/CV 2023 09.pdf": "/Portfolio/static/media/CV 2023 09.65bb68ed6f1688ea33e2.pdf",
     "static/media/aerogommage-sur-mur-en-pierre.webp": "/Portfolio/static/media/aerogommage-sur-mur-en-pierre.d59688460740869b3210.webp",
     "static/media/Projet_Sakadanse-Desktop01-square.jpg": "/Portfolio/static/media/Projet_Sakadanse-Desktop01-square.060e853b628751dcbc2a.jpg",
     "static/media/Projet_Kabuki-Affiche.jpg": "/Portfolio/static/media/Projet_Kabuki-Affiche.0bfe525ff5b28473bb0e.jpg",
@@ -74,12 +74,12 @@
     "static/media/wave-0.svg": "/Portfolio/static/media/wave-0.e13e32bca41eec7b4cd6.svg",
     "static/media/curveNegative.svg": "/Portfolio/static/media/curveNegative.f8df722dc4b3d4d42472.svg",
     "main.73ff8b90.css.map": "/Portfolio/static/css/main.73ff8b90.css.map",
-    "main.e953af38.js.map": "/Portfolio/static/js/main.e953af38.js.map",
+    "main.ad7f61da.js.map": "/Portfolio/static/js/main.ad7f61da.js.map",
     "536.d7803245.chunk.js.map": "/Portfolio/static/js/536.d7803245.chunk.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73ff8b90.css",
-    "static/js/main.e953af38.js"
+    "static/js/main.ad7f61da.js"
   ]
 }
