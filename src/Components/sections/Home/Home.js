@@ -1,7 +1,7 @@
 import React from "react";
 import './Home.css';
 import logo from '../../../assets/svg/logo.svg';
-import pdf from '../../../assets/doc/CV 2023 09.pdf';
+import pdf from '../../../assets/doc/CV 2024.pdf';
 import Animation from "./Anima";
 import Typewriter from "./Typewriter";
 import Button from "../../common/Button";
