@@ -4,8 +4,8 @@ function Typewriter({ className }) {
   const [index, setIndex] = useState(0);
   const [text, setText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
-  const [delay, setDelay] = useState(1000);
-  const titles = useMemo(() => ['Web Designer', 'Intégrateur-Front', 'Webmaster'], []);
+  const [delay, setDelay] = useState(200);
+  const titles = useMemo(() => ['Designer UI', 'Intégrateur Front-end', 'Web Designer', 'Développeur React'], []);
   const typingSpeed = 50;
 
   useEffect(() => {
