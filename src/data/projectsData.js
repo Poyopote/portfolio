@@ -94,7 +94,7 @@ const projectsData = [
   
         </>
       ),
-     media:  require("../assets/img/Projet_Kabuki-Affiche.jpg"),
+     media:  require("../assets/img/Projet_Kabuki-Affiche.webp"),
      layout : "Single"
     
     },
@@ -135,7 +135,7 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
       media: [ 
         require("../assets/img/Flow-logo1.png"),
         require("../assets/img/Flow-logo4.png"),
-        require("../assets/img/Flow-maquette.jpg"),
+        require("../assets/img/Flow-maquette.webp"),
         require("../assets/img/Flow-logo3.png"),
         require("../assets/img/Flow-logo2.png"),
       ],
@@ -165,7 +165,7 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
           <li>Illustrator</li>
           <li>Clip Studio Paint</li>
         </ul>
-        <a className='reedifica' href={require("../assets/img/Reedifica-index-.png")} target='_blank' rel="noreferrer"><img src={Reedifica} alt="Logo du forum RP" className='h-6 inline-block' loading="lazy"/> Voir aperçu <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a>
+        <a className='reedifica' href={require("../assets/img/Reedifica-index-.webp")} target='_blank' rel="noreferrer"><img src={Reedifica} alt="Logo du forum RP" className='h-6 inline-block' loading="lazy"/> Voir aperçu <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a>
         </div>
         
         <p><strong>Ré.édifica</strong> est un site construit sur les bases d'un forum <abbr title="Role-Playing">RP</abbr>, dont le nom trouve son origine dans le terme <u>"réédification"</u>, symbolisant la volonté de reconstruire. L'histoire de <strong>Ré.édifica</strong> puise son inspiration dans une bande dessinée en cours de réalisation, intitulée "Chronicle of Célestins" et créée par Vensty Reverse, mon nom d'artiste.</p>
@@ -215,7 +215,7 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
     layout: "Square",
     media:      [
 
-          require("../assets/img/Projet_Sakadanse-Desktop01-square.jpg"),
+          require("../assets/img/Projet_Sakadanse-Desktop01-square.webp"),
           <iframe
       className='w-full'
        title="Maquette figma"
