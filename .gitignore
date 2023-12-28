@@ -25,3 +25,6 @@ yarn-error.log*
 
 # Ignore Tailwind CSS config file
 tailwind.config.js
+
+
+#.gitignore_global
