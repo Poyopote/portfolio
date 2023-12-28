@@ -16,12 +16,9 @@ function App() {
         <Skill/>
       </main>
       <BackToTopButton/>
-
     </>
 
   );
 }
-
-
 
 export default App;
