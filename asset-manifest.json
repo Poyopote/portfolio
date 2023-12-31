@@ -1,22 +1,18 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.73ff8b90.css",
-    "main.js": "/Portfolio/static/js/main.90d798ac.js",
+    "main.js": "/Portfolio/static/js/main.1a7e414d.js",
     "static/js/536.d7803245.chunk.js": "/Portfolio/static/js/536.d7803245.chunk.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/Reedifica-img03.webp": "/Portfolio/static/media/Reedifica-img03.0f08d64580c04a1fa4a7.webp",
     "static/media/Reedifica-img02.webp": "/Portfolio/static/media/Reedifica-img02.fdf88cdd70b192fc33d2.webp",
     "static/media/CV 2024.pdf": "/Portfolio/static/media/CV 2024.422c201b0a47fa31e660.pdf",
-    "static/media/portfolio-Desktop01.pdf": "/Portfolio/static/media/portfolio-Desktop01.85f3982521b8cfb0df82.pdf",
     "static/media/aerogommage-sur-mur-en-pierre.webp": "/Portfolio/static/media/aerogommage-sur-mur-en-pierre.d59688460740869b3210.webp",
-    "static/media/Reedifica-index-.webp": "/Portfolio/static/media/Reedifica-index-.093da48aeedf43cb3286.webp",
     "static/media/Byob_about.webp": "/Portfolio/static/media/Byob_about.1227669c9de03dd17596.webp",
     "static/media/Projet_Sakadanse-Desktop01-square.webp": "/Portfolio/static/media/Projet_Sakadanse-Desktop01-square.099f41c2ee14a60f0e62.webp",
     "static/media/Flow-maquette.webp": "/Portfolio/static/media/Flow-maquette.8593061d63cd713f5b86.webp",
-    "static/media/Projet_Portfolio-princial.png": "/Portfolio/static/media/Projet_Portfolio-princial.28b364308bdf883b2f64.png",
     "static/media/logo.svg": "/Portfolio/static/media/logo.e24e85daebe1029c24159102a6a3a59a.svg",
     "static/media/Projet_Kabuki-Affiche.webp": "/Portfolio/static/media/Projet_Kabuki-Affiche.b236dc462f87a901fe16.webp",
-    "static/media/Projet_Portfolio-menu-contact.png": "/Portfolio/static/media/Projet_Portfolio-menu-contact.3972320a0e8624c7a6ea.png",
     "static/media/ubuntu-latin-300.woff": "/Portfolio/static/media/ubuntu-latin-300.8a517f2712bba8249913.woff",
     "static/media/ubuntu-latin-300italic.woff": "/Portfolio/static/media/ubuntu-latin-300italic.5b545d0e1cbcff11da01.woff",
     "static/media/ubuntu-latin-400italic.woff": "/Portfolio/static/media/ubuntu-latin-400italic.5a969b4119f974adf08c.woff",
@@ -74,12 +70,12 @@
     "static/media/wave-0.svg": "/Portfolio/static/media/wave-0.e13e32bca41eec7b4cd6.svg",
     "static/media/curveNegative.svg": "/Portfolio/static/media/curveNegative.f8df722dc4b3d4d42472.svg",
     "main.73ff8b90.css.map": "/Portfolio/static/css/main.73ff8b90.css.map",
-    "main.90d798ac.js.map": "/Portfolio/static/js/main.90d798ac.js.map",
+    "main.1a7e414d.js.map": "/Portfolio/static/js/main.1a7e414d.js.map",
     "536.d7803245.chunk.js.map": "/Portfolio/static/js/536.d7803245.chunk.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73ff8b90.css",
-    "static/js/main.90d798ac.js"
+    "static/js/main.1a7e414d.js"
   ]
 }
