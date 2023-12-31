@@ -14,7 +14,7 @@ function About() {
                     <div id="blob" className="hidden sm:block sm:w-56 sm:h-56 md:w-full md:h-auto md:pt-[100%] m-auto -hue-rotate-15"></div>
                 </div>
                 <div className="w-full md:w-8/12 px-4 max-w-2xl">
-  <h2>À propos de moi <IdentificationIcon className="h-8 w-8 inline-block" /><span><Lottie className="h-56 w-56 inline-block" animationData={frame} /></span></h2>
+  <h2>À propos de moi <IdentificationIcon className="h-8 w-8 inline-block" /></h2>
 
   <p>Bienvenue, je suis <u>Steven LADOUR</u>. Je suis ravi de vous accueillir ici. J'occupe plusieurs métiers,
    notamment celui de <strong>webdesigner</strong> et de <strong>développeur front-end</strong>.

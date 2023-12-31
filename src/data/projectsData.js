@@ -5,66 +5,66 @@ const images = (require.context('../assets/svg', false, /\.svg$/));
 
 
 const projectsData = [
-    {
-      id: 1,
-      title: (
-        <>
-          <u>Portfolio</u> - Refont
-        </>
-      ),
-      buttonTitle: "Portfolio",
-      description: (
-        <>
-        <div className='tag-skill'>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>PHP</li>
-          <li>SQL</li>
-          <li>JavaScript</li>
-          <li>Clip Studio Paint</li>
-          <li>Photoshop</li>
-          </ul>
-          <a className='portfolio' href={require("../assets/doc/portfolio-Desktop01.pdf")} target='_blank'  rel="noreferrer"><img src={images(`./Portfolio-mouv_mauve_1.svg`)} width="30" height="30" alt="Logo du forum RP" className='h-6 inline-block' loading="lazy"/> Voir aperçu <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a>
-          <a className='github-link' href='https://github.com/Poyopote/Portfolio/tree/php' target='_blank'  rel="noreferrer">Github <i className="devicon-github-original"></i></a>
+//     {
+//       id: 1,
+//       title: (
+//         <>
+//           <u>Portfolio</u> - Refont
+//         </>
+//       ),
+//       buttonTitle: "Portfolio",
+//       description: (
+//         <>
+//         <div className='tag-skill'>
+//         <ul>
+//           <li>HTML</li>
+//           <li>CSS</li>
+//           <li>PHP</li>
+//           <li>SQL</li>
+//           <li>JavaScript</li>
+//           <li>Clip Studio Paint</li>
+//           <li>Photoshop</li>
+//           </ul>
+//           <a className='portfolio' href={require("../assets/doc/portfolio-Desktop01.pdf")} target='_blank'  rel="noreferrer"><img src={images(`./Portfolio-mouv_mauve_1.svg`)} width="30" height="30" alt="Logo du forum RP" className='h-6 inline-block' loading="lazy"/> Voir aperçu <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a>
+//           <a className='github-link' href='https://github.com/Poyopote/Portfolio/tree/php' target='_blank'  rel="noreferrer">Github <i className="devicon-github-original"></i></a>
         
-          </div>
-          <p>
-          Vous êtes actuellement en train de visiter mon portfolio, 
-          mais avant d'arriver au résultat que vous visualisez, 
-          ce site a fait l'objet d'une <u>refonte complète</u>. À l'origine, 
-          il s'agissait d'un site réalisé pendant ma licence, 
-          où j'ai pu concevoir mon premier site.
+//           </div>
+//           <p>
+//           Vous êtes actuellement en train de visiter mon portfolio, 
+//           mais avant d'arriver au résultat que vous visualisez, 
+//           ce site a fait l'objet d'une <u>refonte complète</u>. À l'origine, 
+//           il s'agissait d'un site réalisé pendant ma licence, 
+//           où j'ai pu concevoir mon premier site.
           
-          </p>
-          <p>
-            Le travail était évalué à différentes étapes de conception, notamment en ce qui concerne :
-            la sémantique et le respect des <strong>normes <a href='https://www.w3.org/' target='_blank'  rel="noreferrer" >W3C <sup><ArrowTopRightOnSquareIcon className='inline-block h-4 w-4'/></sup></a></strong>
-            , un site <strong>responsive</strong> et <strong>multilingue</strong>
-            , <strong>back office modulable</strong>
-            , des <strong>animations</strong> en <abbr title="Cascading Style Sheets">CSS</abbr> et/ou <abbr title="JavaScript">JS</abbr>
-            , un <strong>design ergonomique</strong> et <strong>accessible</strong>
-            , utilisation intelligente d'<strong>outils graphiques</strong>
-</p>
-          <p>Cet exercice a été ma première initiation à la conception d'un projet web,
-           et m'a permis d'apprendre à gérer mon temps et mes priorités.
-            J'ai présenté ce travail lors d'une <u>soutenance</u>,
-             et bien qu'il ait été apprécié pour un premier devoir,
-              j'ai ressenti la nécessité d'améliorer ce produit à la fois
-               sur le plan technique et visuel.
-          </p>
-          <p>
-          Le thème précédent était celui d'une <u>main créatrice</u> cherchant à s'approprier le monde du numérique. Cependant, j'ai décidé de repenser entièrement le design et l'aspect visuel de mon portfolio dans le cadre de cette refonte avec un thème plus <u>apaisant et assuré</u>
-          </p>
-        </>
-      ),
+//           </p>
+//           <p>
+//             Le travail était évalué à différentes étapes de conception, notamment en ce qui concerne :
+//             la sémantique et le respect des <strong>normes <a href='https://www.w3.org/' target='_blank'  rel="noreferrer" >W3C <sup><ArrowTopRightOnSquareIcon className='inline-block h-4 w-4'/></sup></a></strong>
+//             , un site <strong>responsive</strong> et <strong>multilingue</strong>
+//             , <strong>back office modulable</strong>
+//             , des <strong>animations</strong> en <abbr title="Cascading Style Sheets">CSS</abbr> et/ou <abbr title="JavaScript">JS</abbr>
+//             , un <strong>design ergonomique</strong> et <strong>accessible</strong>
+//             , utilisation intelligente d'<strong>outils graphiques</strong>
+// </p>
+//           <p>Cet exercice a été ma première initiation à la conception d'un projet web,
+//            et m'a permis d'apprendre à gérer mon temps et mes priorités.
+//             J'ai présenté ce travail lors d'une <u>soutenance</u>,
+//              et bien qu'il ait été apprécié pour un premier devoir,
+//               j'ai ressenti la nécessité d'améliorer ce produit à la fois
+//                sur le plan technique et visuel.
+//           </p>
+//           <p>
+//           Le thème précédent était celui d'une <u>main créatrice</u> cherchant à s'approprier le monde du numérique. Cependant, j'ai décidé de repenser entièrement le design et l'aspect visuel de mon portfolio dans le cadre de cette refonte avec un thème plus <u>apaisant et assuré</u>
+//           </p>
+//         </>
+//       ),
       
-      layout: "List",
-      media: [
-        require("../assets/img/Projet_Portfolio-menu-contact.png"),
-         require("../assets/img/Projet_Portfolio-princial.png"),
-      ],
-    },
+//       layout: "List",
+//       media: [
+//         require("../assets/img/Projet_Portfolio-menu-contact.png"),
+//          require("../assets/img/Projet_Portfolio-princial.png"),
+//       ],
+//     },
     {
       id: 2,
       title:  (
@@ -165,7 +165,9 @@ La deuxième étape consistait à présenter une maquette, en simulant un vérit
           <li>Illustrator</li>
           <li>Clip Studio Paint</li>
         </ul>
-        <a className='reedifica' href={require("../assets/img/Reedifica-index-.webp")} target='_blank' rel="noreferrer"><img src={Reedifica} alt="Logo du forum RP" className='h-6 inline-block' loading="lazy"/> Voir aperçu <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a>
+        <a className='reedifica' href="https://poyopote.github.io/Reedifica/" target='_blank' rel="noreferrer"><img src={Reedifica} alt="Logo du forum RP" className='h-6 inline-block' loading="lazy"/> Voir site <ArrowSmallRightIcon className='inline-block h-6 w-6' /></a>
+        <a className='github-link' href='https://github.com/Poyopote/Reedifica/tree/main' target='_blank'  rel="noreferrer">Github <i className="devicon-github-original"></i></a>
+
         </div>
         
         <p><strong>Ré.édifica</strong> est un site construit sur les bases d'un forum <abbr title="Role-Playing">RP</abbr>, dont le nom trouve son origine dans le terme <u>"réédification"</u>, symbolisant la volonté de reconstruire. L'histoire de <strong>Ré.édifica</strong> puise son inspiration dans une bande dessinée en cours de réalisation, intitulée "Chronicle of Célestins" et créée par Vensty Reverse, mon nom d'artiste.</p>
