@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import App from './Containers/App/App';
 import reportWebVitals from './reportWebVitals';
+import { hotjar } from 'react-hotjar';
+
+const siteId = 3654810;
+const hotjarVersion = 6;
+
+hotjar.init(siteId, hotjarVersion);
 
 const root = ReactDOM.createRoot(document.getElementById('wrapper'));
 root.render(
