@@ -15,7 +15,7 @@ function About() {
                 </div>
                 <div className="w-full md:w-8/12 px-4 max-w-2xl">
   <h2>À propos de moi <IdentificationIcon className="h-8 w-8 inline-block" /></h2>
-
+  {/* <span><Lottie className="h-56 w-56 inline-block" animationData={frame} /></span> */}
   <p>Bienvenue, je suis <u>Steven LADOUR</u>. Je suis ravi de vous accueillir ici. J'occupe plusieurs métiers,
    notamment celui de <strong>webdesigner</strong> et de <strong>développeur front-end</strong>.
     Grâce à mes compétences polyvalentes, je suis en mesure de répondre aux besoins d'autres domaines. 
