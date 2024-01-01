@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.73ff8b90.css",
-    "main.js": "/Portfolio/static/js/main.1a7e414d.js",
+    "main.css": "/Portfolio/static/css/main.37bf27ca.css",
+    "main.js": "/Portfolio/static/js/main.86f923e5.js",
     "static/js/536.d7803245.chunk.js": "/Portfolio/static/js/536.d7803245.chunk.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/Reedifica-img03.webp": "/Portfolio/static/media/Reedifica-img03.0f08d64580c04a1fa4a7.webp",
@@ -58,8 +58,8 @@
     "static/media/Reedifica-logo_favicon.svg": "/Portfolio/static/media/Reedifica-logo_favicon.2c01d791c25650142830d0fe37718e63.svg",
     "static/media/icons8-clip-studio-paint.svg": "/Portfolio/static/media/icons8-clip-studio-paint.5ab4a9a3f6f08f0d4854.svg",
     "static/media/Audibert-logo-colore.webp": "/Portfolio/static/media/Audibert-logo-colore.7ddec6980d72bf6e3ffa.webp",
-    "index.html": "/Portfolio/index.html",
     "static/media/icons8-sitecore.svg": "/Portfolio/static/media/icons8-sitecore.fb2088e8c5ea373df338.svg",
+    "index.html": "/Portfolio/index.html",
     "static/media/wavesOpacity.svg": "/Portfolio/static/media/wavesOpacity.328f4c66fdc74cbd96f2.svg",
     "static/media/Portfolio-mouv_mauve_1.svg": "/Portfolio/static/media/Portfolio-mouv_mauve_1.a7a6cadee26fd9693237.svg",
     "static/media/wave-2.svg": "/Portfolio/static/media/wave-2.5c76a28185459e038ee7.svg",
@@ -69,13 +69,13 @@
     "static/media/wave-1.svg": "/Portfolio/static/media/wave-1.0cbddbf9afd44535a80a.svg",
     "static/media/wave-0.svg": "/Portfolio/static/media/wave-0.e13e32bca41eec7b4cd6.svg",
     "static/media/curveNegative.svg": "/Portfolio/static/media/curveNegative.f8df722dc4b3d4d42472.svg",
-    "main.73ff8b90.css.map": "/Portfolio/static/css/main.73ff8b90.css.map",
-    "main.1a7e414d.js.map": "/Portfolio/static/js/main.1a7e414d.js.map",
+    "main.37bf27ca.css.map": "/Portfolio/static/css/main.37bf27ca.css.map",
+    "main.86f923e5.js.map": "/Portfolio/static/js/main.86f923e5.js.map",
     "536.d7803245.chunk.js.map": "/Portfolio/static/js/536.d7803245.chunk.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73ff8b90.css",
-    "static/js/main.1a7e414d.js"
+    "static/css/main.37bf27ca.css",
+    "static/js/main.86f923e5.js"
   ]
 }
