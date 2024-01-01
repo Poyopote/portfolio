@@ -8,12 +8,12 @@ import { hotjar } from 'react-hotjar';
 const siteId = 3654810;
 const hotjarVersion = 6;
 
-hotjar.init(siteId, hotjarVersion);
+hotjar.initialize(siteId, hotjarVersion);
 
 const root = ReactDOM.createRoot(document.getElementById('wrapper'));
 root.render(
   <StrictMode>
-    <App />
+      <App />
   </StrictMode>
 );
 
