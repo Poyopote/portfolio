@@ -8,6 +8,8 @@ import Button from "../../common/Button";
 import { DocumentTextIcon } from '@heroicons/react/24/solid';
 // import { EnvelopeOpenIcon } from '@heroicons/react/24/solid';
 import Navigation from "./Navigation";
+import Lottie from 'lottie-react';
+import frame from "../../../assets/animation/slfolio.json"
 
 
 
@@ -16,7 +18,8 @@ function Home() {
         <header id="main-header" className="in-the-light relative flex flex-col items-center justify-center md:h-screen gap-8">
         <Animation/>
         <div className="logo-container z-10 flex flex-col items-center justify-end gap-3 md:h-96">
-          <img src={logo} alt="Logo SL" loading="lazy" width="208" className="logo inline-block w-52 md:w-[280px] p-4"/>
+            <span><Lottie className="logo inline-block w-60 md:w-[300px] p-4" animationData={frame} /></span>
+          {/* <img src={logo} alt="Logo SL" loading="lazy" width="208" className="logo inline-block w-52 md:w-[280px] p-4"/> */}
           <Typewriter className="text-5xl sm:text-6xl relative h-6 mb-6"/>
           
         </div>
