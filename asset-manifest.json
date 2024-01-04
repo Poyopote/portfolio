@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.b172209b.css",
-    "main.js": "/Portfolio/static/js/main.108b67e0.js",
+    "main.js": "/Portfolio/static/js/main.93dad420.js",
     "static/js/536.d7803245.chunk.js": "/Portfolio/static/js/536.d7803245.chunk.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/Reedifica-img03.webp": "/Portfolio/static/media/Reedifica-img03.0f08d64580c04a1fa4a7.webp",
     "static/media/Reedifica-img02.webp": "/Portfolio/static/media/Reedifica-img02.fdf88cdd70b192fc33d2.webp",
-    "static/media/CV 2024.pdf": "/Portfolio/static/media/CV 2024.422c201b0a47fa31e660.pdf",
+    "static/media/CV 2024.pdf": "/Portfolio/static/media/CV 2024.17c57ba942c8684ca056.pdf",
     "static/media/aerogommage-sur-mur-en-pierre.webp": "/Portfolio/static/media/aerogommage-sur-mur-en-pierre.d59688460740869b3210.webp",
     "static/media/Byob_about.webp": "/Portfolio/static/media/Byob_about.1227669c9de03dd17596.webp",
     "static/media/Projet_Sakadanse-Desktop01-square.webp": "/Portfolio/static/media/Projet_Sakadanse-Desktop01-square.099f41c2ee14a60f0e62.webp",
@@ -70,12 +70,12 @@
     "static/media/wave-0.svg": "/Portfolio/static/media/wave-0.e13e32bca41eec7b4cd6.svg",
     "static/media/curveNegative.svg": "/Portfolio/static/media/curveNegative.f8df722dc4b3d4d42472.svg",
     "main.b172209b.css.map": "/Portfolio/static/css/main.b172209b.css.map",
-    "main.108b67e0.js.map": "/Portfolio/static/js/main.108b67e0.js.map",
+    "main.93dad420.js.map": "/Portfolio/static/js/main.93dad420.js.map",
     "536.d7803245.chunk.js.map": "/Portfolio/static/js/536.d7803245.chunk.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b172209b.css",
-    "static/js/main.108b67e0.js"
+    "static/js/main.93dad420.js"
   ]
 }
