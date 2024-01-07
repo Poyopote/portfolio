@@ -28,3 +28,4 @@ tailwind.config.js
 
 
 #.gitignore_global
+.gitattributes
