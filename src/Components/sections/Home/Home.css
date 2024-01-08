@@ -22,6 +22,9 @@ header {
   height: 100%;
   overflow: hidden;
 }
+.waves-container.stopped-animation .wave {
+  animation-play-state: paused !important;
+}
 .waves-container .wave {
   animation-name: wave-move;
   animation-duration: 10s; /* double la durée de l'animation */
@@ -34,9 +37,6 @@ header {
   bottom: 0;
   left: 0;
   background-repeat: repeat-x;
-}
-.waves-container .wave.stopped-animation {
-  animation-play-state: paused !important;
 }
 .waves-container .wave1 {
   animation-delay: 2s;

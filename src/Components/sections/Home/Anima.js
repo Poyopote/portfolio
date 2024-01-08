@@ -15,7 +15,7 @@ function Animation() {
           elementRef.current.classList.remove('stopped-animation');
         }
       },
-      { threshold: 0.2 } // Définissez le seuil en fonction de vos besoins
+      { threshold: 0.4 } // Définissez le seuil en fonction de vos besoins
     );
 
     observer.observe(elementRef.current);

@@ -1,28 +1,32 @@
 @import '../../../styles/variables';
 #skills-section{
   background-image: linear-gradient($customWhite, $customLightGray);
+
+  .stopped-animation ul{
+    animation-play-state: paused !important;
+  }
+
+  .animate-skills, .animate-next-skills, .reverse-skills, .reverse-next-skills{
+    animation-play-state: running;
+     
+    }
+  
+    .animate-skills{
+      animation: scrollAnimation 12.5s infinite linear;
+    }
+    .animate-next-skills{
+      animation: scrollAnimation-next 12.5s infinite linear;
+    }
+    .reverse-skills{
+      animation: scrollAnimationReverse 14s infinite linear;
+    }
+    .reverse-next-skills{
+      animation: scrollAnimationReverse-next 14s infinite linear;
+    }
 }
 
 
-.animate-skills, .animate-next-skills, .reverse-skills, .reverse-next-skills{
-  animation-play-state: running;
-    &.stopped-animation{
-      animation-play-state: paused !important;
-    }
-  }
 
-  .animate-skills{
-    animation: scrollAnimation 12.5s infinite linear;
-  }
-  .animate-next-skills{
-    animation: scrollAnimation-next 12.5s infinite linear;
-  }
-  .reverse-skills{
-    animation: scrollAnimationReverse 14s infinite linear;
-  }
-  .reverse-next-skills{
-    animation: scrollAnimationReverse-next 14s infinite linear;
-  }
   @keyframes scrollAnimation {
     0% {
     transform: translateX(0);

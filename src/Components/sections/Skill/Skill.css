@@ -1,27 +1,22 @@
 #skills-section {
   background-image: linear-gradient(#ffffff, #E9EFE4);
 }
-
-.animate-skills, .animate-next-skills, .reverse-skills, .reverse-next-skills {
-  animation-play-state: running;
-}
-.animate-skills.stopped-animation, .animate-next-skills.stopped-animation, .reverse-skills.stopped-animation, .reverse-next-skills.stopped-animation {
+#skills-section .stopped-animation ul {
   animation-play-state: paused !important;
 }
-
-.animate-skills {
+#skills-section .animate-skills, #skills-section .animate-next-skills, #skills-section .reverse-skills, #skills-section .reverse-next-skills {
+  animation-play-state: running;
+}
+#skills-section .animate-skills {
   animation: scrollAnimation 12.5s infinite linear;
 }
-
-.animate-next-skills {
+#skills-section .animate-next-skills {
   animation: scrollAnimation-next 12.5s infinite linear;
 }
-
-.reverse-skills {
+#skills-section .reverse-skills {
   animation: scrollAnimationReverse 14s infinite linear;
 }
-
-.reverse-next-skills {
+#skills-section .reverse-next-skills {
   animation: scrollAnimationReverse-next 14s infinite linear;
 }
 

@@ -1,9 +1,9 @@
 import React from "react";
 import './About.css';
 import {IdentificationIcon, FaceSmileIcon} from "@heroicons/react/24/solid";
-import Lottie from 'lottie-react';
-import frame from "../../../assets/animation/Frame 1.json"
-
+// import Lottie from 'lottie-react';
+// import frame from "../../../assets/animation/Frame 1.json"
+import StopAnimation from "../../common/StopAnimation";
 
 function About() {
     return(
@@ -11,7 +11,9 @@ function About() {
             
             <article className="flex flex-col gap-8 lg:flex-row lg:gap-12 md:items-center justify-center mx-auto lg:w-9/12">
                 <div className="w-full md:w-4/12 px-4">
-                    <div id="blob" className="hidden sm:block sm:w-56 sm:h-56 md:w-full md:h-auto md:pt-[100%] m-auto -hue-rotate-15"></div>
+                    <StopAnimation>
+                        <div id="blob" className="hidden sm:block sm:w-56 sm:h-56 md:w-full md:h-auto md:pt-[100%] m-auto -hue-rotate-15"></div>
+                    </StopAnimation>
                 </div>
                 <div className="w-full md:w-8/12 px-4 max-w-2xl">
   <h2>À propos de moi <IdentificationIcon className="h-8 w-8 inline-block" /></h2>
