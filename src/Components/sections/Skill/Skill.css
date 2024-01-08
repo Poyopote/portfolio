@@ -8,18 +8,17 @@
   animation-play-state: running;
 }
 #skills-section .animate-skills {
-  animation: scrollAnimation 60s infinite linear;
+  animation: scrollAnimation 12.5s infinite linear;
 }
 #skills-section .animate-next-skills {
-  animation: scrollAnimation-next 60s infinite linear;
+  animation: scrollAnimation-next 12.5s infinite linear;
 }
 #skills-section .reverse-skills {
-  animation: scrollAnimationReverse 75.5s infinite linear;
+  animation: scrollAnimationReverse 14s infinite linear;
 }
 #skills-section .reverse-next-skills {
-  animation: scrollAnimationReverse-next 75.5s infinite linear;
+  animation: scrollAnimationReverse-next 14s infinite linear;
 }
-
 @keyframes scrollAnimation {
   0% {
     transform: translateX(0);
@@ -53,31 +52,31 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .animate-skills {
+  #skills-section .animate-skills {
     animation: scrollAnimation 15s infinite linear;
   }
-  .animate-next-skills {
+  #skills-section .animate-next-skills {
     animation: scrollAnimation-next 15s infinite linear;
   }
-  .reverse-skills {
+  #skills-section .reverse-skills {
     animation: scrollAnimationReverse 17.5s infinite linear;
   }
-  .reverse-next-skills {
+  #skills-section .reverse-next-skills {
     animation: scrollAnimationReverse-next 17.5s infinite linear;
   }
 }
 @media screen and (min-width: 1024px) {
-  .animate-skills {
+  #skills-section .animate-skills {
     animation: scrollAnimation 25s infinite linear;
   }
-  .animate-next-skills {
+  #skills-section .animate-next-skills {
     animation: scrollAnimation-next 25s infinite linear;
   }
-  .reverse-skills {
-    animation: scrollAnimationReverse 35s infinite linear;
+  #skills-section .reverse-skills {
+    animation: scrollAnimationReverse 30s infinite linear;
   }
-  .reverse-next-skills {
-    animation: scrollAnimationReverse-next 35s infinite linear;
+  #skills-section .reverse-next-skills {
+    animation: scrollAnimationReverse-next 30s infinite linear;
   }
   @keyframes scrollAnimation {
     0% {
