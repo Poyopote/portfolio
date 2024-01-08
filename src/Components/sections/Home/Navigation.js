@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { HomeIcon, IdentificationIcon,CursorArrowRaysIcon , CogIcon } from "@heroicons/react/24/solid";
 
 function Navigation() {
@@ -28,7 +28,7 @@ function Navigation() {
     { text: "Compétences", icon: <CogIcon className="h-8 w-8" />, href: "#skills-section" },
   ];
 
-  const renderLinks = () => {
+  const renderedLinks = useMemo(() => {
     return links.map((link, index) => {
       if (isMobile) {
         return (
@@ -48,12 +48,12 @@ function Navigation() {
         );
       }
     });
-  };
+  }, [links, isMobile]);
 
   return (
     <nav className="main-nav max-md:fixed bottom-0 mt-9 md:mt-0 z-40 max-md:bg-customWhiteBlue max-md:w-full">
       <ul className="nav-list flex justify-center gap-6 md:gap-12 mx-2 md:mx-auto max-md:justify-evenly">
-        {renderLinks()}
+        {renderedLinks}
       </ul>
     </nav>
   );
