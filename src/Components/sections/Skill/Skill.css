@@ -8,16 +8,16 @@
   animation-play-state: running;
 }
 #skills-section .animate-skills {
-  animation: scrollAnimation 12.5s infinite linear;
+  animation: scrollAnimation 60s infinite linear;
 }
 #skills-section .animate-next-skills {
-  animation: scrollAnimation-next 12.5s infinite linear;
+  animation: scrollAnimation-next 60s infinite linear;
 }
 #skills-section .reverse-skills {
-  animation: scrollAnimationReverse 14s infinite linear;
+  animation: scrollAnimationReverse 75.5s infinite linear;
 }
 #skills-section .reverse-next-skills {
-  animation: scrollAnimationReverse-next 14s infinite linear;
+  animation: scrollAnimationReverse-next 75.5s infinite linear;
 }
 
 @keyframes scrollAnimation {
@@ -74,10 +74,10 @@
     animation: scrollAnimation-next 25s infinite linear;
   }
   .reverse-skills {
-    animation: scrollAnimationReverse 30s infinite linear;
+    animation: scrollAnimationReverse 35s infinite linear;
   }
   .reverse-next-skills {
-    animation: scrollAnimationReverse-next 30s infinite linear;
+    animation: scrollAnimationReverse-next 35s infinite linear;
   }
   @keyframes scrollAnimation {
     0% {
