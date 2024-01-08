@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b172209b.css",
-    "main.js": "/Portfolio/static/js/main.93dad420.js",
+    "main.css": "/Portfolio/static/css/main.7b1bf49c.css",
+    "main.js": "/Portfolio/static/js/main.c7218e87.js",
     "static/js/536.d7803245.chunk.js": "/Portfolio/static/js/536.d7803245.chunk.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/Reedifica-img03.webp": "/Portfolio/static/media/Reedifica-img03.0f08d64580c04a1fa4a7.webp",
@@ -11,7 +11,7 @@
     "static/media/Byob_about.webp": "/Portfolio/static/media/Byob_about.1227669c9de03dd17596.webp",
     "static/media/Projet_Sakadanse-Desktop01-square.webp": "/Portfolio/static/media/Projet_Sakadanse-Desktop01-square.099f41c2ee14a60f0e62.webp",
     "static/media/Flow-maquette.webp": "/Portfolio/static/media/Flow-maquette.8593061d63cd713f5b86.webp",
-    "static/media/logo.svg": "/Portfolio/static/media/logo.e24e85daebe1029c24159102a6a3a59a.svg",
+    "static/media/logo.svg": "/Portfolio/static/media/logo.e24e85daebe1029c2415.svg",
     "static/media/Projet_Kabuki-Affiche.webp": "/Portfolio/static/media/Projet_Kabuki-Affiche.b236dc462f87a901fe16.webp",
     "static/media/ubuntu-latin-300.woff": "/Portfolio/static/media/ubuntu-latin-300.8a517f2712bba8249913.woff",
     "static/media/ubuntu-latin-300italic.woff": "/Portfolio/static/media/ubuntu-latin-300italic.5b545d0e1cbcff11da01.woff",
@@ -67,15 +67,14 @@
     "static/media/wave-5.svg": "/Portfolio/static/media/wave-5.70cc9511d669bcf4fc5e.svg",
     "static/media/wave-4.svg": "/Portfolio/static/media/wave-4.7f7134f006fbeeee31b2.svg",
     "static/media/wave-1.svg": "/Portfolio/static/media/wave-1.0cbddbf9afd44535a80a.svg",
-    "static/media/wave-0.svg": "/Portfolio/static/media/wave-0.e13e32bca41eec7b4cd6.svg",
     "static/media/curveNegative.svg": "/Portfolio/static/media/curveNegative.f8df722dc4b3d4d42472.svg",
-    "main.b172209b.css.map": "/Portfolio/static/css/main.b172209b.css.map",
-    "main.93dad420.js.map": "/Portfolio/static/js/main.93dad420.js.map",
+    "main.7b1bf49c.css.map": "/Portfolio/static/css/main.7b1bf49c.css.map",
+    "main.c7218e87.js.map": "/Portfolio/static/js/main.c7218e87.js.map",
     "536.d7803245.chunk.js.map": "/Portfolio/static/js/536.d7803245.chunk.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b172209b.css",
-    "static/js/main.93dad420.js"
+    "static/css/main.7b1bf49c.css",
+    "static/js/main.c7218e87.js"
   ]
 }
