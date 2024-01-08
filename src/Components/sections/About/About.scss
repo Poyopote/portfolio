@@ -25,6 +25,10 @@
     box-shadow: 0 20px 5px 5px rgba($customBlack, 0.067);
     animation: animate 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
+
+    &.stopped-animation{
+      animation-play-state: paused !important;
+    }
   }
 
   

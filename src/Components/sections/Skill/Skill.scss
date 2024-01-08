@@ -6,6 +6,9 @@
 
 .animate-skills, .animate-next-skills, .reverse-skills, .reverse-next-skills{
   animation-play-state: running;
+    &.stopped-animation{
+      animation-play-state: paused !important;
+    }
   }
 
   .animate-skills{

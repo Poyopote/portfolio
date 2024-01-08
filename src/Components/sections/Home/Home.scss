@@ -20,6 +20,7 @@ header{
     width: 100%;
     height: 100%;
     overflow: hidden;
+
     .wave {
     animation-name: wave-move;
     animation-duration: 10s; /* double la durée de l'animation */
@@ -32,6 +33,10 @@ header{
     bottom: 0;
     left: 0;
     background-repeat: repeat-x;
+
+    &.stopped-animation{
+      animation-play-state: paused !important;
+    }
     }
 
     .wave1{

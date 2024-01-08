@@ -35,6 +35,9 @@ header {
   left: 0;
   background-repeat: repeat-x;
 }
+.waves-container .wave.stopped-animation {
+  animation-play-state: paused !important;
+}
 .waves-container .wave1 {
   animation-delay: 2s;
   animation-direction: alternate;

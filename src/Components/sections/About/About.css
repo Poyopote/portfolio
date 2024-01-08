@@ -26,6 +26,9 @@
   animation: animate 5s ease-in-out infinite;
   transition: all 1s ease-in-out;
 }
+#blob.stopped-animation {
+  animation-play-state: paused !important;
+}
 
 @keyframes animate {
   0% {
