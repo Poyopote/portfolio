@@ -21,12 +21,12 @@ function Navigation() {
     };
   }, []);
 
-  const links = [
+  const links = useMemo(() => ([
     { text: "Accueil", icon: <HomeIcon className="h-8 w-8" />, href: "#main-header" },
     { text: "À propos", icon: <IdentificationIcon className="h-8 w-8" />, href: "#about-section" },
     { text: "Projet", icon: <CursorArrowRaysIcon className="h-8 w-8" />, href: "#projects-section" },
     { text: "Compétences", icon: <CogIcon className="h-8 w-8" />, href: "#skills-section" },
-  ];
+  ]), []);
 
   const renderedLinks = useMemo(() => {
     return links.map((link, index) => {
