@@ -12,85 +12,16 @@
     }
   
     .animate-skills{
-      animation: scrollAnimation 60s infinite linear;
+      animation: scrollAnimation 12.5s infinite linear;
     }
     .animate-next-skills{
-      animation: scrollAnimation-next 60s infinite linear;
+      animation: scrollAnimation-next 12.5s infinite linear;
     }
     .reverse-skills{
-      animation: scrollAnimationReverse 75.5s infinite linear;
+      animation: scrollAnimationReverse 14s infinite linear;
     }
     .reverse-next-skills{
-      animation: scrollAnimationReverse-next 75.5s infinite linear;
-    }
-}
-
-
-
-  @keyframes scrollAnimation {
-    0% {
-    transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-400%);
-    }
-  }
-  @keyframes scrollAnimation-next {
-    0% {
-    transform: translateX(400%);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-  }
-  
-  
-  @keyframes scrollAnimationReverse {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(400%);
-    }
-  }
-  @keyframes scrollAnimationReverse-next {
-    0% {
-    transform: translateX(-400%);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-  }
-  @media screen and (min-width: 768px){
-    .animate-skills{
-      animation: scrollAnimation 15s infinite linear;
-    }
-    .animate-next-skills{
-      animation: scrollAnimation-next 15s infinite linear;
-    }
-    .reverse-skills{
-      animation: scrollAnimationReverse 17.5s infinite linear;
-    }
-    .reverse-next-skills{
-      animation: scrollAnimationReverse-next 17.5s infinite linear;
-    }
-  }
-
-  @media screen and (min-width: 1024px){
-    .animate-skills{
-      animation: scrollAnimation 25s infinite linear;
-    }
-    .animate-next-skills{
-      animation: scrollAnimation-next 25s infinite linear;
-    }
-    .reverse-skills{
-      animation: scrollAnimationReverse 35s infinite linear;
-    }
-    .reverse-next-skills{
-      animation: scrollAnimationReverse-next 35s infinite linear;
+      animation: scrollAnimationReverse-next 14s infinite linear;
     }
 
     @keyframes scrollAnimation {
@@ -99,12 +30,12 @@
       }
   
       100% {
-          transform: translateX(-200%);
+          transform: translateX(-400%);
       }
     }
     @keyframes scrollAnimation-next {
       0% {
-      transform: translateX(200%);
+      transform: translateX(400%);
       }
   
       100% {
@@ -118,17 +49,88 @@
         transform: translateX(0);
       }
       100% {
-        transform: translateX(200%);
+        transform: translateX(400%);
       }
     }
     @keyframes scrollAnimationReverse-next {
       0% {
-      transform: translateX(-200%);
+      transform: translateX(-400%);
       }
   
       100% {
           transform: translateX(0);
       }
     }
-  }
+    @media screen and (min-width: 768px){
+      .animate-skills{
+        animation: scrollAnimation 15s infinite linear;
+      }
+      .animate-next-skills{
+        animation: scrollAnimation-next 15s infinite linear;
+      }
+      .reverse-skills{
+        animation: scrollAnimationReverse 17.5s infinite linear;
+      }
+      .reverse-next-skills{
+        animation: scrollAnimationReverse-next 17.5s infinite linear;
+      }
+    }
+  
+    @media screen and (min-width: 1024px){
+      .animate-skills{
+        animation: scrollAnimation 25s infinite linear;
+      }
+      .animate-next-skills{
+        animation: scrollAnimation-next 25s infinite linear;
+      }
+      .reverse-skills{
+        animation: scrollAnimationReverse 30s infinite linear;
+      }
+      .reverse-next-skills{
+        animation: scrollAnimationReverse-next 30s infinite linear;
+      }
+  
+      @keyframes scrollAnimation {
+        0% {
+        transform: translateX(0);
+        }
+    
+        100% {
+            transform: translateX(-200%);
+        }
+      }
+      @keyframes scrollAnimation-next {
+        0% {
+        transform: translateX(200%);
+        }
+    
+        100% {
+            transform: translateX(0);
+        }
+      }
+      
+      
+      @keyframes scrollAnimationReverse {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(200%);
+        }
+      }
+      @keyframes scrollAnimationReverse-next {
+        0% {
+        transform: translateX(-200%);
+        }
+    
+        100% {
+            transform: translateX(0);
+        }
+      }
+    }
+    
+}
+
+
+
   
