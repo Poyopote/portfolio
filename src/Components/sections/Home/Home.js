@@ -1,6 +1,6 @@
 import React from "react";
 import './Home.css';
-import pdf from '../../../assets/doc/CV-2024-mixte.pdf';
+import pdf from '../../../assets/doc/CV_Steven_Ladour.pdf';
 import Animation from "./Anima";
 import Typewriter from "./Typewriter";
 import Button from "../../common/Button";
