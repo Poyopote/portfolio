@@ -1,18 +1,18 @@
 #about-section {
   background: #4AB7E7;
-  background: linear-gradient(0deg, #CEF3FF 0%, #4AB7E7 100%);
+  background: linear-gradient(0deg, #C2E6FF 0%, #4AB7E7 100%);
 }
 #about-section ::-moz-selection {
   color: #ffffff;
-  background-color: #063148;
+  background-color: #0D141F;
 }
 #about-section ::selection {
   color: #ffffff;
-  background-color: #063148;
+  background-color: #0D141F;
 }
 #about-section ::-moz-selection {
   color: #ffffff;
-  background-color: #063148;
+  background-color: #0D141F;
 }
 #about-section p {
   font-size: 1.125rem;

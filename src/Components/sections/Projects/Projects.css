@@ -1,17 +1,17 @@
 #projects-section {
   position: relative;
-  background-color: #063148;
+  background-color: #0D141F;
 }
 #projects-section ::-moz-selection {
-  color: #063148;
+  color: #0D141F;
   background-color: #4AB7E7;
 }
 #projects-section ::selection {
-  color: #063148;
+  color: #0D141F;
   background-color: #4AB7E7;
 }
 #projects-section ::-moz-selection {
-  color: #063148;
+  color: #0D141F;
   background-color: #4AB7E7;
 }
 #projects-section h2 {
@@ -19,7 +19,7 @@
 }
 #projects-section h3 u {
   text-decoration: none;
-  background-image: linear-gradient(#7CDAC5, #247980);
+  background-image: linear-gradient(#7CDAC5, #105650);
   background-position: 0 70%;
   background-repeat: repeat-x;
   background-size: 10px 10px;
@@ -39,7 +39,7 @@
   color: #ffffff;
 }
 #projects-section .project-button.active {
-  color: #063148;
+  color: #0D141F;
   background: radial-gradient(#ffffff, rgba(255, 255, 255, 0.5));
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -110,8 +110,8 @@
   margin-bottom: 0.5rem;
 }
 .project-description p u {
-  -webkit-text-decoration: #62D29D wavy underline;
-          text-decoration: #62D29D wavy underline;
+  -webkit-text-decoration: #12A594 wavy underline;
+          text-decoration: #12A594 wavy underline;
 }
 .project-description div.tag-skill {
   display: inline-block;
@@ -135,13 +135,13 @@
   font-weight: bold;
 }
 .project-description div.tag-skill a.to-link, .project-description div.tag-skill a.github-link {
-  border: 1px solid #62D29D;
-  background-color: #62D29D;
-  color: #063148;
+  border: 1px solid #12A594;
+  background-color: #12A594;
+  color: #0D141F;
 }
 .project-description div.tag-skill a.to-link:hover, .project-description div.tag-skill a.github-link:hover {
-  background-color: #247980;
-  color: #b1e9ce;
+  background-color: #105650;
+  color: #89d2ca;
 }
 .project-description div.tag-skill a.portfolio {
   background: radial-gradient(#150a47, #180224);
@@ -181,19 +181,19 @@
   background-color: #BF4625;
 }
 .project-description strong {
-  color: #6fd6b1;
+  color: #47c0ad;
 }
 .project-description a:hover {
-  color: #a5e7e2;
+  color: #9fe0e2;
 }
 
 .project-layout {
   max-width: 100%;
-  background: linear-gradient(#063148, rgba(74, 183, 231, 0.2), #063148);
+  background: linear-gradient(#0D141F, rgba(74, 183, 231, 0.2), #0D141F);
 }
 @media screen and (min-width: 768px) {
   .project-layout {
-    background: radial-gradient(rgba(74, 183, 231, 0.2), #063148);
+    background: radial-gradient(rgba(74, 183, 231, 0.2), #0D141F);
   }
 }
 .project-layout .carousel-image, .project-layout .carousel-video {

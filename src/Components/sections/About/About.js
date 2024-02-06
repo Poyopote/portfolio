@@ -9,7 +9,7 @@ function About() {
     return(
         <section id="about-section" className="relative py-24 in-the-light max-md:pt-3">
             
-            <article className="flex flex-col gap-8 lg:flex-row lg:gap-12 md:items-center justify-center mx-auto lg:w-9/12">
+            <article className="flex flex-col gap-8 lg:flex-row lg:gap-12 md:items-center justify-center mx-auto lg:w-9/12 mb-16">
                 <div className="w-full md:w-4/12 px-4">
                     <StopAnimation>
                         <div id="blob" className="hidden sm:block sm:w-56 sm:h-56 md:w-full md:h-auto md:pt-[100%] m-auto -hue-rotate-15"></div>

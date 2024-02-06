@@ -9,15 +9,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 body ::-moz-selection {
-  color: #143236;
+  color: #092C2B;
   background-color: #7CDAC5;
 }
 body ::selection {
-  color: #143236;
+  color: #092C2B;
   background-color: #7CDAC5;
 }
 body ::-moz-selection {
-  color: #143236;
+  color: #092C2B;
   background-color: #7CDAC5;
 }
 
@@ -27,7 +27,7 @@ code {
 
 h1, h2, h3 {
   font-family: "Kalam", sans-serif;
-  color: #063148;
+  color: #0D141F;
 }
 
 h1 {
@@ -55,7 +55,7 @@ h3 {
 p {
   font-family: "Heebo", sans-serif;
   font-size: 18px;
-  color: #063148;
+  color: #0D141F;
 }
 
 .back-to-top-button {
@@ -66,8 +66,8 @@ p {
   height: 40px;
   border-radius: 8px;
   border: 1px solid #4AB7E7;
-  background-color: #063148;
-  color: #CEF3FF;
+  background-color: #0D141F;
+  color: #C2E6FF;
   cursor: pointer;
   align-items: center;
   justify-content: center;
@@ -83,14 +83,14 @@ p {
   }
 }
 .back-to-top-button.light {
-  border: 1px solid #063148;
+  border: 1px solid #0D141F;
   background-color: #7CDAC5;
-  color: #063148 !important;
+  color: #0D141F !important;
 }
 .back-to-top-button.dark {
   border: 1px solid #4AB7E7;
-  background-color: #063148;
-  color: #CEF3FF !important;
+  background-color: #0D141F;
+  color: #C2E6FF !important;
 }
 
 .back-to-top-button-svg {
@@ -160,34 +160,34 @@ p {
   background-color: #ffffff;
 }
 .button-folio.button-primary {
-  background-color: #063148 !important;
+  background-color: #0D141F !important;
 }
 .button-folio.button-primary:hover .pulse {
-  border-color: #063148 !important;
+  border-color: #0D141F !important;
   background-color: rgba(34, 34, 34, 0);
 }
 .button-folio.button-primary .pulse {
-  background-color: #063148;
+  background-color: #0D141F;
 }
 .button-folio.button-metalGreen {
-  background-color: #143236 !important;
+  background-color: #092C2B !important;
 }
 .button-folio.button-metalGreen:hover .pulse {
-  border-color: #143236 !important;
+  border-color: #092C2B !important;
   background-color: rgba(34, 34, 34, 0);
 }
 .button-folio.button-metalGreen .pulse {
-  background-color: #143236;
+  background-color: #092C2B;
 }
 .button-folio.button-secondary {
-  background-color: #247980 !important;
+  background-color: #105650 !important;
 }
 .button-folio.button-secondary:hover .pulse {
-  border-color: #247980 !important;
+  border-color: #105650 !important;
   background-color: rgba(34, 34, 34, 0);
 }
 .button-folio.button-secondary .pulse {
-  background-color: #247980;
+  background-color: #105650;
 }
 .button-folio.button-cyan {
   background-color: #4AB7E7 !important;
@@ -200,14 +200,14 @@ p {
   background-color: #4AB7E7;
 }
 .button-folio.button-emerald {
-  background-color: #62D29D !important;
+  background-color: #12A594 !important;
 }
 .button-folio.button-emerald:hover .pulse {
-  border-color: #62D29D !important;
+  border-color: #12A594 !important;
   background-color: rgba(34, 34, 34, 0);
 }
 .button-folio.button-emerald .pulse {
-  background-color: #62D29D;
+  background-color: #12A594;
 }
 .button-folio.button-LightBlue {
   background-color: #7CDAC5 !important;
@@ -220,24 +220,24 @@ p {
   background-color: #7CDAC5;
 }
 .button-folio.button-WhiteBlue {
-  background-color: #CEF3FF !important;
+  background-color: #C2E6FF !important;
 }
 .button-folio.button-WhiteBlue:hover .pulse {
-  border-color: #CEF3FF !important;
+  border-color: #C2E6FF !important;
   background-color: rgba(34, 34, 34, 0);
 }
 .button-folio.button-WhiteBlue .pulse {
-  background-color: #CEF3FF;
+  background-color: #C2E6FF;
 }
 .button-folio.button-LightGray {
-  background-color: #E9EFE4 !important;
+  background-color: #ECEEED !important;
 }
 .button-folio.button-LightGray:hover .pulse {
-  border-color: #E9EFE4 !important;
+  border-color: #ECEEED !important;
   background-color: rgba(34, 34, 34, 0);
 }
 .button-folio.button-LightGray .pulse {
-  background-color: #E9EFE4;
+  background-color: #ECEEED;
 }
 .button-folio.button-DarkGray {
   background-color: #1B1B1B !important;
@@ -300,8 +300,8 @@ p {
   }
 }
 .nav-link {
-  background-color: #CEF3FF;
-  color: #155564;
+  background-color: #C2E6FF;
+  color: #0f3538;
 }
 .nav-link:hover {
   background-color: #ffffff;
