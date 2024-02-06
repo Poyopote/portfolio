@@ -1,6 +1,6 @@
 #about-section {
   background: #4AB7E7;
-  background: linear-gradient(0deg, #C2E6FF 0%, #4AB7E7 100%);
+  background: linear-gradient(0deg, #2c6683 0%, #4AB7E7 100%);
 }
 #about-section ::-moz-selection {
   color: #ffffff;
