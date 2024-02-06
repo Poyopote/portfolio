@@ -2,7 +2,7 @@
 
 #about-section{
     background: $customCyan;
-    background: linear-gradient(0deg, $customWhiteBlue 0%, $customCyan 100%);
+    background: linear-gradient(0deg, mix($customCyan,$primary) 0%, $customCyan 100%);
 
     ::selection {
       color: $customWhite;
