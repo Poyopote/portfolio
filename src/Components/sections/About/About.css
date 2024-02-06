@@ -1,25 +1,25 @@
 #about-section {
   background: #4AB7E7;
-  background: linear-gradient(0deg, #2c6683 0%, #4AB7E7 100%);
+  background: linear-gradient(0deg, #acdef4 0%, #4AB7E7 100%);
 }
 #about-section ::-moz-selection {
   color: #ffffff;
-  background-color: #0D141F;
+  background-color: #111A27;
 }
 #about-section ::selection {
   color: #ffffff;
-  background-color: #0D141F;
+  background-color: #111A27;
 }
 #about-section ::-moz-selection {
   color: #ffffff;
-  background-color: #0D141F;
+  background-color: #111A27;
 }
-#about-section p {
-  font-size: 1.125rem;
+#about-section p, #about-section h2 {
+  color: #112840;
 }
 
 #blob {
-  background: url(../../../assets/img/Byob_about.webp);
+  background: url(../../../assets/img/OpenPeepsBust.png);
   background-size: cover;
   background-position: center center;
   box-shadow: 0 20px 5px 5px rgba(34, 34, 34, 0.067);

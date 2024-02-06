@@ -1,17 +1,17 @@
 #projects-section {
   position: relative;
-  background-color: #0D141F;
+  background-color: #111A27;
 }
 #projects-section ::-moz-selection {
-  color: #0D141F;
+  color: #111A27;
   background-color: #4AB7E7;
 }
 #projects-section ::selection {
-  color: #0D141F;
+  color: #111A27;
   background-color: #4AB7E7;
 }
 #projects-section ::-moz-selection {
-  color: #0D141F;
+  color: #111A27;
   background-color: #4AB7E7;
 }
 #projects-section h2 {
@@ -39,7 +39,7 @@
   color: #ffffff;
 }
 #projects-section .project-button.active {
-  color: #0D141F;
+  color: #111A27;
   background: radial-gradient(#ffffff, rgba(255, 255, 255, 0.5));
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -137,7 +137,7 @@
 .project-description div.tag-skill a.to-link, .project-description div.tag-skill a.github-link {
   border: 1px solid #12A594;
   background-color: #12A594;
-  color: #0D141F;
+  color: #111A27;
 }
 .project-description div.tag-skill a.to-link:hover, .project-description div.tag-skill a.github-link:hover {
   background-color: #105650;
@@ -152,9 +152,9 @@
   background: radial-gradient(#FDFFFF, #34B9FF);
 }
 .project-description div.tag-skill a.sakadanse {
-  background: #FABD4C;
+  background: #FFC53D;
   color: #000815;
-  border: 1px solid #FABD4C;
+  border: 1px solid #FFC53D;
 }
 .project-description div.tag-skill a.sakadanse:hover {
   background-color: #fbcf7e;
@@ -175,7 +175,7 @@
 .project-description div.tag-skill a.audibert {
   color: #fff;
   border: none;
-  background-color: #ef582e;
+  background-color: #E54D2E;
 }
 .project-description div.tag-skill a.audibert:hover {
   background-color: #BF4625;
@@ -189,11 +189,11 @@
 
 .project-layout {
   max-width: 100%;
-  background: linear-gradient(#0D141F, rgba(74, 183, 231, 0.2), #0D141F);
+  background: linear-gradient(#111A27, rgba(74, 183, 231, 0.2), #111A27);
 }
 @media screen and (min-width: 768px) {
   .project-layout {
-    background: radial-gradient(rgba(74, 183, 231, 0.2), #0D141F);
+    background: radial-gradient(rgba(74, 183, 231, 0.2), #111A27);
   }
 }
 .project-layout .carousel-image, .project-layout .carousel-video {

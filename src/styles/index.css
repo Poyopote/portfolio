@@ -27,7 +27,7 @@ code {
 
 h1, h2, h3 {
   font-family: "Kalam", sans-serif;
-  color: #0D141F;
+  color: #111A27;
 }
 
 h1 {
@@ -55,7 +55,7 @@ h3 {
 p {
   font-family: "Heebo", sans-serif;
   font-size: 18px;
-  color: #0D141F;
+  color: #111A27;
 }
 
 .back-to-top-button {
@@ -66,7 +66,7 @@ p {
   height: 40px;
   border-radius: 8px;
   border: 1px solid #4AB7E7;
-  background-color: #0D141F;
+  background-color: #111A27;
   color: #C2E6FF;
   cursor: pointer;
   align-items: center;
@@ -83,13 +83,13 @@ p {
   }
 }
 .back-to-top-button.light {
-  border: 1px solid #0D141F;
+  border: 1px solid #111A27;
   background-color: #7CDAC5;
-  color: #0D141F !important;
+  color: #111A27 !important;
 }
 .back-to-top-button.dark {
   border: 1px solid #4AB7E7;
-  background-color: #0D141F;
+  background-color: #111A27;
   color: #C2E6FF !important;
 }
 
@@ -160,14 +160,14 @@ p {
   background-color: #ffffff;
 }
 .button-folio.button-primary {
-  background-color: #0D141F !important;
+  background-color: #111A27 !important;
 }
 .button-folio.button-primary:hover .pulse {
-  border-color: #0D141F !important;
+  border-color: #111A27 !important;
   background-color: rgba(34, 34, 34, 0);
 }
 .button-folio.button-primary .pulse {
-  background-color: #0D141F;
+  background-color: #111A27;
 }
 .button-folio.button-metalGreen {
   background-color: #092C2B !important;
@@ -301,7 +301,7 @@ p {
 }
 .nav-link {
   background-color: #C2E6FF;
-  color: #0f3538;
+  color: #11383c;
 }
 .nav-link:hover {
   background-color: #ffffff;
