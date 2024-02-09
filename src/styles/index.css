@@ -306,3 +306,7 @@ p {
 .nav-link:hover {
   background-color: #ffffff;
 }
+
+footer {
+  background-color: #ECEEED;
+}
