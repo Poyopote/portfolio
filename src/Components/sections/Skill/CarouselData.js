@@ -13,7 +13,7 @@ const getCarouselData = () => {
         <i
           key={index}
           title={skill.name}
-          className={`${skill.devi} colored text-6xl skill-item h-auto relative overflow-hidden`}
+          className={`${skill.devi} colored text-6xl h-auto`}
         ></i>
       );
     } else if (skill.source) {
@@ -22,7 +22,7 @@ const getCarouselData = () => {
           loading="lazy"
           key={index}
           src={skill.source}
-          className="w-16 skill-item h-auto relative overflow-hidden"
+          className="w-16 h-auto  text-center"
           alt={`logo ${skill.name}`}
           height="80"
           title={skill.name}
@@ -35,7 +35,7 @@ const getCarouselData = () => {
   const renderSkillsList = (skills) => {
     return skills.map((skill, index) => (
       <li
-        className="flex justify-center px-5 min-w-[45.5%] lg:min-w-[22.5%] relative"
+        className="px-5 min-w-[45.5%] lg:min-w-[22.5%]  text-center"
         key={index}
       >
         <div>{renderSkillItem(skill, index)}</div>
