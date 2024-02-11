@@ -3,7 +3,9 @@ import React from "react";
 import skillsData from "../../../data/skillsData";
 
 const getCarouselData = () => {
-  const sortedSkills = [...skillsData].sort((a, b) => a.name.localeCompare(b.name));
+  const sortedSkills = [...skillsData].sort((a, b) =>
+    a.name.localeCompare(b.name)
+  );
   const firstSkill = sortedSkills.slice(0, 9);
   const lastSkill = sortedSkills.slice(9);
 
@@ -45,7 +47,7 @@ const getCarouselData = () => {
 
   return {
     firstSkill: renderSkillsList(firstSkill),
-    lastSkill: renderSkillsList(lastSkill)
+    lastSkill: renderSkillsList(lastSkill),
   };
 };
 

@@ -1,4 +1,4 @@
-@import './fonts.css';
+@import "./fonts.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -25,7 +25,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Kalam", sans-serif;
   color: #111A27;
 }
