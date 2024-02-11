@@ -2,132 +2,139 @@
 #skills-section{
   background-image: linear-gradient($customWhite, $customLightGray);
 
-  .stopped-animation ul{
-    animation-play-state: paused !important;
+  li i, li img {
+    filter: grayscale(1);
+    &:hover{
+      filter: grayscale(0);
+    }
   }
 
-  .animate-skills, .animate-next-skills, .reverse-skills, .reverse-next-skills{
-    animation-play-state: running;
-     
-    }
-  
-    .animate-skills{
-      animation: scrollAnimation 12.5s infinite linear;
-    }
-    .animate-next-skills{
-      animation: scrollAnimation-next 12.5s infinite linear;
-    }
-    .reverse-skills{
-      animation: scrollAnimationReverse 14s infinite linear;
-    }
-    .reverse-next-skills{
-      animation: scrollAnimationReverse-next 14s infinite linear;
-    }
+  // .stopped-animation ul{
+  //   animation-play-state: paused !important;
+  // }
 
-    @keyframes scrollAnimation {
-      0% {
-      transform: translateX(0);
-      }
+  // .animate-skills, .animate-next-skills, .reverse-skills, .reverse-next-skills{
+  //   animation-play-state: running;
+     
+  //   }
   
-      100% {
-          transform: translateX(-400%);
-      }
-    }
-    @keyframes scrollAnimation-next {
-      0% {
-      transform: translateX(400%);
-      }
+  //   .animate-skills{
+  //     animation: scrollAnimation 12.5s infinite linear;
+  //   }
+  //   .animate-next-skills{
+  //     animation: scrollAnimation-next 12.5s infinite linear;
+  //   }
+  //   .reverse-skills{
+  //     animation: scrollAnimationReverse 14s infinite linear;
+  //   }
+  //   .reverse-next-skills{
+  //     animation: scrollAnimationReverse-next 14s infinite linear;
+  //   }
+
+  //   @keyframes scrollAnimation {
+  //     0% {
+  //     transform: translateX(0);
+  //     }
   
-      100% {
-          transform: translateX(0);
-      }
-    }
+  //     100% {
+  //         transform: translateX(-400%);
+  //     }
+  //   }
+  //   @keyframes scrollAnimation-next {
+  //     0% {
+  //     transform: translateX(400%);
+  //     }
+  
+  //     100% {
+  //         transform: translateX(0);
+  //     }
+  //   }
     
     
-    @keyframes scrollAnimationReverse {
-      0% {
-        transform: translateX(0);
-      }
-      100% {
-        transform: translateX(400%);
-      }
-    }
-    @keyframes scrollAnimationReverse-next {
-      0% {
-      transform: translateX(-400%);
-      }
+  //   @keyframes scrollAnimationReverse {
+  //     0% {
+  //       transform: translateX(0);
+  //     }
+  //     100% {
+  //       transform: translateX(400%);
+  //     }
+  //   }
+  //   @keyframes scrollAnimationReverse-next {
+  //     0% {
+  //     transform: translateX(-400%);
+  //     }
   
-      100% {
-          transform: translateX(0);
-      }
-    }
-    @media screen and (min-width: 768px){
-      .animate-skills{
-        animation: scrollAnimation 15s infinite linear;
-      }
-      .animate-next-skills{
-        animation: scrollAnimation-next 15s infinite linear;
-      }
-      .reverse-skills{
-        animation: scrollAnimationReverse 17.5s infinite linear;
-      }
-      .reverse-next-skills{
-        animation: scrollAnimationReverse-next 17.5s infinite linear;
-      }
-    }
+  //     100% {
+  //         transform: translateX(0);
+  //     }
+  //   }
+  //   @media screen and (min-width: 768px){
+  //     .animate-skills{
+  //       animation: scrollAnimation 15s infinite linear;
+  //     }
+  //     .animate-next-skills{
+  //       animation: scrollAnimation-next 15s infinite linear;
+  //     }
+  //     .reverse-skills{
+  //       animation: scrollAnimationReverse 17.5s infinite linear;
+  //     }
+  //     .reverse-next-skills{
+  //       animation: scrollAnimationReverse-next 17.5s infinite linear;
+  //     }
+  //   }
   
-    @media screen and (min-width: 1024px){
-      .animate-skills{
-        animation: scrollAnimation 25s infinite linear;
-      }
-      .animate-next-skills{
-        animation: scrollAnimation-next 25s infinite linear;
-      }
-      .reverse-skills{
-        animation: scrollAnimationReverse 30s infinite linear;
-      }
-      .reverse-next-skills{
-        animation: scrollAnimationReverse-next 30s infinite linear;
-      }
+  //   @media screen and (min-width: 1024px){
+  //     .animate-skills{
+  //       animation: scrollAnimation 25s infinite linear;
+  //     }
+  //     .animate-next-skills{
+  //       animation: scrollAnimation-next 25s infinite linear;
+  //     }
+  //     .reverse-skills{
+  //       animation: scrollAnimationReverse 30s infinite linear;
+  //     }
+  //     .reverse-next-skills{
+  //       animation: scrollAnimationReverse-next 30s infinite linear;
+  //     }
   
-      @keyframes scrollAnimation {
-        0% {
-        transform: translateX(0);
-        }
+  //     @keyframes scrollAnimation {
+  //       0% {
+  //       transform: translateX(0);
+  //       }
     
-        100% {
-            transform: translateX(-200%);
-        }
-      }
-      @keyframes scrollAnimation-next {
-        0% {
-        transform: translateX(200%);
-        }
+  //       100% {
+  //           transform: translateX(-200%);
+  //       }
+  //     }
+  //     @keyframes scrollAnimation-next {
+  //       0% {
+  //       transform: translateX(200%);
+  //       }
     
-        100% {
-            transform: translateX(0);
-        }
-      }
+  //       100% {
+  //           transform: translateX(0);
+  //       }
+  //     }
       
       
-      @keyframes scrollAnimationReverse {
-        0% {
-          transform: translateX(0);
-        }
-        100% {
-          transform: translateX(200%);
-        }
-      }
-      @keyframes scrollAnimationReverse-next {
-        0% {
-        transform: translateX(-200%);
-        }
+  //     @keyframes scrollAnimationReverse {
+  //       0% {
+  //         transform: translateX(0);
+  //       }
+  //       100% {
+  //         transform: translateX(200%);
+  //       }
+  //     }
+  //     @keyframes scrollAnimationReverse-next {
+  //       0% {
+  //       transform: translateX(-200%);
+  //       }
     
-        100% {
-            transform: translateX(0);
-        }
-      }
-    }
+  //       100% {
+  //           transform: translateX(0);
+  //       }
+  //     }
+  //   }
     
 }
 
