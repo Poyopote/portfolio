@@ -1,5 +1,5 @@
 // StopAnimation.js
-import React, { useEffect, useRef, forwardRef } from 'react';
+import React, { forwardRef, useEffect, useRef } from "react";
 
 const StopAnimation = forwardRef(({ threshold = 0.5, children }, ref) => {
   const elementRef = useRef(null);
@@ -8,9 +8,9 @@ const StopAnimation = forwardRef(({ threshold = 0.5, children }, ref) => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (!entry.isIntersecting) {
-          elementRef.current.classList.add('stopped-animation');
+          elementRef.current.classList.add("stopped-animation");
         } else {
-          elementRef.current.classList.remove('stopped-animation');
+          elementRef.current.classList.remove("stopped-animation");
         }
       },
       { threshold }

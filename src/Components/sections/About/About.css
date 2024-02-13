@@ -1,20 +1,21 @@
 #about-section {
-  background: #4AB7E7;
-  background: linear-gradient(0deg, #acdef4 0%, #4AB7E7 100%);
+  background: #4ab7e7;
+  background: linear-gradient(0deg, #acdef4 0%, #4ab7e7 100%);
 }
 #about-section ::-moz-selection {
   color: #ffffff;
-  background-color: #111A27;
+  background-color: #111a27;
 }
 #about-section ::selection {
   color: #ffffff;
-  background-color: #111A27;
+  background-color: #111a27;
 }
 #about-section ::-moz-selection {
   color: #ffffff;
-  background-color: #111A27;
+  background-color: #111a27;
 }
-#about-section p, #about-section h2 {
+#about-section p,
+#about-section h2 {
   color: #112840;
 }
 

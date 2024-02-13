@@ -1,5 +1,5 @@
 #skills-section {
-  background-image: linear-gradient(#ffffff, #ECEEED);
+  background-image: linear-gradient(#ffffff, #eceeed);
 }
 #skills-section li i, #skills-section li img {
   filter: grayscale(1);

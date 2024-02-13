@@ -1,11 +1,19 @@
-import { useMemo, useState, useEffect } from 'react';
+import { useEffect, useMemo, useState } from "react";
 
 function Typewriter({ className }) {
   const [index, setIndex] = useState(0);
-  const [text, setText] = useState('');
+  const [text, setText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [delay, setDelay] = useState(200);
-  const titles = useMemo(() => ['UI Designer', 'Web Designer', 'Développeur Front-end', 'Intégrateur Web'], []);
+  const titles = useMemo(
+    () => [
+      "UI Designer",
+      "Web Designer",
+      "Développeur Front-end",
+      "Intégrateur Web",
+    ],
+    []
+  );
   const typingSpeed = 50;
 
   useEffect(() => {
@@ -22,7 +30,7 @@ function Typewriter({ className }) {
       if (!isDeleting && text === currentTitle) {
         setIsDeleting(true);
         setDelay(typingSpeed);
-      } else if (isDeleting && text === '') {
+      } else if (isDeleting && text === "") {
         setIsDeleting(false);
         setIndex((index) => index + 1);
         setDelay(200);
@@ -32,7 +40,11 @@ function Typewriter({ className }) {
     return () => clearTimeout(timer);
   }, [index, isDeleting, delay, text, titles]);
 
-  return <h1 className={ className } id="site-title">{text}</h1>;
+  return (
+    <h1 className={className} id="site-title">
+      {text}
+    </h1>
+  );
 }
 
 export default Typewriter;

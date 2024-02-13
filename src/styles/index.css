@@ -9,16 +9,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 body ::-moz-selection {
-  color: #092C2B;
-  background-color: #7CDAC5;
+  color: #092c2b;
+  background-color: #7cdac5;
 }
 body ::selection {
-  color: #092C2B;
-  background-color: #7CDAC5;
+  color: #092c2b;
+  background-color: #7cdac5;
 }
 body ::-moz-selection {
-  color: #092C2B;
-  background-color: #7CDAC5;
+  color: #092c2b;
+  background-color: #7cdac5;
 }
 
 code {
@@ -29,7 +29,7 @@ h1,
 h2,
 h3 {
   font-family: "Kalam", sans-serif;
-  color: #111A27;
+  color: #111a27;
 }
 
 h1 {
@@ -57,7 +57,7 @@ h3 {
 p {
   font-family: "Heebo", sans-serif;
   font-size: 18px;
-  color: #111A27;
+  color: #111a27;
 }
 
 .back-to-top-button {
@@ -67,9 +67,9 @@ p {
   width: 40px;
   height: 40px;
   border-radius: 8px;
-  border: 1px solid #4AB7E7;
-  background-color: #111A27;
-  color: #C2E6FF;
+  border: 1px solid #4ab7e7;
+  background-color: #111a27;
+  color: #c2e6ff;
   cursor: pointer;
   align-items: center;
   justify-content: center;
@@ -85,14 +85,14 @@ p {
   }
 }
 .back-to-top-button.light {
-  border: 1px solid #111A27;
-  background-color: #7CDAC5;
-  color: #111A27 !important;
+  border: 1px solid #111a27;
+  background-color: #7cdac5;
+  color: #111a27 !important;
 }
 .back-to-top-button.dark {
-  border: 1px solid #4AB7E7;
-  background-color: #111A27;
-  color: #C2E6FF !important;
+  border: 1px solid #4ab7e7;
+  background-color: #111a27;
+  color: #c2e6ff !important;
 }
 
 .back-to-top-button-svg {
@@ -162,24 +162,24 @@ p {
   background-color: #ffffff;
 }
 .button-folio.button-primary {
-  background-color: #111A27 !important;
+  background-color: #111a27 !important;
 }
 .button-folio.button-primary:hover .pulse {
-  border-color: #111A27 !important;
+  border-color: #111a27 !important;
   background-color: rgba(34, 34, 34, 0);
 }
 .button-folio.button-primary .pulse {
-  background-color: #111A27;
+  background-color: #111a27;
 }
 .button-folio.button-metalGreen {
-  background-color: #092C2B !important;
+  background-color: #092c2b !important;
 }
 .button-folio.button-metalGreen:hover .pulse {
-  border-color: #092C2B !important;
+  border-color: #092c2b !important;
   background-color: rgba(34, 34, 34, 0);
 }
 .button-folio.button-metalGreen .pulse {
-  background-color: #092C2B;
+  background-color: #092c2b;
 }
 .button-folio.button-secondary {
   background-color: #105650 !important;
@@ -192,64 +192,64 @@ p {
   background-color: #105650;
 }
 .button-folio.button-cyan {
-  background-color: #4AB7E7 !important;
+  background-color: #4ab7e7 !important;
 }
 .button-folio.button-cyan:hover .pulse {
-  border-color: #4AB7E7 !important;
+  border-color: #4ab7e7 !important;
   background-color: rgba(34, 34, 34, 0);
 }
 .button-folio.button-cyan .pulse {
-  background-color: #4AB7E7;
+  background-color: #4ab7e7;
 }
 .button-folio.button-emerald {
-  background-color: #12A594 !important;
+  background-color: #12a594 !important;
 }
 .button-folio.button-emerald:hover .pulse {
-  border-color: #12A594 !important;
+  border-color: #12a594 !important;
   background-color: rgba(34, 34, 34, 0);
 }
 .button-folio.button-emerald .pulse {
-  background-color: #12A594;
+  background-color: #12a594;
 }
 .button-folio.button-LightBlue {
-  background-color: #7CDAC5 !important;
+  background-color: #7cdac5 !important;
 }
 .button-folio.button-LightBlue:hover .pulse {
-  border-color: #7CDAC5 !important;
+  border-color: #7cdac5 !important;
   background-color: rgba(34, 34, 34, 0);
 }
 .button-folio.button-LightBlue .pulse {
-  background-color: #7CDAC5;
+  background-color: #7cdac5;
 }
 .button-folio.button-WhiteBlue {
-  background-color: #C2E6FF !important;
+  background-color: #c2e6ff !important;
 }
 .button-folio.button-WhiteBlue:hover .pulse {
-  border-color: #C2E6FF !important;
+  border-color: #c2e6ff !important;
   background-color: rgba(34, 34, 34, 0);
 }
 .button-folio.button-WhiteBlue .pulse {
-  background-color: #C2E6FF;
+  background-color: #c2e6ff;
 }
 .button-folio.button-LightGray {
-  background-color: #ECEEED !important;
+  background-color: #eceeed !important;
 }
 .button-folio.button-LightGray:hover .pulse {
-  border-color: #ECEEED !important;
+  border-color: #eceeed !important;
   background-color: rgba(34, 34, 34, 0);
 }
 .button-folio.button-LightGray .pulse {
-  background-color: #ECEEED;
+  background-color: #eceeed;
 }
 .button-folio.button-DarkGray {
-  background-color: #1B1B1B !important;
+  background-color: #1b1b1b !important;
 }
 .button-folio.button-DarkGray:hover .pulse {
-  border-color: #1B1B1B !important;
+  border-color: #1b1b1b !important;
   background-color: rgba(34, 34, 34, 0);
 }
 .button-folio.button-DarkGray .pulse {
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
 }
 
 .button {
@@ -302,7 +302,7 @@ p {
   }
 }
 .nav-link {
-  background-color: #C2E6FF;
+  background-color: #c2e6ff;
   color: #11383c;
 }
 .nav-link:hover {
@@ -310,5 +310,5 @@ p {
 }
 
 footer {
-  background-color: #ECEEED;
+  background-color: #eceeed;
 }

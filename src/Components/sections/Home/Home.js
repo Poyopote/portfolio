@@ -1,14 +1,14 @@
-import React from "react";
-import "./Home.css";
-import pdf from "../../../assets/doc/CV_Steven_Ladour.pdf";
-import Animation from "./Anima";
-import Typewriter from "./Typewriter";
-import Button from "../../common/Button";
 import { DocumentTextIcon } from "@heroicons/react/24/solid";
+import React from "react";
+import pdf from "../../../assets/doc/CV_Steven_Ladour.pdf";
+import Button from "../../common/Button";
+import Animation from "./Anima";
+import "./Home.css";
+import Typewriter from "./Typewriter";
 // import { EnvelopeOpenIcon } from '@heroicons/react/24/solid';
-import Navigation from "./Navigation";
 import Lottie from "lottie-react";
 import Logo from "../../../assets/animation/slfolio.json";
+import Navigation from "./Navigation";
 
 function Home() {
   return (

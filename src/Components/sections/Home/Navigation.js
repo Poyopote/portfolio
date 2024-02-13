@@ -1,5 +1,10 @@
-import React, { useState, useEffect, useMemo } from "react";
-import { HomeIcon, IdentificationIcon,CursorArrowRaysIcon , CogIcon } from "@heroicons/react/24/solid";
+import {
+  CogIcon,
+  CursorArrowRaysIcon,
+  HomeIcon,
+  IdentificationIcon,
+} from "@heroicons/react/24/solid";
+import React, { useEffect, useMemo, useState } from "react";
 
 function Navigation() {
   const [isMobile, setIsMobile] = useState(false);
@@ -21,19 +26,42 @@ function Navigation() {
     };
   }, []);
 
-  const links = useMemo(() => ([
-    { text: "Accueil", icon: <HomeIcon className="h-8 w-8" />, href: "#main-header" },
-    { text: "À propos", icon: <IdentificationIcon className="h-8 w-8" />, href: "#about-section" },
-    { text: "Projets", icon: <CursorArrowRaysIcon className="h-8 w-8" />, href: "#projects-section" },
-    { text: "Compétences", icon: <CogIcon className="h-8 w-8" />, href: "#skills-section" },
-  ]), []);
+  const links = useMemo(
+    () => [
+      {
+        text: "Accueil",
+        icon: <HomeIcon className="h-8 w-8" />,
+        href: "#main-header",
+      },
+      {
+        text: "À propos",
+        icon: <IdentificationIcon className="h-8 w-8" />,
+        href: "#about-section",
+      },
+      {
+        text: "Projets",
+        icon: <CursorArrowRaysIcon className="h-8 w-8" />,
+        href: "#projects-section",
+      },
+      {
+        text: "Compétences",
+        icon: <CogIcon className="h-8 w-8" />,
+        href: "#skills-section",
+      },
+    ],
+    []
+  );
 
   const renderedLinks = useMemo(() => {
     return links.map((link, index) => {
       if (isMobile) {
         return (
           <li className="md:flex-1" key={index}>
-            <a href={link.href} aria-label={link.text} className="nav-link md:rounded-full inline-block text-primary font-bold p-2">
+            <a
+              href={link.href}
+              aria-label={link.text}
+              className="nav-link md:rounded-full inline-block text-primary font-bold p-2"
+            >
               {link.icon}
             </a>
           </li>
@@ -41,7 +69,10 @@ function Navigation() {
       } else {
         return (
           <li className="" key={index}>
-            <a href={link.href} className="nav-link rounded-full text-secondary font-bold py-2 px-4">
+            <a
+              href={link.href}
+              className="nav-link rounded-full text-secondary font-bold py-2 px-4"
+            >
               {link.text}
             </a>
           </li>

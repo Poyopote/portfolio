@@ -1,31 +1,29 @@
-$customBlack : #222222;
+$customBlack: #222222;
 $customWhite: #ffffff;
-$primary: #111A27; //063148 ou 0D141F
-$customMetalGreen:#092C2B; // #143236;
+$primary: #111a27; //063148 ou 0D141F
+$customMetalGreen: #092c2b; // #143236;
 $secondary: #105650; //#247980;
-$customCyan: #4AB7E7;
-$customEmerald: #12A594;//#62D29D;
-$customLightBlue: #7CDAC5;
-$customWhiteBlue: #C2E6FF;//#CEF3FF;
-$customLightGray: #ECEEED; //#E9EFE4;
-$customDarkGray: #1B1B1B;
+$customCyan: #4ab7e7;
+$customEmerald: #12a594; //#62D29D;
+$customLightBlue: #7cdac5;
+$customWhiteBlue: #c2e6ff; //#CEF3FF;
+$customLightGray: #eceeed; //#E9EFE4;
+$customDarkGray: #1b1b1b;
 $customSpace: #112840; //#358BAB;
 
-
 $colors: (
-    "black": $customBlack,
-    "white": $customWhite,
-    "primary": $primary,
-    "metalGreen": $customMetalGreen,
-    "secondary": $secondary,
-    "cyan": $customCyan,
-    "emerald": $customEmerald,
-    "LightBlue": $customLightBlue,
-    "WhiteBlue": $customWhiteBlue,
+  "black": $customBlack,
+  "white": $customWhite,
+  "primary": $primary,
+  "metalGreen": $customMetalGreen,
+  "secondary": $secondary,
+  "cyan": $customCyan,
+  "emerald": $customEmerald,
+  "LightBlue": $customLightBlue,
+  "WhiteBlue": $customWhiteBlue,
 
-    "LightGray": $customLightGray,
-    "DarkGray": $customDarkGray,
-
+  "LightGray": $customLightGray,
+  "DarkGray": $customDarkGray,
 );
 
 $radius-30: 30px;

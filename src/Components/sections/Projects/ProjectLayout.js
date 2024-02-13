@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
 const ProjectLayout = ({ layout, media }) => {
   let LayoutComponent;
 
   if (layout === "List") {
     LayoutComponent = ModeListLayout;
-  } else if (layout === 'Grid') {
+  } else if (layout === "Grid") {
     LayoutComponent = ModeGridLayout;
-  } else if (layout === 'Square') {
+  } else if (layout === "Square") {
     LayoutComponent = ModeSquareLayout;
   } else {
     LayoutComponent = ModeSingleLayout;
@@ -73,7 +73,7 @@ const ModeGridLayout = ({ media }) => {
 const ModeSquareLayout = ({ media }) => {
   return (
     <div className="w-full">
-      {Array.isArray(media) && typeof media[0] === 'string' ? (
+      {Array.isArray(media) && typeof media[0] === "string" ? (
         <figure className="aspect-square overflow-hidden justify-center">
           <img src={media[0]} alt="Media" className="object-cover" />
         </figure>
@@ -82,7 +82,10 @@ const ModeSquareLayout = ({ media }) => {
           <div className="lg:block hidden" key="media-0">
             {media[0]}
           </div>
-          <figure className="aspect-square overflow-hidden justify-center lg:hidden" key="media-1">
+          <figure
+            className="aspect-square overflow-hidden justify-center lg:hidden"
+            key="media-1"
+          >
             <img src={media[1]} alt="Media" className="object-cover" />
           </figure>
         </>
@@ -90,10 +93,5 @@ const ModeSquareLayout = ({ media }) => {
     </div>
   );
 };
-
-
-
-
-
 
 export default ProjectLayout;

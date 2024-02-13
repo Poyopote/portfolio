@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 const BackToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -11,57 +11,60 @@ const BackToTopButton = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
   };
 
   useEffect(() => {
     handleScroll();
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   useEffect(() => {
     const handleSectionHover = (event) => {
-      const section = event.target.closest('.in-the-dark, .in-the-light');
-      const button = document.querySelector('.back-to-top-button');
+      const section = event.target.closest(".in-the-dark, .in-the-light");
+      const button = document.querySelector(".back-to-top-button");
 
-      if (button !== null && !button.classList.contains('not-at-top')) {
-        if (section !== null && section.classList.contains('in-the-dark')) {
+      if (button !== null && !button.classList.contains("not-at-top")) {
+        if (section !== null && section.classList.contains("in-the-dark")) {
           setTimeout(() => {
-            button.classList.add('light');
-            button.classList.remove('dark');
+            button.classList.add("light");
+            button.classList.remove("dark");
           }, 100); // Temps de temporisation en millisecondes (0,1 seconde)
-        } else if (section !== null && section.classList.contains('in-the-light')) {
-      setTimeout(() => {
-        button.classList.add('dark');
-        button.classList.remove('light');
-      }, 100); // Temps de temporisation en millisecondes (0,1 seconde)
-    } else {
-      // Ne rien faire (aucun changement de couleur)
-    }
+        } else if (
+          section !== null &&
+          section.classList.contains("in-the-light")
+        ) {
+          setTimeout(() => {
+            button.classList.add("dark");
+            button.classList.remove("light");
+          }, 100); // Temps de temporisation en millisecondes (0,1 seconde)
+        } else {
+          // Ne rien faire (aucun changement de couleur)
+        }
+      }
     };
 
-    };
-    
-    document.addEventListener('mouseover', (event) => {
+    document.addEventListener("mouseover", (event) => {
       handleSectionHover(event);
     });
-    
 
     return () => {
-      document.removeEventListener('mouseover', handleSectionHover);
+      document.removeEventListener("mouseover", handleSectionHover);
     };
   }, []);
 
   return (
     <div
-      className={`back-to-top-button ${!isVisible ? 'visible' : ''} ${isVisible ? 'not-at-top' : ''}`}
+      className={`back-to-top-button ${!isVisible ? "visible" : ""} ${
+        isVisible ? "not-at-top" : ""
+      }`}
       onClick={scrollToTop}
-      style={{ transform: 'scaleY(-1)' }}
+      style={{ transform: "scaleY(-1)" }}
     >
       <svg
         className="back-to-top-button-svg"

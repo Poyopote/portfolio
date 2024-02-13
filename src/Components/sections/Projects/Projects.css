@@ -1,25 +1,25 @@
 #projects-section {
   position: relative;
-  background-color: #111A27;
+  background-color: #111a27;
 }
 #projects-section ::-moz-selection {
-  color: #111A27;
-  background-color: #4AB7E7;
+  color: #111a27;
+  background-color: #4ab7e7;
 }
 #projects-section ::selection {
-  color: #111A27;
-  background-color: #4AB7E7;
+  color: #111a27;
+  background-color: #4ab7e7;
 }
 #projects-section ::-moz-selection {
-  color: #111A27;
-  background-color: #4AB7E7;
+  color: #111a27;
+  background-color: #4ab7e7;
 }
 #projects-section h2 {
   color: #ffffff;
 }
 #projects-section h3 u {
   text-decoration: none;
-  background-image: linear-gradient(#7CDAC5, #105650);
+  background-image: linear-gradient(#7cdac5, #105650);
   background-position: 0 70%;
   background-repeat: repeat-x;
   background-size: 10px 10px;
@@ -39,7 +39,7 @@
   color: #ffffff;
 }
 #projects-section .project-button.active {
-  color: #111A27;
+  color: #111a27;
   background: radial-gradient(#ffffff, rgba(255, 255, 255, 0.5));
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -103,15 +103,16 @@
   }
 }
 
-.project-description p, .project-description h3 {
+.project-description p,
+.project-description h3 {
   color: white;
 }
 .project-description p {
   margin-bottom: 0.5rem;
 }
 .project-description p u {
-  -webkit-text-decoration: #12A594 wavy underline;
-          text-decoration: #12A594 wavy underline;
+  -webkit-text-decoration: #12a594 wavy underline;
+          text-decoration: #12a594 wavy underline;
 }
 .project-description div.tag-skill {
   display: inline-block;
@@ -123,7 +124,8 @@
   margin: 0;
   display: inline;
 }
-.project-description div.tag-skill li, .project-description div.tag-skill a {
+.project-description div.tag-skill li,
+.project-description div.tag-skill a {
   display: inline-block;
   border: #ffffff solid 2px;
   border-radius: 30px;
@@ -135,9 +137,9 @@
   font-weight: bold;
 }
 .project-description div.tag-skill a.to-link, .project-description div.tag-skill a.github-link {
-  border: 1px solid #12A594;
-  background-color: #12A594;
-  color: #111A27;
+  border: 1px solid #12a594;
+  background-color: #12a594;
+  color: #111a27;
 }
 .project-description div.tag-skill a.to-link:hover, .project-description div.tag-skill a.github-link:hover {
   background-color: #105650;
@@ -148,13 +150,13 @@
   border: 1px solid #470e59;
 }
 .project-description div.tag-skill a.portfolio:hover {
-  color: #2B1AFF;
-  background: radial-gradient(#FDFFFF, #34B9FF);
+  color: #2b1aff;
+  background: radial-gradient(#fdffff, #34b9ff);
 }
 .project-description div.tag-skill a.sakadanse {
-  background: #FFC53D;
+  background: #ffc53d;
   color: #000815;
-  border: 1px solid #FFC53D;
+  border: 1px solid #ffc53d;
 }
 .project-description div.tag-skill a.sakadanse:hover {
   background-color: #fbcf7e;
@@ -175,10 +177,10 @@
 .project-description div.tag-skill a.audibert {
   color: #fff;
   border: none;
-  background-color: #E54D2E;
+  background-color: #e54d2e;
 }
 .project-description div.tag-skill a.audibert:hover {
-  background-color: #BF4625;
+  background-color: #bf4625;
 }
 .project-description strong {
   color: #47c0ad;
@@ -189,23 +191,26 @@
 
 .project-layout {
   max-width: 100%;
-  background: linear-gradient(#111A27, rgba(74, 183, 231, 0.2), #111A27);
+  background: linear-gradient(#111a27, rgba(74, 183, 231, 0.2), #111a27);
 }
 @media screen and (min-width: 768px) {
   .project-layout {
-    background: radial-gradient(rgba(74, 183, 231, 0.2), #111A27);
+    background: radial-gradient(rgba(74, 183, 231, 0.2), #111a27);
   }
 }
-.project-layout .carousel-image, .project-layout .carousel-video {
+.project-layout .carousel-image,
+.project-layout .carousel-video {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   max-height: 550px;
 }
-.project-layout span, .project-layout .carousel-button {
+.project-layout span,
+.project-layout .carousel-button {
   color: #ffffff;
   font-size: 20px;
 }
-.project-layout .img-container, .project-layout img {
+.project-layout .img-container,
+.project-layout img {
   margin: auto;
 }

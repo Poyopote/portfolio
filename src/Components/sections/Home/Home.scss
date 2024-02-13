@@ -1,16 +1,17 @@
-@import '../../../styles/variables';
+@import "../../../styles/variables";
 
-header{
-    background-color: $customWhiteBlue;
+header {
+  background-color: $customWhiteBlue;
 }
-#main-header{
-  @media screen and (min-width:768px) and (max-height:552px){
+
+#main-header {
+  @media screen and (min-width: 768px) and (max-height: 552px) {
     height: 100%;
   }
 }
-.logo-container{
- width: 100%;
- text-align: center;
+.logo-container {
+  width: 100%;
+  text-align: center;
 }
 
 .waves-container {
@@ -21,78 +22,71 @@ header{
   height: 100%;
   overflow: hidden;
 
-  &.stopped-animation .wave{
+  &.stopped-animation .wave {
     animation-play-state: paused !important;
   }
 
   .wave {
-  animation-name: wave-move;
-  animation-duration: 10s; /* double la durée de l'animation */
-  animation-timing-function: linear; /* une accélération et décélération en douceur */
-  animation-iteration-count: infinite;
-  transform-origin: center;
-  animation-fill-mode: forwards;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-repeat: repeat-x;
+    animation-name: wave-move;
+    animation-duration: 10s; /* double la durée de l'animation */
+    animation-timing-function: linear; /* une accélération et décélération en douceur */
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    animation-fill-mode: forwards;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-repeat: repeat-x;
+  }
 
+  .wave1 {
+    animation-delay: 2s;
+    animation-direction: alternate;
+    background: url(../../../assets/svg/wave-1.svg);
 
-}
+    height: 118px;
 
-    .wave1{
-      animation-delay: 2.0s;
-      animation-direction: alternate;
-      background: url(../../../assets/svg/wave-1.svg);
-      
-      height: 118px;
-      
-      background-size: 1440px 118px;
-    }
-    .wave2 {
-      animation-delay: 2.4s;
-      animation-direction: alternate-reverse;
-      background: url(../../../assets/svg/wave-2.svg);
-      height: 178px;
-      background-size: 1440px 178px;
-    }
+    background-size: 1440px 118px;
+  }
+  .wave2 {
+    animation-delay: 2.4s;
+    animation-direction: alternate-reverse;
+    background: url(../../../assets/svg/wave-2.svg);
+    height: 178px;
+    background-size: 1440px 178px;
+  }
 
-      .wave3 {
+  .wave3 {
     animation-delay: 2.8s;
     animation-direction: alternate;
     background: url(../../../assets/svg/wave-3.svg);
     height: 237px;
-      background-size: 1440px 237px;
+    background-size: 1440px 237px;
   }
 
-
-    .wave4 {
+  .wave4 {
     animation-delay: 3.2s;
     animation-direction: alternate-reverse;
     background: url(../../../assets/svg/wave-4.svg);
     height: 322px;
-      background-size: 1440px 322px;
+    background-size: 1440px 322px;
   }
 
-    .wave5 {
+  .wave5 {
     animation-delay: 3.6s;
     animation-direction: alternate;
     background: url(../../../assets/svg/wave-5.svg);
     height: 396px;
-      background-size: 1440px 396px;
+    background-size: 1440px 396px;
   }
+}
 
+@keyframes wave-move {
+  0% {
+    background-position-x: 0;
   }
-
-  
-  @keyframes wave-move {
-    0% {
-      background-position-x: 0;
-    }
-    100% {
-      background-position-x: 1440px;
-    }
+  100% {
+    background-position-x: 1440px;
   }
-
-  
+}

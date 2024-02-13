@@ -1,8 +1,14 @@
-import React from 'react';
+import React from "react";
 
 // Composant pour afficher les icônes SVG provenant du dossier assets/svg
 const SvgIcon = ({ source, className }) => {
-  return <img src={require(`../assets/svg/${source}`)} alt="Icon" className={className} />;
+  return (
+    <img
+      src={require(`../assets/svg/${source}`)}
+      alt="Icon"
+      className={className}
+    />
+  );
 };
 
 // Composant pour afficher les icônes de la bibliothèque HeroIcons
@@ -12,4 +18,4 @@ const HeroIcon = ({ icon, className }) => {
   return <HeroIconComponent className={className} />;
 };
 
-export { SvgIcon, HeroIcon };
+export { HeroIcon, SvgIcon };
