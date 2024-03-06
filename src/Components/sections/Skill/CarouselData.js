@@ -37,7 +37,7 @@ const getCarouselData = () => {
   const renderSkillsList = (skills) => {
     return skills.map((skill, index) => (
       <li
-        className="px-5 min-w-[45.5%] lg:min-w-[22.5%]  text-center"
+        className="px-5 min-w-[45.5%] lg:min-w-[22.5%] p-10 flex flex-col items-center text-center md:border-r hover:bg-slate-50 cursor-pointer"
         key={index}
       >
         <div>{renderSkillItem(skill, index)}</div>

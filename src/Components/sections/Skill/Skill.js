@@ -36,8 +36,8 @@ const Skill = () => {
       <h2 className="text-center md:my-20">
         Compétences <CogIcon className="h-8 w-8 inline-block" />
       </h2>
-      <div className="">
-        <ul className="flex flex-wrap justify-center md:w-4/5 m-auto">
+      <div className="border-b bg-opacity-10">
+        <ul className="md:w-4/5 m-auto grid grid-cols-2 md:grid-cols-6">
           {firstSkill}
           {lastSkill}
         </ul>

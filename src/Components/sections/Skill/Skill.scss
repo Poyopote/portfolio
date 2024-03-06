@@ -1,12 +1,14 @@
-@import '../../../styles/variables';
-#skills-section{
+@import "../../../styles/variables";
+#skills-section {
   background-image: linear-gradient($customWhite, $customLightGray);
 
-  li i, li img {
+  li i,
+  li img {
     filter: grayscale(1);
-    &:hover{
-      filter: grayscale(0);
-    }
+  }
+  li:hover i,
+  li:hover img {
+    filter: grayscale(0);
   }
 
   // .stopped-animation ul{
@@ -15,9 +17,9 @@
 
   // .animate-skills, .animate-next-skills, .reverse-skills, .reverse-next-skills{
   //   animation-play-state: running;
-     
+
   //   }
-  
+
   //   .animate-skills{
   //     animation: scrollAnimation 12.5s infinite linear;
   //   }
@@ -35,7 +37,7 @@
   //     0% {
   //     transform: translateX(0);
   //     }
-  
+
   //     100% {
   //         transform: translateX(-400%);
   //     }
@@ -44,13 +46,12 @@
   //     0% {
   //     transform: translateX(400%);
   //     }
-  
+
   //     100% {
   //         transform: translateX(0);
   //     }
   //   }
-    
-    
+
   //   @keyframes scrollAnimationReverse {
   //     0% {
   //       transform: translateX(0);
@@ -63,7 +64,7 @@
   //     0% {
   //     transform: translateX(-400%);
   //     }
-  
+
   //     100% {
   //         transform: translateX(0);
   //     }
@@ -82,7 +83,7 @@
   //       animation: scrollAnimationReverse-next 17.5s infinite linear;
   //     }
   //   }
-  
+
   //   @media screen and (min-width: 1024px){
   //     .animate-skills{
   //       animation: scrollAnimation 25s infinite linear;
@@ -96,12 +97,12 @@
   //     .reverse-next-skills{
   //       animation: scrollAnimationReverse-next 30s infinite linear;
   //     }
-  
+
   //     @keyframes scrollAnimation {
   //       0% {
   //       transform: translateX(0);
   //       }
-    
+
   //       100% {
   //           transform: translateX(-200%);
   //       }
@@ -110,13 +111,12 @@
   //       0% {
   //       transform: translateX(200%);
   //       }
-    
+
   //       100% {
   //           transform: translateX(0);
   //       }
   //     }
-      
-      
+
   //     @keyframes scrollAnimationReverse {
   //       0% {
   //         transform: translateX(0);
@@ -129,15 +129,10 @@
   //       0% {
   //       transform: translateX(-200%);
   //       }
-    
+
   //       100% {
   //           transform: translateX(0);
   //       }
   //     }
   //   }
-    
 }
-
-
-
-  

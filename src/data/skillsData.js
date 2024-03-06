@@ -38,7 +38,7 @@ const skillsData = [
   {
     id: 8,
     name: "Php",
-    devi: "devicon-php-plain",
+    source: require("../assets/img/Skill_Php.png"),
   },
   {
     id: 9,
@@ -67,8 +67,8 @@ const skillsData = [
   },
   {
     id: 14,
-    name: "Gimp",
-    devi: "devicon-gimp-plain",
+    name: "Shopify",
+    source: require("../assets/img/Skill_Shopify.png"),
   },
   {
     id: 15,
