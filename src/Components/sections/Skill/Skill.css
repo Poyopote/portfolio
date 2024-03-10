@@ -1,11 +1,3 @@
 #skills-section {
   background-image: linear-gradient(#ffffff, #eceeed);
 }
-#skills-section li i,
-#skills-section li img {
-  filter: grayscale(1);
-}
-#skills-section li:hover i,
-#skills-section li:hover img {
-  filter: grayscale(0);
-}
