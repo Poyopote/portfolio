@@ -2,14 +2,14 @@
 #skills-section {
   background-image: linear-gradient($customWhite, $customLightGray);
 
-  li i,
-  li img {
-    filter: grayscale(1);
-  }
-  li:hover i,
-  li:hover img {
-    filter: grayscale(0);
-  }
+  // li i,
+  // li img {
+  //   filter: grayscale(1);
+  // }
+  // li:hover i,
+  // li:hover img {
+  //   filter: grayscale(0);
+  // }
 
   // .stopped-animation ul{
   //   animation-play-state: paused !important;
