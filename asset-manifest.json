@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.76d4d911.css",
-    "main.js": "/Portfolio/static/js/main.4ad995f8.js",
-    "static/js/475.6e544799.chunk.js": "/Portfolio/static/js/475.6e544799.chunk.js",
-    "static/js/592.7f72a991.chunk.js": "/Portfolio/static/js/592.7f72a991.chunk.js",
+    "main.css": "/Portfolio/static/css/main.61266e4b.css",
+    "main.js": "/Portfolio/static/js/main.7374db0e.js",
+    "static/js/186.7daea0e7.chunk.js": "/Portfolio/static/js/186.7daea0e7.chunk.js",
+    "static/js/453.ed3810f9.chunk.js": "/Portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/Reedifica-img03.webp": "/Portfolio/static/media/Reedifica-img03.0f08d64580c04a1fa4a7.webp",
     "static/media/Reedifica-img02.webp": "/Portfolio/static/media/Reedifica-img02.fdf88cdd70b192fc33d2.webp",
     "static/media/aerogommage-sur-mur-en-pierre.webp": "/Portfolio/static/media/aerogommage-sur-mur-en-pierre.d59688460740869b3210.webp",
     "static/media/CV_Steven_Ladour.pdf": "/Portfolio/static/media/CV_Steven_Ladour.52aff3790c15d9d90cdb.pdf",
     "static/media/Projet_Sakadanse-Desktop01-square.webp": "/Portfolio/static/media/Projet_Sakadanse-Desktop01-square.099f41c2ee14a60f0e62.webp",
     "static/media/Flow-maquette.webp": "/Portfolio/static/media/Flow-maquette.8593061d63cd713f5b86.webp",
-    "static/media/Skill_Php.png": "/Portfolio/static/media/Skill_Php.d079019e42200e6dbdc1.png",
     "static/media/logo.svg": "/Portfolio/static/media/logo.e24e85daebe1029c2415.svg",
     "static/media/Skill_Shopify.png": "/Portfolio/static/media/Skill_Shopify.102646e9941a9a5a6da0.png",
     "static/media/Skill_Sitecore.png": "/Portfolio/static/media/Skill_Sitecore.f1bd31ff84f05ea99840.png",
@@ -39,6 +38,7 @@
     "static/media/kalam-latin-400.woff2": "/Portfolio/static/media/kalam-latin-400.29c64fef98f6298f4fca.woff2",
     "static/media/kalam-latin-700.woff2": "/Portfolio/static/media/kalam-latin-700.a0b315c9dd9c1cbbfac2.woff2",
     "static/media/kalam-latin-300.woff2": "/Portfolio/static/media/kalam-latin-300.55b662f20cdfeb5534d5.woff2",
+    "static/media/Skill_Php.png": "/Portfolio/static/media/Skill_Php.679d98d46fd878cffe97.png",
     "static/media/heebo-latin-800.woff": "/Portfolio/static/media/heebo-latin-800.83b58880efd51ff0f01d.woff",
     "static/media/heebo-latin-700.woff": "/Portfolio/static/media/heebo-latin-700.3b0fa200ad6275102094.woff",
     "static/media/heebo-latin-900.woff": "/Portfolio/static/media/heebo-latin-900.1bea43cced9703c61832.woff",
@@ -71,13 +71,13 @@
     "static/media/wave-4.svg": "/Portfolio/static/media/wave-4.7f7134f006fbeeee31b2.svg",
     "static/media/wave-1.svg": "/Portfolio/static/media/wave-1.0cbddbf9afd44535a80a.svg",
     "static/media/curveNegative.svg": "/Portfolio/static/media/curveNegative.e0073195d9cfba0ba807.svg",
-    "main.76d4d911.css.map": "/Portfolio/static/css/main.76d4d911.css.map",
-    "main.4ad995f8.js.map": "/Portfolio/static/js/main.4ad995f8.js.map",
-    "475.6e544799.chunk.js.map": "/Portfolio/static/js/475.6e544799.chunk.js.map",
-    "592.7f72a991.chunk.js.map": "/Portfolio/static/js/592.7f72a991.chunk.js.map"
+    "main.61266e4b.css.map": "/Portfolio/static/css/main.61266e4b.css.map",
+    "main.7374db0e.js.map": "/Portfolio/static/js/main.7374db0e.js.map",
+    "186.7daea0e7.chunk.js.map": "/Portfolio/static/js/186.7daea0e7.chunk.js.map",
+    "453.ed3810f9.chunk.js.map": "/Portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76d4d911.css",
-    "static/js/main.4ad995f8.js"
+    "static/css/main.61266e4b.css",
+    "static/js/main.7374db0e.js"
   ]
 }
