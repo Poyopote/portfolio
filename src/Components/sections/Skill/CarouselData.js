@@ -36,10 +36,12 @@ const getCarouselData = () => {
   const renderSkillsList = (skills) => {
     return skills.map((skill, index) => (
       <li
-        className="px-5 min-w-[45.5%] lg:min-w-[22.5%] p-10 flex flex-col items-center text-center md:border-r hover:bg-slate-50 cursor-pointer "
+        className="px-5 min-w-[45.5%] lg:min-w-[22.5%] p-10 flex flex-col items-center text-center md:border-r hover:bg-slate-50 cursor-pointer"
         key={index}
       >
-        <div className="p-5 rounded-full shadow-lg shadow-sky-700 ">
+        <div
+          className={`p-5 rounded-full hover:shadow-lg shadow-2xl duration-700 ${skill.shadow}`}
+        >
           {renderSkillItem(skill, index)}
         </div>
       </li>
