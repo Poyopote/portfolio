@@ -2,12 +2,13 @@
 #skills-section {
   background-image: linear-gradient($customWhite, $customLightGray);
 
-  // li i,
-  // li img {
+  // li img,
+  // li i {
   //   filter: grayscale(1);
+  //   transition: 0.8s;
   // }
-  // li:hover i,
-  // li:hover img {
+  // li:hover img,
+  // li:hover i {
   //   filter: grayscale(0);
   // }
 
