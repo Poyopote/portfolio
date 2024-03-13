@@ -1,2 +1,2 @@
 * linguist-detectable
-*.json linguist-vendored
+*.json, .svg linguist-vendored
