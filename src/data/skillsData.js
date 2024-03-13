@@ -4,7 +4,7 @@ const skillsData = [
     id: 1,
     name: "React",
     devi: "devicon-react-original",
-    shadow: "shadow-indigo-500",
+    shadow: "shadow-teal-300",
   },
   {
     id: 2,
@@ -16,13 +16,13 @@ const skillsData = [
     id: 3,
     name: "Javascript",
     devi: "devicon-javascript-plain",
-    shadow: "shadow-indigo-500",
+    shadow: "shadow-yellow-500",
   },
   {
     id: 4,
     name: "Wordpress",
     devi: "devicon-wordpress-plain",
-    shadow: "shadow-indigo-500",
+    shadow: "shadow-slate-600",
   },
   {
     id: 5,
@@ -40,7 +40,7 @@ const skillsData = [
     id: 7,
     name: "Photoshop",
     devi: "devicon-photoshop-plain",
-    shadow: "shadow-blue-900",
+    shadow: "shadow-blue-400",
   },
   {
     id: 8,
@@ -52,7 +52,7 @@ const skillsData = [
     id: 9,
     name: "Illustrator",
     devi: "devicon-illustrator-plain",
-    shadow: "shadow-indigo-500",
+    shadow: "shadow-amber-500",
   },
   {
     id: 10,
@@ -70,25 +70,25 @@ const skillsData = [
     id: 12,
     name: "Bootstrap",
     devi: "devicon-bootstrap-plain",
-    shadow: "shadow-indigo-500",
+    shadow: "shadow-violet-700",
   },
   {
     id: 13,
     name: "Html5",
     devi: "devicon-html5-plain",
-    shadow: "shadow-indigo-500",
+    shadow: "shadow-amber-600",
   },
   {
     id: 14,
     name: "Shopify",
     source: require("../assets/img/Skill_Shopify.png"),
-    shadow: "shadow-indigo-500",
+    shadow: "shadow-lime-600",
   },
   {
     id: 15,
     name: "Twig",
     devi: "devicon-symfony-original",
-    shadow: "shadow-indigo-500",
+    shadow: "shadow-lime-400",
     // source : require("../assets/img/logo-twig.png"),
   },
   {
@@ -107,7 +107,7 @@ const skillsData = [
     id: 18,
     name: "Figma",
     source: require("../assets/img/Skill_Figma.png"),
-    shadow: "shadow-indigo-500",
+    shadow: "shadow-slate-400",
   },
   // {
   //     id: 19,
