@@ -56,11 +56,11 @@ function Navigation() {
     return links.map((link, index) => {
       if (isMobile) {
         return (
-          <li className="md:flex-1" key={index}>
+          <li className="md:flex-1 flex" key={index}>
             <a
               href={link.href}
               aria-label={link.text}
-              className="nav-link md:rounded-full inline-block text-primary font-bold p-2"
+              className="md:rounded-full inline-block text-primary font-bold p-2"
             >
               {link.icon}
             </a>
@@ -68,12 +68,12 @@ function Navigation() {
         );
       } else {
         return (
-          <li className="" key={index}>
-            <a
-              href={link.href}
-              className="nav-link rounded-full text-secondary font-bold py-2 px-4"
-            >
-              {link.text}
+          <li className="p-3" key={index}>
+            <a href={link.href} className=" text-secondary font-bold py-2 px-4">
+              <span className="flex flex-col items-center">
+                {link.icon}
+                {link.text}
+              </span>
             </a>
           </li>
         );
@@ -82,8 +82,8 @@ function Navigation() {
   }, [links, isMobile]);
 
   return (
-    <nav className="main-nav max-md:fixed bottom-0 mt-9 md:mt-0 z-40 max-md:bg-customWhiteBlue max-md:w-full">
-      <ul className="nav-list flex justify-center gap-6 md:gap-12 mx-2 md:mx-auto max-md:justify-evenly">
+    <nav className="main-nav max-md:fixed bottom-0 mt-9 md:mt-0 z-40 max-md:w-full px-2 py-4 bg-white rounded-2xl shadow-xl">
+      <ul className="flex flex-row space-x-3 justify-around">
         {renderedLinks}
       </ul>
     </nav>
