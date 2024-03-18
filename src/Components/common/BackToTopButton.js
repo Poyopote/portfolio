@@ -60,9 +60,9 @@ const BackToTopButton = () => {
 
   return (
     <div
-      className={`back-to-top-button ${!isVisible ? "visible" : ""} ${
-        isVisible ? "not-at-top" : ""
-      }`}
+      className={`md:animate-bounce hover:animate-none back-to-top-button ${
+        !isVisible ? "visible" : ""
+      } ${isVisible ? "not-at-top" : ""}`}
       onClick={scrollToTop}
       style={{ transform: "scaleY(-1)" }}
     >
