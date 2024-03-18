@@ -15,8 +15,10 @@ const skillsData = [
   {
     id: 3,
     name: "Javascript",
-    devi: "devicon-javascript-plain",
+    // devi: "devicon-javascript-plain",
     shadow: "shadow-yellow-500",
+    source:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
   },
   {
     id: 4,
@@ -70,7 +72,7 @@ const skillsData = [
     id: 12,
     name: "Bootstrap",
     devi: "devicon-bootstrap-plain",
-    shadow: "shadow-violet-700",
+    shadow: "shadow-violet-600",
   },
   {
     id: 13,
@@ -86,7 +88,7 @@ const skillsData = [
   },
   {
     id: 15,
-    name: "(Twig)",
+    name: "Symfony (Twig)",
     devi: "devicon-symfony-original",
     shadow: "shadow-lime-400",
     // source : require("../assets/img/logo-twig.png"),
@@ -106,7 +108,8 @@ const skillsData = [
   {
     id: 18,
     name: "Figma",
-    source: require("../assets/img/Skill_Figma.png"),
+    source:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
     shadow: "shadow-slate-400",
   },
   // {
