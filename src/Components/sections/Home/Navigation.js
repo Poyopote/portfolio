@@ -69,8 +69,8 @@ function Navigation() {
       } else {
         return (
           <li className="p-3" key={index}>
-            <a href={link.href} className=" text-secondary font-bold py-2 px-4">
-              <span className="flex flex-col items-center">
+            <a href={link.href} className=" text-[#11383c] font-bold ">
+              <span className="flex flex-col items-center border-transparent border-b-2 hover:border-customBlack">
                 {link.icon}
                 {link.text}
               </span>
@@ -82,8 +82,8 @@ function Navigation() {
   }, [links, isMobile]);
 
   return (
-    <nav className="main-nav max-md:fixed bottom-0 mt-9 md:mt-0 z-40 max-md:w-full px-2 py-4 bg-white rounded-2xl shadow-xl">
-      <ul className="flex flex-row space-x-3 justify-around">
+    <nav className="main-nav max-md:fixed bottom-0 mt-9 md:mt-0 z-40 max-md:w-full">
+      <ul className="flex flex-row space-x-4 items-center justify-center mx-auto bg-customWhiteBlue md:bg-opacity-30 shadow-lg rounded-2xl">
         {renderedLinks}
       </ul>
     </nav>
