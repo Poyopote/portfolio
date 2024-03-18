@@ -26,8 +26,8 @@ const skillsData = [
   },
   {
     id: 5,
-    name: "Canva",
-    devi: "devicon-canva-original",
+    name: "Vue.JS",
+    devi: "devicon-vuejs-plain",
     shadow: "shadow-teal-500",
   },
   {
@@ -40,7 +40,7 @@ const skillsData = [
     id: 7,
     name: "Photoshop",
     devi: "devicon-photoshop-plain",
-    shadow: "shadow-blue-400",
+    shadow: "shadow-blue-700",
   },
   {
     id: 8,
@@ -86,7 +86,7 @@ const skillsData = [
   },
   {
     id: 15,
-    name: "Twig",
+    name: "(Twig)",
     devi: "devicon-symfony-original",
     shadow: "shadow-lime-400",
     // source : require("../assets/img/logo-twig.png"),
