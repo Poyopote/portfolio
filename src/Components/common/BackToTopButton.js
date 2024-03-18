@@ -60,7 +60,7 @@ const BackToTopButton = () => {
 
   return (
     <div
-      className={`md:animate-bounce hover:animate-none back-to-top-button ${
+      className={`md:animate-bounce hover:animate-none duration-500 back-to-top-button ${
         !isVisible ? "visible" : ""
       } ${isVisible ? "not-at-top" : ""}`}
       onClick={scrollToTop}
