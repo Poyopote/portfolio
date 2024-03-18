@@ -83,7 +83,7 @@ function Navigation() {
 
   return (
     <nav className="main-nav max-md:fixed bottom-0 mt-9 md:mt-0 z-40 max-md:w-full">
-      <ul className="flex flex-row space-x-4 items-center justify-center mx-auto bg-customWhiteBlue md:bg-opacity-30 shadow-lg rounded-2xl">
+      <ul className="flex flex-row space-x-4 items-center justify-center mx-auto bg-customWhiteBlue md:bg-opacity-90 shadow-lg rounded-2xl">
         {renderedLinks}
       </ul>
     </nav>
