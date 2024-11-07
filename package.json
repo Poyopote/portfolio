@@ -12,8 +12,7 @@
     "react-scripts": "5.0.1",
     "typeface-heebo": "^1.1.13",
     "typeface-kalam": "^1.1.13",
-    "typeface-ubuntu": "^1.1.13",
-    "web-vitals": "^4.2.4"
+    "typeface-ubuntu": "^1.1.13"
   },
   "scripts": {
     "start": "react-scripts start",
