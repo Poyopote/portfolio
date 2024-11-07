@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.76157e31.css",
-    "main.js": "/Portfolio/static/js/main.2b757687.js",
-    "static/js/186.7daea0e7.chunk.js": "/Portfolio/static/js/186.7daea0e7.chunk.js",
-    "static/js/453.ed3810f9.chunk.js": "/Portfolio/static/js/453.ed3810f9.chunk.js",
+    "main.css": "/Portfolio/static/css/main.eb8185de.css",
+    "main.js": "/Portfolio/static/js/main.0cbdba7e.js",
+    "static/js/186.0db7b214.chunk.js": "/Portfolio/static/js/186.0db7b214.chunk.js",
     "static/media/Reedifica-img03.webp": "/Portfolio/static/media/Reedifica-img03.0f08d64580c04a1fa4a7.webp",
     "static/media/Reedifica-img02.webp": "/Portfolio/static/media/Reedifica-img02.fdf88cdd70b192fc33d2.webp",
     "static/media/aerogommage-sur-mur-en-pierre.webp": "/Portfolio/static/media/aerogommage-sur-mur-en-pierre.d59688460740869b3210.webp",
@@ -71,13 +70,12 @@
     "static/media/wave-4.svg": "/Portfolio/static/media/wave-4.7f7134f006fbeeee31b2.svg",
     "static/media/wave-1.svg": "/Portfolio/static/media/wave-1.0cbddbf9afd44535a80a.svg",
     "static/media/curveNegative.svg": "/Portfolio/static/media/curveNegative.e0073195d9cfba0ba807.svg",
-    "main.76157e31.css.map": "/Portfolio/static/css/main.76157e31.css.map",
-    "main.2b757687.js.map": "/Portfolio/static/js/main.2b757687.js.map",
-    "186.7daea0e7.chunk.js.map": "/Portfolio/static/js/186.7daea0e7.chunk.js.map",
-    "453.ed3810f9.chunk.js.map": "/Portfolio/static/js/453.ed3810f9.chunk.js.map"
+    "main.eb8185de.css.map": "/Portfolio/static/css/main.eb8185de.css.map",
+    "main.0cbdba7e.js.map": "/Portfolio/static/js/main.0cbdba7e.js.map",
+    "186.0db7b214.chunk.js.map": "/Portfolio/static/js/186.0db7b214.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76157e31.css",
-    "static/js/main.2b757687.js"
+    "static/css/main.eb8185de.css",
+    "static/js/main.0cbdba7e.js"
   ]
 }
