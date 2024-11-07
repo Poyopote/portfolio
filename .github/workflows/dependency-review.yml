@@ -1,8 +1,6 @@
 name: Dependency Review
 
 on:
-  push:
-    branches: [ react-update ]
   pull_request:
   workflow_dispatch:
 
